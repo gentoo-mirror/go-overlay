@@ -1,5 +1,6 @@
-app-admin/boom 20141103: HTTP(S) load generator, ApacheBench (ab) replacement, written in GoLang
 app-admin/trousseau 0.3.4 0.3.4-r1 0.3.5: A networked and encrypted key-value database built in GoLang.
+app-benchmarks/boom 20141103: HTTP(S) load generator, ApacheBench (ab) replacement, written in GoLang
+app-benchmarks/vegeta 5.7.1: HTTP load testing tool and library written in GoLang.
 app-editors/lime 1.0: Open source API-compatible alternative to the text editor Sublime Text
 app-editors/liteide 27.2.1: LiteIDE is a simple, open source, cross-platform Go IDE.
 app-editors/srclib 0.0.40: A hackable, multilange code analysis library for building better software tools
@@ -10,6 +11,8 @@ dev-db/boltd 1.0: Bolts is a introspection tool for Bolt databases.
 dev-db/cayley 0.4.1: Cayley is a graph databse written in GoLang.
 dev-db/tiedot 3.2: Tiedot is a document-oriented NoSQL database written in GoLang
 dev-go/echo 1.0.0: A fast HTTP router and micro web framework written in GoLang
+dev-go/flint 0.0.4: Check your project for common sources of contributor friction
+dev-go/forego 0.16.1: Foreman written in GoLang
 dev-go/gb 0.1_pre20150702: Gb is a project based build tool for the Go programming language
 dev-go/gcli 0.2.0: Gcli builds GoLang command-line applications
 dev-go/go-bindata 3.0.8_pre20150614: A small utility for embedding binary data in a GoLang program.
