@@ -4,6 +4,7 @@ app-editors/lime 1.0: Open source API-compatible alternative to the text editor 
 app-editors/liteide 27.2.1: LiteIDE is a simple, open source, cross-platform Go IDE.
 app-editors/srclib 0.0.40: A hackable, multilange code analysis library for building better software tools
 app-misc/asciinema 1.1.1: A terminal session recorder for asciinema.org service
+app-shells/peco 0.3.2: Simplistic interactive filtering tool
 dev-db/bolt 1.0: Bolt is a low level key/value NoSQL database written in GoLang
 dev-db/boltd 1.0: Bolts is a introspection tool for Bolt databases.
 dev-db/cayley 0.4.1: Cayley is a graph databse written in GoLang.
@@ -14,6 +15,8 @@ dev-go/gcli 0.2.0: Gcli builds GoLang command-line applications
 dev-go/go-bindata 3.0.8_pre20150614: A small utility for embedding binary data in a GoLang program.
 dev-go/gocode 2015.03.03: An autocompletion daemon for the Go programming language
 dev-go/gostatus 20150606: A command-line tool that show the status of GoLang repositories
+dev-go/gox 0.3.0 0.4.0_pre20150618: A dead simple, no frills Go cross compile tool
+dev-go/goxc 0.17.0: Goxc is a build tool for GoLange, with a focus on cross-compiling and packaging
 dev-go/gxui 0.1_pre20150615: an experimental Go cross platform UI library
 dev-go/lime-backend 2015.06.05 2015.06.18: Backend for Lime text editor.
 dev-go/liteide-tools 2015.04.09: Liteide Golang tools
