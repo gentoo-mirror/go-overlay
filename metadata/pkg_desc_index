@@ -27,6 +27,7 @@ dev-go/gom 20150527: A visual interface to work with runtime profiling data for 
 dev-go/gostatus 20150606: A command-line tool that show the status of GoLang repositories
 dev-go/gox 0.3.0 0.4.0_pre20150618: A dead simple, no frills Go cross compile tool
 dev-go/goxc 0.17.0: Goxc is a build tool for GoLange, with a focus on cross-compiling and packaging
+dev-go/grind 0.1.0_pre20150302: Grind rewrites the source files written in GoLang.
 dev-go/gxui 0.1_pre20150615: an experimental Go cross platform UI library
 dev-go/liteide-tools 2015.04.09: Liteide Golang tools
 dev-go/minify 20150602: Go minifiers for web formats.
@@ -36,7 +37,7 @@ dev-go/re2dfa 0.1.0_pre20150625: Transform regular expressions into finite state
 dev-go/statik 20150419: statik embeds static files into a GoLang executable
 dev-go/walter 1.1.0: Walter is a tiny deployment pipeline
 dev-go/wellington 0.9.0: Wellington is a CSS preprocessor with spriting and based on libsass
-dev-util/go-tools 20150724: Go Tools
+dev-util/go-tools 20150606: Go Tools
 net-misc/bat 0.0.2: Go implemented CLI cURL-like tool for humans
 net-misc/gollum 0.3.2: A n:m message multiplexer written in GoLang
 net-misc/syncthing 0.11.18: Syncthing is an application that lets you synchronize your files across multiple devices
