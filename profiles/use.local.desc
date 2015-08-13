@@ -1,6 +1,6 @@
 # This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
 # your descriptions to your package's metadata.xml ONLY.
-# * generated automatically using egencache *
+# * generated automatically using pmaint *
 
 app-admin/trousseau:fish-completion - Enable fish completion support.
 app-editors/liteide:gdb - Enables support for sys-devel/gdb
