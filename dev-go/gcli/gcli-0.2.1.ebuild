@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -35,10 +35,11 @@ DEPEND="dev-go/go-bindata
 	test? ( dev-util/go-tools )"
 
 src_compile() {
-	cd skeleton || die
+	pushd skeleton
 	ebegin "Building binary data"
 		go-bindata -pkg="skeleton" resource/... || die
 	eend
+	popd
 
 	golang-single_src_compile
 }
