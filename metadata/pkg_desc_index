@@ -23,7 +23,7 @@ dev-go/go-bindata 3.0.8_pre20150721: A small utility for embedding binary data i
 dev-go/go-torch 0.5.0_pre20150729: Stochastic flame graph profiler for Go Programs
 dev-go/gocode 2015.03.03: An autocompletion daemon for the Go programming language
 dev-go/gom 20150527: A visual interface to work with runtime profiling data for Go
-dev-go/gopherjs 0_pre20150809: GopherJS compils GoLang code to pure JavaScript code
+dev-go/gopherjs 0_pre20150820: GopherJS compils GoLang code to pure JavaScript code
 dev-go/gostatus 20150606: A command-line tool that show the status of GoLang repositories
 dev-go/gox 0.3.0 0.4.0_pre20150618: A dead simple, no frills Go cross compile tool
 dev-go/goxc 0.17.0: Goxc is a build tool for GoLange, with a focus on cross-compiling and packaging
@@ -40,9 +40,10 @@ dev-util/go-tools 20150806: Go Tools
 dev-util/orange-cat 0.2.2: A Markdown previewer written in GoLang
 net-misc/bat 0.0.2: Go implemented CLI cURL-like tool for humans
 net-misc/gollum 0.3.2: A n:m message multiplexer written in GoLang
-net-misc/syncthing 0.11.19: Syncthing is an application that lets you synchronize your files across multiple devices
+net-misc/syncthing 0.11.21: Syncthing is an application that lets you synchronize your files across multiple devices
 net-misc/wsd 0.0.0_pre20150722: Simple cURL-like command line utility for debugging WebSocket servers
 sys-devel/calc 20150422: A simple, fast command-line calculator written in GoLang
 sys-devel/delve 0.5.0: Delve is a debugger for the Go programming language
 www-apps/gitea 0.7.0_pre20150630: Gitea is a self-hosted Git service written in Go
-www-apps/hugo 0.14-r1 0.15_pre20150814: A fast and flexible static site generator built in GoLang
+www-apps/gotty 0.0.3: GoTTY is a simple command-line tool that turns your CLI tools into web applications
+www-apps/hugo 0.14-r1 0.15_pre20150822: A fast and flexible static site generator built in GoLang
