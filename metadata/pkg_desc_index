@@ -33,7 +33,6 @@ dev-go/liteide-tools 2015.04.09: Liteide Golang tools
 dev-go/minify 20150602: Go minifiers for web formats.
 dev-go/protobuf 20150626: Protocol Buffers for Go with Gadgets
 dev-go/re2dfa 0.1.0_pre20150625: Transform regular expressions into finite state machines and output GoLang source code
-dev-go/revel 0.12.0: Revel is a high-productivity web framework for the Go language
 dev-go/revel-cli 0.12.0: Command-line tool for Revel framework
 dev-go/safesql 0_pre20150617: Static analysis tool for GoLang that protects against SQL injections
 dev-go/statik 20150419: statik embeds static files into a GoLang executable
