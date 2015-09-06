@@ -9,7 +9,7 @@ GOLANG_PKG_ARCHIVEPREFIX="v"
 GOLANG_PKG_HAVE_TEST=1
 
 GOLANG_PKG_DEPENDENCIES=(
-	"github.com/golang/snappy:eaa750b9bf"
+	"github.com/golang/snappy:eaa750b9bf" # don't upgrade!
 	"github.com/pborman/uuid:ed3ca8a15a"
 	"github.com/badgerodon/peg:9e5f7f4d07"
 	"github.com/barakmich/glog:fafcb6128a"
