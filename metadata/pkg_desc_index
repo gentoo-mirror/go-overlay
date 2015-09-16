@@ -8,7 +8,6 @@ app-editors/lime-termbox 20150428: Termbox frontend for Lime text editor.
 app-editors/liteide 27.2.1: LiteIDE is a simple, open source, cross-platform Go IDE.
 app-editors/srclib 0.0.40: A hackable, multilange code analysis library for building better software tools
 app-misc/asciinema 1.1.1: A terminal session recorder for asciinema.org service
-app-misc/ga 0.1.0_pre20150607: Google Analytics via the Command Line
 app-misc/thymer 0.1.0: Consolo Pomodoro Timer written in GoLang
 app-misc/weather 0.2.0 0.3.0_pre20150913: Weather via the command line.
 app-shells/peco 0.3.3: Simplistic interactive filtering tool
