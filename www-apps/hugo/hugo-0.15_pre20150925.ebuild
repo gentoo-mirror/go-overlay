@@ -5,7 +5,7 @@
 EAPI=5
 
 GOLANG_PKG_IMPORTPATH="github.com/spf13"
-GOLANG_PKG_VERSION="82f770a6f5252f75cf28cc2ed2bb6c5498afe9dc"
+GOLANG_PKG_VERSION="7708d4556d6a829bbd2fbd487e64c069f17f4dbc"
 GOLANG_PKG_HAVE_TEST=1
 
 GOLANG_PKG_DEPENDENCIES=(
@@ -18,17 +18,18 @@ GOLANG_PKG_DEPENDENCIES=(
 	"github.com/kardianos/osext:6e7f843663"
 	"github.com/miekg/mmark:3554509431"
 	"github.com/mitchellh/mapstructure:bb4fbaf540"
-	"github.com/russross/blackfriday:8cec3a854e"
+	"github.com/russross/blackfriday:8cec3a854e" #v1.3
 	"github.com/opennota/urlesc:5fa9ff0392"
 	"github.com/shurcooL/sanitized_anchor_name:11a20b799b"
-	"github.com/spf13/afero:e54aac2c6a"
+	"github.com/spf13/afero:6ced24d"
 	"github.com/spf13/cast:ee815aaf95"
-	"github.com/spf13/cobra:c55cdf3385"
+	"github.com/spf13/cobra:53d96508f5"
 	"github.com/spf13/fsync:1fdf08f822"
 	"github.com/spf13/nitro:24d7ef30a1"
-	"github.com/spf13/viper:2abb1bebfd"
-	"github.com/spf13/pflag:4869ec2ae0"
+	"github.com/spf13/viper:1967d93db7"
+	"github.com/spf13/pflag:b084184666"
 	"github.com/spf13/jWalterWeatherman:3d60171a64"
+	"github.com/cpuguy83/go-md2man:71acacd42f"
 	"github.com/yosssi/ace:78e48a2f0a"
 	"github.com/go-fsnotify/fsnotify:96c060f6a6 -> gopkg.in/fsnotify.v1"
 	"github.com/go-yaml/yaml:c1cd2254a6 -> gopkg.in/yaml.v2"
