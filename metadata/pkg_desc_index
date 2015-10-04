@@ -61,7 +61,7 @@ net-misc/bat 0.0.2: Go implemented CLI cURL-like tool for humans
 net-misc/gnatsd 0.6.6: A high Performance NATS Server written in GoLang
 net-misc/goduckgo 0.1.0_pre20150206: Command-line tool for DuckDuckGo API
 net-misc/gollum 0.4.0: A n:m message multiplexer written in GoLang
-net-misc/nsq 0.3.5-r2: A real-time distributed messaging platform, written in GoLang
+net-misc/nsq 0.3.6: A real-time distributed messaging platform, written in GoLang
 net-misc/syncthing 0.11.25 0.11.26: Syncthing is an application that lets you synchronize your files across multiple devices
 net-misc/syncthing-cli 0.1.0_pre20150922: SyncThing command-line interface
 net-misc/syncthing-inotify 0.6.7: File watcher intended for use with Syncthing (Linux, BSD, Windows, OSX)
