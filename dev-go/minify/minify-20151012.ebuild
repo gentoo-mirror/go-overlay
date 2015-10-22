@@ -5,16 +5,17 @@
 EAPI=5
 
 GOLANG_PKG_IMPORTPATH="github.com/tdewolff"
-GOLANG_PKG_VERSION="6ba1048de80217e603f7044caa5c125c5012b560"
+GOLANG_PKG_VERSION="a38ec5e5889e1cee6c9800b2b22a695329a8d2ca"
 GOLANG_PKG_BUILDPATH="/cmd/${PN}"
 GOLANG_PKG_HAVE_TEST=1
 
 GOLANG_PKG_DEPENDENCIES=(
-	"github.com/tdewolff/buffer:8ff0a82a07"
-	"github.com/tdewolff/parse:be9d09681b"
+	"github.com/tdewolff/buffer:7d7d71b"
+	"github.com/tdewolff/parse:79bdf70"
 
 	# unit testing
-	"github.com/stretchr/testify:232e856367"
+	"github.com/stretchr/testify:232e856367" #v1.0
+	"github.com/tdewolff/test:9107f3d"
 )
 
 inherit golang-single
