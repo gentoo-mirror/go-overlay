@@ -1,6 +1,6 @@
 app-admin/pony 0.1.0_pre20150828: Local File-Based Password, API Key, Secret, Recovery Code Store Backed vy GPG
 app-admin/restic 0.1.0: Restic is a program that does backups
-app-admin/terraform 0.6.3: Terraform is a tool for building, changing, and combining infrastructure safely and efficiently
+app-admin/terraform 0.6.3 0.6.6: Terraform is a tool for building, changing, and combining infrastructure safely and efficiently
 app-admin/trousseau 0.3.5_pre20150212: A networked and encrypted key-value database.
 app-benchmarks/boom 20150819: HTTP(S) load generator, ApacheBench (ab) replacement, written in GoLang
 app-benchmarks/vegeta 5.8.1: HTTP load testing tool and library written in GoLang.
@@ -52,7 +52,7 @@ dev-go/tomlv 0.2.0_pre20150501: A TOML validator written in GoLang
 dev-go/wago 1.0: Wago automates the actions you do after saving code.
 dev-go/walter 1.2.0: Walter is a tiny deployment pipeline
 dev-go/wellington 0.9.3: Wellington is a CSS preprocessor with spriting and based on libsass
-dev-util/go-tools 20150925: Various packages and tools that support the Go programming language
+dev-util/go-tools 20151023: Various packages and tools that support the Go programming language
 dev-util/golex 0.1.0_pre20150906: A lex/flex like (not fully POSIX lex compatible) utility
 dev-util/goyacc 0.1.0_pre20150906: Goyacc is a version of yacc generating Go parsers.
 dev-util/orange-cat 0.2.2-r1: A Markdown previewer written in GoLang
