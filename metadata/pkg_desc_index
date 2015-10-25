@@ -12,7 +12,7 @@ app-misc/asciinema 1.1.1: A terminal session recorder for asciinema.org service
 app-misc/thymer 0.1.0: Consolo Pomodoro Timer written in GoLang
 app-misc/weather 0.2.0 0.3.0_pre20150913: Weather via the command line.
 app-shells/peco 0.3.3: Simplistic interactive filtering tool
-app-text/go-md2man 1.0.3: Command-line tool to convert Markdown into UNIX man pages
+app-text/go-md2man 1.0.4: Command-line tool to convert Markdown into UNIX man pages
 dev-db/bolt 1.0: Bolt is a low level key/value NoSQL database written in GoLang
 dev-db/boltd 1.0: Bolts is a introspection tool for Bolt databases.
 dev-db/cayley 0.4.1-r1: Cayley is a graph databse written in GoLang.
@@ -24,6 +24,7 @@ dev-db/tidb 0.1.0_pre20151916: TiDB is a distributed SQL database compatible wit
 dev-db/tiedot 3.2-r1: Tiedot is a document-oriented NoSQL database written in GoLang
 dev-go/Go-Package-Store 0.1.0_pre20150922: An app that displays updates for the Go packages in your GOPATH
 dev-go/dex 0.1.0: Dex is a Federated Indentity Provider written in GoLang
+dev-go/direnv 2.7.0: Direnv is an environment switcher for the shell.
 dev-go/flint 0.0.4 0.0.5_pre20150607: Check your project for common sources of contributor friction
 dev-go/forego 0.16.1: Foreman written in GoLang
 dev-go/gb 0.2.0: Gb is a project based build tool for the Go programming language
@@ -36,6 +37,7 @@ dev-go/go-torch 0.5.0_pre20150729: Stochastic flame graph profiler for Go Progra
 dev-go/gocode 2015.03.03: An autocompletion daemon for the Go programming language
 dev-go/gom 20150905: A visual interface to work with runtime profiling data for Go
 dev-go/gopherjs 0_pre20150820: GopherJS compils GoLang code to pure JavaScript code
+dev-go/gore 0.2.5: A REPL for Golang
 dev-go/gostatus 20150606: A command-line tool that show the status of GoLang repositories
 dev-go/gox 0.3.0 0.4.0_pre20150819: A dead simple, no frills Go cross compile tool
 dev-go/goxc 0.17.0: Goxc is a build tool for GoLange, with a focus on cross-compiling and packaging
