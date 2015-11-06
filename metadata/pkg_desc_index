@@ -13,7 +13,6 @@ app-misc/thymer 0.1.0: Consolo Pomodoro Timer written in GoLang
 app-misc/weather 0.2.0 0.3.0_pre20150913: Weather via the command line.
 app-shells/peco 0.3.3: Simplistic interactive filtering tool
 app-text/go-md2man 1.0.4: Command-line tool to convert Markdown into UNIX man pages
-app-text/gopaste 0_pre20130108: A service and client written in GoLang for easily sending command output and files
 dev-db/bolt 1.0: Bolt is a low level key/value NoSQL database written in GoLang
 dev-db/boltd 1.0: Bolts is a introspection tool for Bolt databases.
 dev-db/cayley 0.4.1-r1: Cayley is a graph databse written in GoLang.
@@ -26,7 +25,6 @@ dev-db/tiedot 3.2-r1: Tiedot is a document-oriented NoSQL database written in Go
 dev-go/Go-Package-Store 0.1.0_pre20150922: An app that displays updates for the Go packages in your GOPATH
 dev-go/dex 0.1.0: Dex is a Federated Indentity Provider written in GoLang
 dev-go/direnv 2.7.0: Direnv is an environment switcher for the shell.
-dev-go/echo 1.0.0: A fast HTTP router and micro web framework written in GoLang
 dev-go/errcheck 20151022: Errcheck checks that you checked errors
 dev-go/flint 0.0.4 0.0.5_pre20150607: Check your project for common sources of contributor friction
 dev-go/forego 0.16.1: Foreman written in GoLang
@@ -68,14 +66,12 @@ net-misc/bat 0.0.2: Go implemented CLI cURL-like tool for humans
 net-misc/gnatsd 0.6.6: A high Performance NATS Server written in GoLang
 net-misc/goduckgo 0.1.0_pre20150206: Command-line tool for DuckDuckGo API
 net-misc/gollum 0.4.0: A n:m message multiplexer written in GoLang
-net-misc/heka 0.10.0_p1: Heka ia a tool for collecting and collating data from a number of different sources.
 net-misc/nsq 0.3.6: A real-time distributed messaging platform, written in GoLang
 net-misc/syncthing 0.11.25 0.11.26: Syncthing is an application that lets you synchronize your files across multiple devices
 net-misc/syncthing-cli 0.1.0_pre20150922: SyncThing command-line interface
 net-misc/syncthing-inotify 0.6.7: File watcher intended for use with Syncthing (Linux, BSD, Windows, OSX)
 net-misc/wsd 0.0.0_pre20150722: Simple cURL-like command line utility for debugging WebSocket servers
 net-p2p/cloud-torrent 0.8.1: Cloud Torrent is a self-hosted remote torrent client, written in GoLang
-sci-visualization/plot 0.1.0_pre20150914: A repository for plotting and visualizing data
 sys-apps/sift 0.4.1: A fast and powerful open source alternative to grep
 sys-devel/calc 20150422: A simple, fast command-line calculator written in GoLang
 sys-devel/delve 0.5.0 0.9.0: Delve is a debugger for the Go programming language
