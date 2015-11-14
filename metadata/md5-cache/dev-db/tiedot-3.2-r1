@@ -10,5 +10,5 @@ RDEPEND=net-misc/curl
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/HouzuoGuo/tiedot/archive/3.2.tar.gz -> tiedot-3.2.tar.gz https://github.com/dgrijalva/jwt-go/archive/8c45ba33b0.tar.gz -> github.com-dgrijalva-jwt-go-8c45ba33b0.tar.gz
-_eclasses_=base	9fc6743731ec1d8d8a5eb88ccd5944b6	eutils	8644194de7be04932084752fb1327080	golang-single	000f4046fa8feb8204aeac91fed75b4e	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	8644194de7be04932084752fb1327080	golang-single	000f4046fa8feb8204aeac91fed75b4e	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=6734afd7ba6fb1c756bf15388d4f6b44
