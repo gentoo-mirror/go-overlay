@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:*
+DESCRIPTION=A fast and powerful open source alternative to grep
+EAPI=5
+HOMEPAGE=http://sift-tool.org
+IUSE=test
+KEYWORDS=amd64 x86 arm
+LICENSE=GPL-3
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/svent/sift/archive/b7ac9330abf8ac1979cb6bb6649446a2985cb774.tar.gz -> sift-0.4.1.tar.gz https://github.com/svent/go-flags/archive/4bcbad344f.tar.gz -> github.com-svent-go-flags-4bcbad344f.tar.gz https://github.com/svent/go-nbreader/archive/7cef48da76.tar.gz -> github.com-svent-go-nbreader-7cef48da76.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	golang-single	000f4046fa8feb8204aeac91fed75b4e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=f99fbe8556f02b16216d154d77a0fc96

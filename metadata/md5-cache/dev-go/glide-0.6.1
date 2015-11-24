@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:*
+DESCRIPTION=Glide is a simplified GoLang project management, dependency management, and vendoring
+EAPI=5
+HOMEPAGE=https://github.com/Masterminds/glide
+IUSE=test
+KEYWORDS=amd64 x86 arm
+LICENSE=BSD
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Masterminds/glide/archive/0.6.1.tar.gz -> glide-0.6.1.tar.gz https://github.com/Masterminds/cookoo/archive/623f8762b2.tar.gz -> github.com-Masterminds-cookoo-623f8762b2.tar.gz https://github.com/Masterminds/vcs/archive/5eb2d6a132.tar.gz -> github.com-Masterminds-vcs-5eb2d6a132.tar.gz https://github.com/codegangsta/cli/archive/142e6cd241.tar.gz -> github.com-codegangsta-cli-142e6cd241.tar.gz https://github.com/kylelemons/go-gypsy/archive/42fc2c7ee9.tar.gz -> github.com-kylelemons-go-gypsy-42fc2c7ee9.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:- src_install:golang-single
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	golang-single	000f4046fa8feb8204aeac91fed75b4e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=b3bb5adcc86c53ab5486696d3cfb4768
