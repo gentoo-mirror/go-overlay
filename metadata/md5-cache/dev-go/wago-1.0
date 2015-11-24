@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/JonahBraun/wago/archive/v1.0.tar.gz -> wago-1.0.tar.gz https://github.com/JonahBraun/dog/archive/1f68a7934c.tar.gz -> github.com-JonahBraun-dog-1f68a7934c.tar.gz https://github.com/howeyc/fsnotify/archive/4894fe7efe.tar.gz -> github.com-howeyc-fsnotify-4894fe7efe.tar.gz
 _eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
-_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	golang-single	000f4046fa8feb8204aeac91fed75b4e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	golang-single	000f4046fa8feb8204aeac91fed75b4e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=96649f8bf4a541d272f05aa0c7c35f3f

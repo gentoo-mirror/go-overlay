@@ -11,5 +11,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/syncthing/syncthing/archive/v0.11.26.tar.gz -> syncthing-0.11.26.tar.gz doc? ( https://github.com/syncthing/docs/archive/20f11b8db08e053e88b19f8f46c107a20e429f7c.tar.gz -> syncthing-docs-0.11.26.tar.gz )
 _eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:- src_test:golang-single src_install:-
-_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	golang-single	000f4046fa8feb8204aeac91fed75b4e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	d769539d9bace6eaca30af23bc2b4dde	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	golang-single	000f4046fa8feb8204aeac91fed75b4e	multilib	3972ca401cf7dbb430df9995f5d8d580	multiprocessing	e32940a7b2a9992ad217eccddb84d548	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=1f0730fd9b21955687e51ddc6c4c1e0d
