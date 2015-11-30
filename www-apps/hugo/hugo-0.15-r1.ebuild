@@ -54,8 +54,6 @@ IUSE+=" doc pygments"
 
 RDEPEND="pygments? ( dev-python/pygments )"
 
-use test && RESTRICT+=" sandbox"
-
 src_prepare() {
 	golang-single_src_prepare
 
@@ -67,8 +65,10 @@ src_prepare() {
 src_install() {
 	golang-single_src_install
 
-#	${GOBIN}/${PN} gen doc || die
-#	${GOBIN}/${PN} gen man || die
+	# Install man pages
+	mkdir man || die
+	${GOBIN}/${PN} gen man || die
+	doman man/*
 
 	# Install documentation
 	if use doc; then
@@ -85,4 +85,12 @@ src_install() {
 			dohtml -r "${T}"/docs/*
 		popd
 	fi
+}
+
+src_test() {
+	if has sandbox $FEATURES && has network-sandox $FEATURES; then
+		eerror "Some tests require 'sandbox', and 'network-sandox' to be disabled in FEATURES."
+	fi
+
+	golang-single_src_test
 }
