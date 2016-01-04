@@ -34,4 +34,7 @@ app-editors/liteide:tools - Install additional tools such as dev-go/liteide-tool
 net-misc/syncthing:cli - Install the official Syncthing Command-Line Interface
 www-apps/gitea:memcached - Adds support for storing cache in memory via net-misc/memcached
 www-apps/gitea:redis - Adds support for storing cache in a redis DB via dev-db/redis
+www-apps/gogs:memcached - Compiles in for storing cache in memory via net-misc/memcached
+www-apps/gogs:redis - Compiles in support for storing cache in a redis DB via dev-db/redis
+www-apps/gogs:tidb - Compiles in support for dev-db/tidb backend
 www-apps/hugo:pygments - Enables syntax highlighting via dev-python/pygments
