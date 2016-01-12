@@ -1,6 +1,6 @@
 app-admin/pony 0.1.0_pre20150828: Local File-Based Password, API Key, Secret, Recovery Code Store Backed vy GPG
 app-admin/restic 0.1.0: Restic is a program that does backups
-app-admin/terraform 0.6.3 0.6.6 0.6.8: Terraform builds, changes, and combines infrastructure safely and efficiently
+app-admin/terraform 0.6.3 0.6.6 0.6.8 0.6.9: Terraform builds, changes, and combines infrastructure safely and efficiently
 app-admin/trousseau 0.3.5_pre20150212: A networked and encrypted key-value database.
 app-benchmarks/boom 20150819: HTTP(S) load generator, ApacheBench (ab) replacement, written in GoLang
 app-benchmarks/vegeta 5.8.1: HTTP load testing tool and library written in GoLang.
@@ -51,7 +51,7 @@ dev-go/interfacer 0.0.1_pre20160104: A linter for GoLang that suggests interface
 dev-go/kar 0.1_pre20151007: Kar is a simple utility that helps you run Kargar builds from CLI
 dev-go/liteide-tools 2015.04.09: Liteide Golang tools
 dev-go/minify 1.0.0 1.1.0: Go minifiers for web formats.
-dev-go/mock 0.1.0_pre20150821: GoMock is a mocking framework for the Go programming language
+dev-go/mock 0.1.0_pre20150821 0.1.0_pre20151213: GoMock is a mocking framework for the Go programming language
 dev-go/protobuf 0.1: Protocol Buffers for Go with Gadgets
 dev-go/re2dfa 0.1.0_pre20150627: Transform regular expressions into finite state machines and output GoLang source code
 dev-go/revel-cli 0.12.0: Command-line tool for Revel framework
@@ -62,8 +62,13 @@ dev-go/wago 1.0: Wago automates the actions you do after saving code.
 dev-go/walter 1.2.0: Walter is a tiny deployment pipeline
 dev-go/wellington 0.9.3: Wellington is a CSS preprocessor with spriting and based on libsass
 dev-go/xj2s 20151106: A small tool for Golang to generate Golang strunc from xml/json file
+dev-util/anderson 0.1_pre20150328: Checks your Go dependencies for contraband licenses
+dev-util/ffjson 0.1_pre20151118: Ffjson is a faster JSON serialization for Go
+dev-util/github-release 0.6.2: CLI to create and edit releases on Github
+dev-util/go-swagger 0.2.0 0.3.0_pre20160111: Swagger 2.0 implementation for GoLang
 dev-util/go-tools 20151125 20151230: Various packages and tools that support the Go programming language
 dev-util/gocyclo 2015.06.27: Calculate cyclomatic complexities of functions in Go source code
+dev-util/godef 0.1_pre20150731: Godef prints where symbols are defined in Go source code
 dev-util/golex 0.1.0_pre20150906: A lex/flex like (not fully POSIX lex compatible) utility
 dev-util/golint 2015.10.19: This is a linter for Go source code.
 dev-util/gometalinter 0.1_pre20151129: Concurrently run Go lint tools and normalise their output
@@ -73,6 +78,7 @@ dev-util/orange-cat 0.2.2-r1: A Markdown previewer written in GoLang
 dev-util/pipecat 0.2: Pipecat allows you to scale any program using traditional UNIX pipes and AMQP
 net-ftp/pixiecore 0.1.0_pre20150915: PXE booting for people in a hurry
 net-misc/bat 0.0.2: Go implemented CLI cURL-like tool for humans
+net-misc/drive 0.3.4: Google Drive client for the commandline
 net-misc/gnatsd 0.6.6: A high Performance NATS Server written in GoLang
 net-misc/goduckgo 0.1.0_pre20150206: Command-line tool for DuckDuckGo API
 net-misc/gollum 0.4.0: A n:m message multiplexer written in GoLang
