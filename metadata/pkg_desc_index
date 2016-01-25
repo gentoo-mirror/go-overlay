@@ -13,7 +13,7 @@ app-misc/asciinema 1.1.1: A terminal session recorder for asciinema.org service
 app-misc/thymer 0.1.0: Consolo Pomodoro Timer written in GoLang
 app-misc/weather 0.2.0 0.3.0_pre20150913: Weather via the command line.
 app-shells/peco 0.3.5: Simplistic interactive filtering tool
-app-text/go-md2man 1.0.4: Command-line tool to convert Markdown into UNIX man pages
+app-text/go-md2man 1.0.5: Command-line tool to convert Markdown into UNIX man pages
 dev-db/bolt 1.0 1.1.0: Bolt is a low level key/value NoSQL database written in GoLang
 dev-db/boltd 1.0-r1: Bolts is a introspection tool for Bolt databases.
 dev-db/cayley 0.4.1-r1: Cayley is a graph databse written in GoLang.
@@ -62,7 +62,7 @@ dev-go/xj2s 20151106: A small tool for Golang to generate Golang strunc from xml
 dev-util/anderson 0.1_pre20150328: Checks your Go dependencies for contraband licenses
 dev-util/check 0.1_pre20160108: A set of utilities for checking Go sources
 dev-util/deadcode 2012.02.28: Deadcode finds unused Go source code
-dev-util/direnv 2.7.0 2.7.0-r1: Direnv is an environment switcher for the shell.
+dev-util/direnv 2.7.0-r1: Direnv is an environment switcher for the shell.
 dev-util/dupl 0.1_pre20151118: A tool for Go code clone detection
 dev-util/errcheck 0.1_pre20160115: Errcheck checks that you checked errors
 dev-util/ffjson 0.1_pre20151118: Ffjson is a faster JSON serialization for Go
