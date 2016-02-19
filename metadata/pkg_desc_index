@@ -32,3 +32,54 @@ dev-go/tomlv 0.2.0_pre20150501: A TOML validator written in GoLang
 dev-go/wago 1.0: Wago automates the actions you do after saving code.
 dev-go/walter 1.2.0: Walter is a tiny deployment pipeline
 dev-go/xj2s 20151106: A small tool for Golang to generate Golang strunc from xml/json file
+dev-util/anderson 0.1_pre20150328: Checks your Go dependencies for contraband licenses
+dev-util/check 0.1_pre20160108: A set of utilities for checking Go sources
+dev-util/deadcode 2012.02.28: Deadcode finds unused Go source code
+dev-util/direnv 2.7.0-r1: Direnv is an environment switcher for the shell.
+dev-util/dupl 0.1_pre20151118: A tool for Go code clone detection
+dev-util/errcheck 0.1_pre20160115: Errcheck checks that you checked errors
+dev-util/ffjson 0.1_pre20151118: Ffjson is a faster JSON serialization for Go
+dev-util/ghfs 0.1_pre20150217: Ghfs is a user space filesystem that overlays the GitHub API
+dev-util/github-release 0.6.2: CLI to create and edit releases on Github
+dev-util/go-swagger 0.2.0 0.3.0_pre20160111: Swagger 2.0 implementation for GoLang
+dev-util/go-tools 20151230-r1 20160219: Various packages and tools that support the Go programming language
+dev-util/gocyclo 2015.06.27: Calculate cyclomatic complexities of functions in Go source code
+dev-util/godef 0.1_pre20150731: Godef prints where symbols are defined in Go source code
+dev-util/golex 0.1.0_pre20150807: A lex/flex like (not fully POSIX lex compatible) utility
+dev-util/golint 2015.10.19: This is a linter for Go source code.
+dev-util/gometalinter 0.1_pre20160109 0.1_pre20160207: Concurrently run Go lint tools and normalise their output
+dev-util/goyacc 0.1.0_pre20150811: Goyacc is a version of yacc generating Go parsers.
+dev-util/hulk 0.1.0_pre20160121: Ultimate job/build runner
+dev-util/ineffassign 0.1_pre20151029: Detects ineffectual assignments in Go code.
+dev-util/interfacer 0.0.1_pre20160104: A linter for GoLang that suggests interface types
+dev-util/maligned 0.1_pre20151009: Detects Go structs that would take less memory if their fields were sorted
+dev-util/minify 1.0.0 1.1.0-r1 1.2.0_pre20160128: Go minifiers for web formats.
+dev-util/orange-cat 0.2.2-r1: A Markdown previewer written in GoLang
+dev-util/pcstat 0.1_pre20160126: Page Cache stat: get page cache stats for files on Linux
+dev-util/pipecat 0.2: Pipecat allows you to scale any program using traditional UNIX pipes and AMQP
+dev-util/wellington 0.9.3 1.0.2: Wellington is a CSS preprocessor with spriting and based on libsass
+dev-vcs/hub 2.2.2-r1 2.2.3: Hub wraps git in order to extend it with extra features and commands
+net-ftp/pixiecore 0.1.0_pre20150915: PXE booting for people in a hurry
+net-misc/bat 0.0.2: Go implemented CLI cURL-like tool for humans
+net-misc/drive 0.3.4: Google Drive client for the commandline
+net-misc/gnatsd 0.6.6: A high Performance NATS Server written in GoLang
+net-misc/goduckgo 0.1.0_pre20150206: Command-line tool for DuckDuckGo API
+net-misc/gollum 0.4.1: A n:m message multiplexer written in GoLang
+net-misc/govpn 4.2 5.3: Simple secure free software VPN daemon
+net-misc/hoverfly 0.5.11: Hoverfly is a lightweight, open source service virtualization tool.
+net-misc/nsq 0.3.6: A real-time distributed messaging platform, written in GoLang
+net-misc/syncthing 0.11.26 0.12.19-r1: Syncthing is an app that lets you synchronize your files across multiple devices
+net-misc/syncthing-cli 0.1.0_pre20150922: SyncThing command-line interface
+net-misc/syncthing-inotify 0.6.8-r1: File watcher intended for use with Syncthing
+net-misc/wsd 0.0.0_pre20150722: Simple cURL-like command line utility for debugging WebSocket servers
+net-nds/dex 0.2.3: Dex is a Federated Indentity Provider written in GoLang
+net-p2p/cloud-torrent 0.8.1: Cloud Torrent is a self-hosted remote torrent client, written in GoLang
+sys-apps/sift 0.4.1: A fast and powerful open source alternative to grep
+sys-devel/calc 20150422: A simple, fast command-line calculator written in GoLang
+sys-devel/delve 0.9.0-r1 0.11.0: Delve is a debugger for the Go programming language
+sys-devel/gcvis 0.1.0_pre20150714 0.1.0_pre20151111: Visualise Go program Garbage Collector trace data in real-time.
+www-apps/gitea 0.7.0_pre20150630: Gitea is a self-hosted Git service written in Go
+www-apps/gogs 0.7.22-r1 0.8.10-r2 0.8.25: Gogs is a self-hosted Git service written in Go
+www-apps/gotty 0.0.10: GoTTY is a simple command-line tool that turns your CLI tools into web applications
+www-apps/hugo 0.14-r4 0.15-r3 0.16_pre20160130 0.16_pre20160217: A fast and flexible static site generator built in GoLang
+x11-misc/noti 1.3.0: Display a notification when a terminal process finishes.
