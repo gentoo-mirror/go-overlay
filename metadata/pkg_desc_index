@@ -6,17 +6,17 @@ dev-go/gcli 0.2.3 0.2.3-r1: Gcli builds GoLang command-line applications
 dev-go/ginkgo 1.2.0: BDD Testing Framework for GoLang
 dev-go/glide 0.9.0: Glide is a vendor Package Management for Golang
 dev-go/go-bindata 3.0.7 3.0.8_pre20151023: A small utility for embedding binary data in a GoLang program.
-dev-go/go-bindata-assetfs 0.1.0_pre20150813: A small utility for embedding binary data in a GoLang program.
-dev-go/go-fuzz 0.1_pre20160108: Go-fuzz is a coverage-guided fuzzing solution for testing of Go packages
-dev-go/go-torch 0.5.0_pre20150729: Stochastic flame graph profiler for Go Programs
-dev-go/goa 0.0.1_pre20160107: Goa is a framework for building RESTful microservices in Go
+dev-go/go-bindata-assetfs 0.1.0_pre20151224: A small utility for embedding binary data in a GoLang program.
+dev-go/go-fuzz 0.1_pre20160204: Go-fuzz is a coverage-guided fuzzing solution for testing of Go packages
+dev-go/go-torch 0.5.0_pre20150729 0.5.0_pre20160107: Stochastic flame graph profiler for Go Programs
+dev-go/goa 0.0.1_pre20160218: Goa is a framework for building RESTful microservices in Go
 dev-go/gocode 2015.03.03: An autocompletion daemon for the Go programming language
-dev-go/gom 20160102: A visual interface to work with runtime profiling data for Go
+dev-go/gom 20160119: A visual interface to work with runtime profiling data for Go
 dev-go/gopherjs 0_pre20150820 0_pre20160130: GopherJS compils GoLang code to pure JavaScript code
 dev-go/gore 0.2.5: A REPL for Golang
-dev-go/gostatus 20150606: A command-line tool that show the status of GoLang repositories
-dev-go/gox 0.3.0 0.4.0_pre20150819: A dead simple, no frills Go cross compile tool
-dev-go/goxc 0.17.0: Goxc is a build tool for GoLange, with a focus on cross-compiling and packaging
+dev-go/gostatus 20160119: A command-line tool that show the status of GoLang repositories
+dev-go/gox 0.3.0 0.4.0_pre20151231: A dead simple, no frills Go cross compile tool
+dev-go/goxc 0.17.0 0.18.1: Goxc is a build tool for GoLange, with a focus on cross-compiling and packaging
 dev-go/grind 0.1.0_pre20150302: Grind rewrites the source files written in GoLang.
 dev-go/kar 0.1_pre20151213: Kar is a simple utility that helps you run Kargar builds from CLI
 dev-go/liteide-tools 2015.04.09: Liteide Golang tools
@@ -26,7 +26,7 @@ dev-go/re2dfa 0.1.0_pre20150627: Transform regular expressions into finite state
 dev-go/revel-cli 0.12.0-r1: Command-line tool for Revel framework
 dev-go/safesql 0_pre20150617: Static analysis tool for GoLang that protects against SQL injections
 dev-go/statik 20150419: statik embeds static files into a GoLang executable
-dev-go/tomlv 0.2.0_pre20150501: A TOML validator written in GoLang
-dev-go/wago 1.0: Wago automates the actions you do after saving code.
+dev-go/tomlv 0.2.0_pre20160219: A TOML validator written in GoLang
+dev-go/wago 1.0 1.2.0: Wago automates the actions you do after saving code.
 dev-go/walter 1.2.0: Walter is a tiny deployment pipeline
 dev-go/xj2s 20151106: A small tool for Golang to generate Golang strunc from xml/json file
