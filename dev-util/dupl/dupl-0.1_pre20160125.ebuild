@@ -4,13 +4,12 @@
 
 EAPI=5
 
-GOLANG_PKG_IMPORTPATH="github.com/xoebus"
-GOLANG_PKG_VERSION="1a5c7cc1705c9b10ceb37491cf4b35545eb83485"
-GOLANG_PKG_HAVE_TEST=1
+GOLANG_PKG_IMPORTPATH="github.com/mibk"
+GOLANG_PKG_VERSION="c450df04426c2f8c35d91fb588feb88fbe328915"
 
 inherit golang-single
 
-DESCRIPTION="Checks your Go dependencies for contraband licenses"
+DESCRIPTION="A tool for Go code clone detection"
 HOMEPAGE="https://${GOLANG_PKG_IMPORTPATH}/${PN}"
 
 LICENSE="MIT"
