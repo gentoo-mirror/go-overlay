@@ -25,7 +25,7 @@ GOLANG_PKG_DEPENDENCIES=(
 	"github.com/davecgh/go-spew:5215b55"
 )
 
-inherit golang-single
+inherit user systemd golang-single
 
 DESCRIPTION="An alternative full node bitcoin implementation written in Go"
 HOMEPAGE="https://btcsuite.github.io"
@@ -48,7 +48,7 @@ pkg_setup() {
 }
 
 src_install() {
-	golang-live_src_install
+	golang-single_src_install
 
 	# Installs configuration file
 	insinto "${PCONFDIR}"
