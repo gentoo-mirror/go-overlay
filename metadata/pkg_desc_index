@@ -1,3 +1,35 @@
+app-admin/doctl 1.0.0-r1: A command line tool for DigitalOcean services
+app-admin/pony 0.1.0_pre20160104: Local File-Based Password, API Key, Secret, Recovery Code Store Backed vy GPG
+app-admin/restic 0.1.0: Restic is a program that does backups
+app-admin/terraform 0.6.11 0.6.12: Terraform builds, changes, and combines infrastructure safely and efficiently
+app-admin/trousseau 0.3.5_pre20150212: A networked and encrypted key-value database.
+app-benchmarks/boom 20151223: HTTP(S) load generator, ApacheBench (ab) replacement, written in GoLang
+app-benchmarks/vegeta 6.0.0: HTTP load testing tool and library written in GoLang.
+app-crypt/keybase 1.0.9.1 1.0.12.0 1.0.14.1: Client for keybase.io
+app-editors/lime-qml 20150428: QML frontend for Lime text editor.
+app-editors/lime-termbox 20150428: Termbox frontend for Lime text editor.
+app-editors/liteide 27.2.1: LiteIDE is a simple, open source, cross-platform Go IDE.
+app-editors/srclib 0.0.40: A hackable, multilange code analysis library for building better software tools
+app-emulation/packer 0.8.6 0.8.6-r1 0.9.0: Packer is a tool for creating identical machine images for multiple platforms
+app-emulation/runc 0.0.9: A CLI tool for spawning and running containers according to the OCF specs
+app-misc/asciinema 1.2.0: A terminal session recorder for asciinema.org service
+app-misc/btcwallet 0.7.0-r1 9999-r1: A secure bitcoin wallet daemon written in Go
+app-misc/devtodo 2.2_pre20150904: DevTodo is a small command line application for maintaining lists of tasks.
+app-misc/thymer 0.1.0: Consolo Pomodoro Timer written in GoLang
+app-misc/weather 0.5.0_pre20151218 0.5.0 0.6.0_pre20151218: Weather via the command line.
+app-misc/wego 1.0: Wego is a weather client for the terminal
+app-shells/antibody 0.4.0: A faster and simpler antigen written in Golang
+app-shells/peco 0.3.5: Simplistic interactive filtering tool
+app-text/go-md2man 1.0.5 1.0.5-r1: Command-line tool to convert Markdown into UNIX man pages
+dev-db/bolt 1.0 1.1.0: Bolt is a low level key/value NoSQL database written in GoLang
+dev-db/boltd 1.0-r1: Bolts is a introspection tool for Bolt databases.
+dev-db/cayley 0.4.1-r1: Cayley is a graph databse written in GoLang.
+dev-db/cockroach 0.1.0_pre20150926: A scalable, geo-replicanted, transactional datastore
+dev-db/influxdb 0.9.4.1-r1 0.9.4.2-r1: Scalable datastore for metrics, events, and real-time analytics
+dev-db/pgfutter 0.3.2: Command-line tool to import CSV and JSON into PostgreSQL
+dev-db/telegraf 0.1.3-r2 0.1.9: A plugin-driven server agent for reporting metrics into InfluxDB
+dev-db/tidb 0.1.0_pre20151916 0.5: TiDB is a distributed SQL database compatible with MySQL protocol
+dev-db/tiedot 3.2-r2 3.3_pre20160117: Tiedot is a document-oriented NoSQL database written in GoLang
 dev-go/Go-Package-Store 0.1.0_pre20151209 0.1.0_pre20160119: An app that displays updates for the Go packages in your GOPATH
 dev-go/anderson 0.1_pre20150328-r1: Checks your Go dependencies for contraband licenses
 dev-go/asmfmt 0.1_pre20160219: Go assembler formatter
@@ -25,6 +57,7 @@ dev-go/gostatus 20160119: A command-line tool that show the status of GoLang rep
 dev-go/gox 0.3.0 0.4.0_pre20151231: A dead simple, no frills Go cross compile tool
 dev-go/goxc 0.17.0 0.18.1: Goxc is a build tool for GoLange, with a focus on cross-compiling and packaging
 dev-go/grind 0.1.0_pre20150302: Grind rewrites the source files written in GoLang.
+dev-go/gvt 0.1.0_pre20160328: gvt is the go vendoring tool
 dev-go/kar 0.1_pre20151213: Kar is a simple utility that helps you run Kargar builds from CLI
 dev-go/liteide-tools 2015.04.09: Liteide Golang tools
 dev-go/mock 0.1.0_pre20160127: GoMock is a mocking framework for the Go programming language
