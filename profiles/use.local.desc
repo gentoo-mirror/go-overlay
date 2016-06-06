@@ -2,3 +2,43 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-admin/terraform:atlas - Builds the provider that interacts with resources, configuration, artifacts, and metadata managed by Atlas https://atlas.hashicorp.com
+app-admin/terraform:aws - Builds the provider that interacts with the many resources supported by Amazon Web Services https://aws.amazon.com
+app-admin/terraform:azure - Builds the provider that interacts with the many resources supported by Microsoft Azure https://azure.microsoft.com
+app-admin/terraform:azurerm - Builds the provider is used to interact with the many resources supported by Azure, via the Azure Resource Manager API.
+app-admin/terraform:chef - Builds the provisioner that invokes a Chef Client https://www.chef.io
+app-admin/terraform:cloudflare - Builds the provider that interact with the DNS resources supported by CloudFlare https://www.cloudflare.com
+app-admin/terraform:cloudstack - Builds the provider that interact with the many resources supported by Apache CloudStack https://cloudstack.apache.org
+app-admin/terraform:consul - Builds the provider that exposes resources used to interact with a Consul cluster app-admin/consul
+app-admin/terraform:digitalocean - Builds the provider that interacts with the resources supported by DigitalOcean https://www.digitalocean.com
+app-admin/terraform:dme - Builds the provider that interacts with the resources supported by DNSMadeEasy http://www.dnsmadeeasy.com
+app-admin/terraform:dnsimple - Builds the provider that interacts with the resources supported by DNSimple https://dnsimple.com
+app-admin/terraform:docker - Builds the provider that interacts with Docker app-emulation/docker containers and images, by using Docker API
+app-admin/terraform:dyn - Builds the provider that interacts with the resources supported by Dyn http://dyn.com
+app-admin/terraform:file - Builds the provisioner that copies files or directories from the machine executing Terraform to the newly created resource
+app-admin/terraform:google - Builds the provider that interacts with Google Cloud services https://cloud.google.com
+app-admin/terraform:heroku - Builds the provider that interacts with the resources supported by Heroku https://www.heroku.com
+app-admin/terraform:local-exec - Builds the provisioner that invokes a local executable after a resource is created
+app-admin/terraform:mailgun - Builds the provider that interacts with the resources supported by Mailgun http://www.mailgun.com
+app-admin/terraform:null - Builds the provider that allows you to configure provisioners that are not directly associated with a single existing resource
+app-admin/terraform:openstack - Builds the provider that interacts with the many resources supported by OpenStack sys-cluster/openstack-meta
+app-admin/terraform:packet - Builds the provider that interacts with the resources supported by Packet https://www.packet.net
+app-admin/terraform:postgresql - Builds the provider that gives the ability to deploy and configure resources in a PostgreSQL server.
+app-admin/terraform:powerdns - Build the provider that manipulates DNS records supported by PowerDNS server http://powerdns.com
+app-admin/terraform:remote-exec - Builds the provisioner that invokes a script on a remote resource after it is created
+app-admin/terraform:rundeck - Builds the provider that creates and configures Projects, Jobs and Keys in Rundeck http://rundeck.org
+app-admin/terraform:statuscake - Builds the provider that creates and configures tests in StatusCake https://www.statuscake.com
+app-admin/terraform:template - Builds a provider that exposes resources to use templates to generate strings for other Terraform resources or outputs.
+app-admin/terraform:tls - Builds the provider that provides utilities for working with Transport Layer Security keys and certificates
+app-admin/terraform:vcd - Builds the provider that is used to interact with the resources supported by VMware vCloud Director http://www.vmware.com/products/vcloud-director/
+app-admin/terraform:vsphere - Builds the provider that interacts with the resources supported by VMware vSphere http://www.vmware.com/products/vsphere
+app-admin/trousseau:fish-completion - Enable fish completion support.
+app-editors/liteide:gdb - Enables support for sys-devel/gdb
+app-editors/liteide:tools - Install additional tools such as dev-go/liteide-tools and dev-go/gotools
+net-p2p/syncthing:cli - Install the official Syncthing Command-Line Interface
+www-apps/gitea:memcached - Adds support for storing cache in memory via net-misc/memcached
+www-apps/gitea:redis - Adds support for storing cache in a redis DB via dev-db/redis
+www-apps/gogs:memcached - Compiles in for storing cache in memory via net-misc/memcached
+www-apps/gogs:redis - Compiles in support for storing cache in a redis DB via dev-db/redis
+www-apps/gogs:tidb - Compiles in support for dev-db/tidb backend
+www-apps/hugo:pygments - Enables syntax highlighting via dev-python/pygments
