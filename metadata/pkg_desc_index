@@ -81,7 +81,7 @@ dev-go/wago 1.0 1.2.0: Wago automates the actions you do after saving code.
 dev-go/walter 1.4.0: Walter is a tiny deployment pipeline
 dev-go/xj2s 20151106: A small tool for Golang to generate Golang strunc from xml/json file
 dev-go/xo 0.1_pre20160229: A cli tool to generate Golang types and funcs based on a database schema
-dev-libs/protobuf 3.0.0_beta3: Google's Protocol Buffers -- an efficient method of encoding structured data
+dev-libs/protobuf 3.0.0_beta3 3.0.2: Google's Protocol Buffers -- an efficient method of encoding structured data
 dev-libs/protobuf-c 1.2.1: code generator and runtime libraries to use Protocol Buffers (protobuf) from pure C
 dev-util/check 0.1_pre20160515-r1: A set of utilities for checking Go sources
 dev-util/deadcode 2012.02.28 2016.07.24: Deadcode finds unused Go source code
