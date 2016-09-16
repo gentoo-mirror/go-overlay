@@ -18,6 +18,7 @@ app-admin/terraform:dyn - Builds the provider that interacts with the resources 
 app-admin/terraform:file - Builds the provisioner that copies files or directories from the machine executing Terraform to the newly created resource
 app-admin/terraform:google - Builds the provider that interacts with Google Cloud services https://cloud.google.com
 app-admin/terraform:heroku - Builds the provider that interacts with the resources supported by Heroku https://www.heroku.com
+app-admin/terraform:librato - Builds the provider that interacts with the resources supported by Librato Spaces https://www.librato.com
 app-admin/terraform:local-exec - Builds the provisioner that invokes a local executable after a resource is created
 app-admin/terraform:mailgun - Builds the provider that interacts with the resources supported by Mailgun http://www.mailgun.com
 app-admin/terraform:null - Builds the provider that allows you to configure provisioners that are not directly associated with a single existing resource
@@ -27,6 +28,7 @@ app-admin/terraform:postgresql - Builds the provider that gives the ability to d
 app-admin/terraform:powerdns - Build the provider that manipulates DNS records supported by PowerDNS server http://powerdns.com
 app-admin/terraform:remote-exec - Builds the provisioner that invokes a script on a remote resource after it is created
 app-admin/terraform:rundeck - Builds the provider that creates and configures Projects, Jobs and Keys in Rundeck http://rundeck.org
+app-admin/terraform:softlayer - Builds the provider that interacts with the resources supported by IBM's SoftLayer https://www.softlayer.com
 app-admin/terraform:statuscake - Builds the provider that creates and configures tests in StatusCake https://www.statuscake.com
 app-admin/terraform:template - Builds a provider that exposes resources to use templates to generate strings for other Terraform resources or outputs.
 app-admin/terraform:tls - Builds the provider that provides utilities for working with Transport Layer Security keys and certificates
@@ -35,6 +37,7 @@ app-admin/terraform:vsphere - Builds the provider that interacts with the resour
 app-admin/trousseau:fish-completion - Enable fish completion support.
 app-editors/liteide:gdb - Enables support for sys-devel/gdb
 app-editors/liteide:tools - Install additional tools such as dev-go/liteide-tools and dev-go/gotools
+app-emulation/runc:apparmor - Enable AppArmor support
 net-p2p/syncthing:cli - Install the official Syncthing Command-Line Interface
 www-apps/gitea:memcached - Adds support for storing cache in memory via net-misc/memcached
 www-apps/gitea:redis - Adds support for storing cache in a redis DB via dev-db/redis

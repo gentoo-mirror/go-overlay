@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=doc? ( dev-python/sphinx ) bash-completion? ( >=app-shells/bash-completion-2.0 ) zsh-completion? ( app-shells/gentoo-zsh-completions ) fish-completion? ( app-shells/fish ) dev-lang/go:0=
+DESCRIPTION=A networked and encrypted key-value database.
+EAPI=6
+HOMEPAGE=https://github.com/oleiade/trousseau
+IUSE=doc bash-completion zsh-completion fish-completion debug test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=https://github.com/oleiade/trousseau/archive/3461cb35c1309d7b315609d22a84cdc7c7bdd329.tar.gz -> trousseau-0.3.5_pre20150212.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:-
+_eclasses_=bash-completion-r1	acf715fa09463f043fbfdc1640f3fb85	eutils	b83a2420b796f7c6eff682679d08fe25	golang-base	0fb80eccef45ca9e79088c6bb9a2c458	golang-single	8dcfdfc9baed80f7598dec1e3c1034a0	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=e9bb5a706bed2a06cb2c44c49511f6ab

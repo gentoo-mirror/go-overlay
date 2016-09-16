@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=This is a linter for Go source code.
+EAPI=6
+HOMEPAGE=https://github.com/golang/golint
+IUSE=debug test
+KEYWORDS=amd64 x86 arm
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/golang/lint/archive/c7bacac2b21ca01afa1dee0acf64df3ce047c28f.tar.gz -> golint-2016.04.28.tar.gz https://github.com/golang/tools/archive/9e74590.tar.gz -> github.com-golang-tools-9e74590.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-base	0fb80eccef45ca9e79088c6bb9a2c458	golang-single	8dcfdfc9baed80f7598dec1e3c1034a0	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=7ee0e7061c65d22f039670cdb1262e9a

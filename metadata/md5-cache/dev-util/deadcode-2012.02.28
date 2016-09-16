@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Deadcode finds unused Go source code
+EAPI=6
+HOMEPAGE=https://github.com/remyoudompheng/deadcode
+IUSE=debug test
+KEYWORDS=amd64 x86 arm
+LICENSE=BSD
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=https://github.com/remyoudompheng/go-misc/archive/8d6f14f9328079a542a2431fd4e081da465a66db.tar.gz -> deadcode-2012.02.28.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-base	0fb80eccef45ca9e79088c6bb9a2c458	golang-single	8dcfdfc9baed80f7598dec1e3c1034a0	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=344242c92d3a784ae0bda6d946551b3b
