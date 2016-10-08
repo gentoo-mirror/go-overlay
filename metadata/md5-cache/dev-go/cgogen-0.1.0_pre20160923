@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Automatic CGo Bindings Generator for Golang
+EAPI=6
+HOMEPAGE=https://cgogen.com
+IUSE=debug test
+KEYWORDS=amd64 x86 arm
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/xlab/cgogen/archive/8637cfa7e0bc1fa5ee85c6bce482a354c7bdcd3e.tar.gz -> cgogen-0.1.0_pre20160923.tar.gz https://github.com/cznic/cc/archive/24f4bbb.tar.gz -> github.com-cznic-cc-24f4bbb.tar.gz https://github.com/cznic/golex/archive/da5a715.tar.gz -> github.com-cznic-golex-da5a715.tar.gz https://github.com/cznic/mathutil/archive/78ad7f2.tar.gz -> github.com-cznic-mathutil-78ad7f2.tar.gz https://github.com/cznic/strutil/archive/1eb03e3.tar.gz -> github.com-cznic-strutil-1eb03e3.tar.gz https://github.com/cznic/xc/archive/5fc7735.tar.gz -> github.com-cznic-xc-5fc7735.tar.gz https://github.com/tj/go-spin/archive/8667629.tar.gz -> github.com-tj-go-spin-8667629.tar.gz https://github.com/xlab/pkgconfig/archive/8e3bb34.tar.gz -> github.com-xlab-pkgconfig-8e3bb34.tar.gz https://github.com/go-yaml/yaml/archive/31c2992.tar.gz -> github.com-go-yaml-yaml-31c2992.tar.gz https://github.com/golang/tools/archive/3f4088e.tar.gz -> github.com-golang-tools-3f4088e.tar.gz https://github.com/stretchr/testify/archive/f390dcf.tar.gz -> github.com-stretchr-testify-f390dcf.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-base	90e2e8dafb79953924c0ef81ace22eef	golang-single	8dcfdfc9baed80f7598dec1e3c1034a0	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=e1b2ec94f7488435d848d3d5db2a6533
