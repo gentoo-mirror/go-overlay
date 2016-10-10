@@ -5,13 +5,13 @@
 EAPI=6
 
 GOLANG_PKG_IMPORTPATH="github.com/google"
-GOLANG_PKG_LDFLAGS="-X github.com/google/cups-connector/lib.BuildDate=${PV}"
+GOLANG_PKG_LDFLAGS="-X ${GOLANG_PKG_IMPORTPATH}/cups-connector/lib.BuildDate=${PV}"
 GOLANG_PKG_IS_MULTIPLE=1
 GOLANG_PKG_USE_CGO=1
 
 GOLANG_PKG_DEPENDENCIES=(
 	"github.com/mildred/go-xdg:96b70c9"
-	"github.com/coreos/go-systemd:b4a58d9" # v4
+	"github.com/coreos/go-systemd:43e4800" # v12
 	"github.com/codegangsta/cli:5db7419"
 	"github.com/golang/oauth2:188fb45 -> golang.org/x"
 	"github.com/golang/net:b6d7b13 -> golang.org/x"
@@ -19,19 +19,16 @@ GOLANG_PKG_DEPENDENCIES=(
 
 inherit user golang-single systemd
 
-#SRC_URI+=" https://bazaar.launchpad.net/~chipaca/go-xdg/v0/tarball/10 -> go-xdg.tar.gz"
-
 DESCRIPTION="Google Cloud Print CUPS Connector"
-HOMEPAGE="https://${GOLANG_PKG_IMPORTPATH}/${PN}"
 
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~arm"
 
-CDEPEND="net-analyzer/net-snmp"
-RDEPEND="${CDEPEND}
+RDEPEND="net-analyzer/net-snmp
 	net-print/cups
-	net-dns/avahi"
+	net-dns/avahi
+	!net-print/cups-connector"
 
 GCP_HOME="/var/lib/${PN}"
 
@@ -41,6 +38,10 @@ pkg_setup() {
 
 src_prepare() {
 	golang-single_src_prepare
+
+	golang_fix_importpath_alias \
+		"${GOLANG_PKG_IMPORTPATH}/${GOLANG_PKG_NAME}" \
+		"${GOLANG_PKG_IMPORTPATH}/cups-connector"
 
 	golang_fix_importpath_alias \
 		"github.com/mildred/go-xdg" \
