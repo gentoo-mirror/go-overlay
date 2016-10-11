@@ -9,7 +9,7 @@ app-crypt/keybase 1.0.17-r50: Client for keybase.io
 app-editors/lime-qml 20150428: QML frontend for Lime text editor.
 app-editors/lime-termbox 20150428: Termbox frontend for Lime text editor.
 app-editors/liteide 27.2.1: LiteIDE is a simple, open source, cross-platform Go IDE.
-app-editors/micro 1.1.0: A modern and intuitive terminal-based text editor
+app-editors/micro 1.1.1: A modern and intuitive terminal-based text editor
 app-editors/srclib 0.0.40: A hackable, multilange code analysis library for building better software tools
 app-emulation/packer 0.10.2: Packer is a tool for creating identical machine images for multiple platforms
 app-emulation/runc 0.1.1-r51 1.0.0_rc2-r50: A CLI tool for spawning and running containers according to the OCF specs
@@ -155,4 +155,5 @@ sys-devel/gcvis 0.1.0_pre20160427: Visualise Go program Garbage Collector trace 
 www-apps/gogs 0.8.43-r1 0.9.48 0.9.97: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
 www-apps/hugo 0.14-r4 0.15-r3 0.16-r1 0.17: A fast and flexible static site generator built in GoLang
+www-servers/caddy 0.9.3: Fast, cross-platform HTTP/2 web server with automatic HTTPS
 x11-misc/noti 2.4.0: Display a notification when a terminal process finishes
