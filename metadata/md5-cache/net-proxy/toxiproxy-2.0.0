@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=A proxy to simulate network and system conditions
+EAPI=6
+HOMEPAGE=http://toxiproxy.io
+IUSE=cli debug test
+KEYWORDS=amd64 arm x86
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/Shopify/toxiproxy/archive/v2.0.0.tar.gz -> toxiproxy-2.0.0.tar.gz https://github.com/urfave/cli/archive/a14d7d3.tar.gz -> github.com-urfave-cli-a14d7d3.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:- src_test:golang-single src_install:golang-single
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-base	6de4582e2324d2bc1c2c3206dc7aa57e	golang-single	8dcfdfc9baed80f7598dec1e3c1034a0	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=9d3b5353013db9fe64627b1ebb9fc43e
