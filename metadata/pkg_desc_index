@@ -69,9 +69,6 @@ dev-go/gocode 2015.03.03: An autocompletion daemon for the Go programming langua
 dev-go/gogo-protobuf 0.1-r1 0.2-r1 0.3: Protocol Buffers for Go with Gadgets
 dev-go/gom 20160119: A visual interface to work with runtime profiling data for Go
 dev-go/gompatible 0.1.0_pre20160127: A tool to show Go package's API changes between two (git) revisions
-dev-go/gonum-floats 9999: Provides a set of helper routines for dealing with slices of float64
-dev-go/gonum-internal 9999: This is the set of internal packages for the Gonum project.
-dev-go/gonum-stat 9999: A statistics package for the Go language
 dev-go/gopherjs 0_pre20160930: GopherJS compils GoLang code to pure JavaScript code
 dev-go/gopm 0.7.2 0.8_pre20160708: Gopm is a package manager and build tool for Go
 dev-go/gore 0.2.5 0.2.6: A REPL for Golang
@@ -171,5 +168,5 @@ sys-devel/gcvis 0.1.0_pre20160427: Visualise Go program Garbage Collector trace 
 www-apps/gogs 0.8.43-r1 0.9.48 0.9.97: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
 www-apps/hugo 0.14-r4 0.15-r3 0.16-r1 0.17 0.18_pre20161024 0.18_pre20161107: A fast and flexible static site generator built in GoLang
-www-servers/caddy 0.8.3 0.9.3: Fast, cross-platform HTTP/2 web server with automatic HTTPS
+www-servers/caddy 0.9.3: Fast, cross-platform HTTP/2 web server with automatic HTTPS
 x11-misc/noti 2.4.0: Display a notification when a terminal process finishes
