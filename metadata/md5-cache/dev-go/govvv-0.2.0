@@ -10,5 +10,5 @@ RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/ahmetalpbalkan/govvv/archive/v0.2.0.tar.gz -> govvv-0.2.0.tar.gz https://github.com/stretchr/testify/archive/f390dcf.tar.gz -> github.com-stretchr-testify-f390dcf.tar.gz
 _eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-common	aee032bed099dc5dc03fdd0b62bc74f2	golang-single	95a3c3edd35380baf1c64b47b5bc635a	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-common	89ed204d4da91ccb90e538e54238036f	golang-single	95a3c3edd35380baf1c64b47b5bc635a	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=d8a7fa7ef2060dd739fcd7fe8188b3e9
