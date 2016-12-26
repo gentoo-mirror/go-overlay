@@ -241,8 +241,9 @@ if [[ ${GOLANG_PKG_ARCHIVESUFFIX/.*} == "xz" ]]; then
 	DEPEND+=" app-arch/xz-utils"
 fi
 
+# Defines common USE flags
+IUSE="${IUSE} debug pie"
 # Enables USE 'test' when required by GOLANG_PKG_HAVE_TEST.
-IUSE="${IUSE} debug"
 if [[ -n ${GOLANG_PKG_HAVE_TEST} ]]; then
 	IUSE+=" test"
 fi
@@ -380,6 +381,7 @@ golang_setup() {
 		# Prepares CGO_ENABLED.
 		CGO_ENABLED=0
 		[[ -z ${GOLANG_PKG_USE_CGO} ]] || CGO_ENABLED=1
+		use pie && CGO_ENABLED=1 # PIE requires CGO
 
 		# Prepares gopath / gobin directories inside WORKDIR.
 		local _GOPATH="${WORKDIR}/gopath"
@@ -698,6 +700,10 @@ golang-common_src_compile() {
 		export GOPATH
 	fi
 
+	# Enables position-independent executables (PIE)
+	local EGO_PIE
+	use pie && EGO_PIE="-buildmode=pie"
+
 	# Defines the install suffix.
 	local EGO_INSTALLSUFFIX
 	[[ -z ${GOLANG_PKG_INSTALLSUFFIX} ]] || EGO_INSTALLSUFFIX="-installsuffix=${GOLANG_PKG_INSTALLSUFFIX}"
@@ -713,7 +719,7 @@ golang-common_src_compile() {
 	local EGO_EXTRA_OPTIONS="-a"
 
 	# Prepares build flags for the go toolchain.
-	local EGO_BUILD_FLAGS="$( echo ${EGO_VERBOSE} ) $( echo ${EGO_PARALLEL} ) $( echo ${EGO_EXTRA_OPTIONS} )"
+	local EGO_BUILD_FLAGS="$( echo ${EGO_VERBOSE} ) $( echo ${EGO_PARALLEL} ) $( echo ${EGO_EXTRA_OPTIONS} ) $( echo ${EGO_PIE} )"
 	[[ -n ${EGO_INSTALLSUFFIX} ]] && EGO_BUILD_FLAGS+=" $( echo ${EGO_INSTALLSUFFIX} )"
 
 	# Detects the total number of packages.
@@ -763,6 +769,10 @@ golang-common_src_install() {
 
 	[[ ${EGO} ]] || die "No GoLang implementation set (golang_setup not called?)."
 
+	# Enables position-independent executables (PIE)
+	local EGO_PIE
+	use pie && EGO_PIE="-buildmode=pie"
+
 	# Defines the install suffix.
 	local EGO_INSTALLSUFFIX
 	[[ -z ${GOLANG_PKG_INSTALLSUFFIX} ]] || EGO_INSTALLSUFFIX="-installsuffix=${GOLANG_PKG_INSTALLSUFFIX}"
@@ -778,7 +788,7 @@ golang-common_src_install() {
 	local EGO_EXTRA_OPTIONS
 
 	# Prepares build flags for the go toolchain.
-	local EGO_BUILD_FLAGS="$( echo ${EGO_VERBOSE} ) $( echo ${EGO_PARALLEL} ) $( echo ${EGO_EXTRA_OPTIONS} )"
+	local EGO_BUILD_FLAGS="$( echo ${EGO_VERBOSE} ) $( echo ${EGO_PARALLEL} ) $( echo ${EGO_EXTRA_OPTIONS} ) $( echo ${EGO_PIE} )"
 	[[ -n ${EGO_INSTALLSUFFIX} ]] && EGO_BUILD_FLAGS+=" $( echo ${EGO_INSTALLSUFFIX} )"
 
 	# Defines sub-packages.
