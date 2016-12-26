@@ -3,7 +3,7 @@ DEPEND=!libressl? ( dev-libs/openssl:0 ) libressl? ( dev-libs/libressl ) sys-lib
 DESCRIPTION=Simple, seamless, lightweight time tracking for Git
 EAPI=6
 HOMEPAGE=https://github.com/git-time-metric/gtm
-IUSE=libressl debug test
+IUSE=libressl debug pie test
 KEYWORDS=amd64 ~arm x86
 LICENSE=MIT
 RDEPEND=!libressl? ( dev-libs/openssl:0 ) libressl? ( dev-libs/libressl ) sys-libs/zlib net-libs/http-parser:= net-libs/libssh2
@@ -11,5 +11,5 @@ RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/git-time-metric/gtm/archive/v1.2.3.tar.gz -> gtm-1.2.3.tar.gz https://github.com/git-time-metric/git2go/archive/342230c.tar.gz -> github.com-git-time-metric-git2go-342230c.tar.gz https://github.com/git-time-metric/libgit2/archive/a6763ff.tar.gz -> github.com-git-time-metric-libgit2-a6763ff.tar.gz https://github.com/mattn/go-isatty/archive/66b8e73.tar.gz -> github.com-mattn-go-isatty-66b8e73.tar.gz https://github.com/mitchellh/cli/archive/fcf5214.tar.gz -> github.com-mitchellh-cli-fcf5214.tar.gz https://github.com/armon/go-radix/archive/4239b77.tar.gz -> github.com-armon-go-radix-4239b77.tar.gz https://github.com/bgentry/speakeasy/archive/a1ccbf2.tar.gz -> github.com-bgentry-speakeasy-a1ccbf2.tar.gz
 _eclass_exported_funcs=src_unpack:golang-single src_prepare:- src_configure:golang-single src_compile:- src_test:golang-single src_install:golang-single
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-common	6180911af7a6980c38c739a4648e50d2	golang-single	95a3c3edd35380baf1c64b47b5bc635a	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	66b3bf714f8cfc1b6494db5269b4666e	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-common	0602578f3695f13f72150a6140abaa9f	golang-single	7f35d9c5f73340d136680d6eb077eb7a	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	66b3bf714f8cfc1b6494db5269b4666e	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=16cf331bdc4396ff9d4d264ce7447cb7
