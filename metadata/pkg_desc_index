@@ -66,7 +66,7 @@ dev-go/go-carpet 1.4: Shows test coverage for Go source files
 dev-go/go-fuzz 0.1_pre20160928: Go-fuzz is a coverage-guided fuzzing solution for testing of Go packages
 dev-go/go-md2man 1.0.6: Command-line tool to convert Markdown into UNIX man pages
 dev-go/go-protobuf 0.1_pre20160927: Go support for Google's protocol buffers
-dev-go/go-tools 0_pre20161104: Various packages and tools that support the Go programming language
+dev-go/go-tools 0_pre20161104 0_pre20161220: Various packages and tools that support the Go programming language
 dev-go/go-torch 0.5.0_pre20160909: Stochastic flame graph profiler for Go Programs
 dev-go/goa 0.0.1_pre20160218: Goa is a framework for building RESTful microservices in Go
 dev-go/gocode 2015.03.03: An autocompletion daemon for the Go programming language
@@ -103,6 +103,7 @@ dev-go/wago 1.0 1.2.0: Wago automates the actions you do after saving code.
 dev-go/walter 1.4.0: Walter is a tiny deployment pipeline
 dev-go/xj2s 20151106: A small tool for Golang to generate Golang strunc from xml/json file
 dev-go/xo 0.1_pre20160918: A cli tool to generate Golang types and funcs based on a database schema
+dev-go/zebrapack 2.0.4: ZebraPack is a data definition language and serialization format
 dev-libs/protobuf 3.0.0_beta3 3.0.2: Google's Protocol Buffers -- an efficient method of encoding structured data
 dev-python/mdx_anchors_away 1.0.1: Add anchor tags and icons to all headers
 dev-python/mdx_callouts 1.0.0: Add anchor tags and icons to all headers
@@ -179,5 +180,5 @@ sys-devel/gcvis 0.1.0_pre20160427: Visualise Go program Garbage Collector trace 
 www-apps/gogs 0.8.43-r1 0.9.48 0.9.97 0.9.113: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
 www-apps/hugo 0.14-r4 0.15-r3 0.16-r1 0.17 0.18: A fast and flexible static site generator built in GoLang
-www-servers/caddy 0.9.3: Fast, cross-platform HTTP/2 web server with automatic HTTPS
+www-servers/caddy 0.9.3 0.9.4: Fast, cross-platform HTTP/2 web server with automatic HTTPS
 x11-misc/noti 2.4.0: Display a notification when a terminal process finishes
