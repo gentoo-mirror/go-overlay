@@ -37,6 +37,7 @@ app-admin/terraform:vsphere - Builds the provider that interacts with the resour
 app-admin/trousseau:fish-completion - Enable fish completion support.
 app-editors/liteide:gdb - Enables support for sys-devel/gdb
 app-emulation/runc:apparmor - Enable AppArmor support
+app-shells/fzf:fish-completion - Enable fish completion support
 app-shells/fzf:tmux - Install TMUX extra tools
 app-shells/fzf:vim - Install vim plugin
 dev-go/benthos:zmq - Add support ZMQ4 input/output targets from net-libs/zeromq (PUSH, PULL, SUB, PUB)
