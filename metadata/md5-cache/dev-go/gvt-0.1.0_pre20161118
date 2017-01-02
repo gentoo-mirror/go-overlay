@@ -1,15 +1,14 @@
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=dev-lang/go:0=
-DESCRIPTION=Navigation and insight in Go
+DESCRIPTION=gvt is a simple vendoring tool made for Go native vendoring
 EAPI=6
-HOMEPAGE=https://github.com/fatih/motion
+HOMEPAGE=https://github.com/FiloSottile/gvt
 IUSE=debug pie test
 KEYWORDS=~amd64 ~x86 ~arm
-LICENSE=BSD
-RDEPEND=>=dev-lang/go-1.7.0
+LICENSE=MIT
 RESTRICT=mirror strip
 SLOT=0
-SRC_URI=https://github.com/fatih/motion/archive/efb4eef465f585649e0a89636e2f2bd6f543482d.tar.gz -> motion-0.1_pre20160411.tar.gz
-_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
+SRC_URI=https://github.com/FiloSottile/gvt/archive/50d83ea21cb0405e81efd284951e111b3a68d701.tar.gz -> gvt-0.1.0_pre20161118.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:- src_install:golang-single
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-common	f2be9535db347dae438cc99c80c15e4f	golang-single	7f35d9c5f73340d136680d6eb077eb7a	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	66b3bf714f8cfc1b6494db5269b4666e	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=ce081a5212985bc1dd4252d62e6c0ef6
+_md5_=6bd98d6f4e0845766ae51fea3d7d964e
