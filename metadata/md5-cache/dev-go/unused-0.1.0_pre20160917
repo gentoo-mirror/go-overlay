@@ -10,5 +10,5 @@ RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/dominikh/go-unused/archive/b87f9a8e8a85e299bc12d87a5ab27b3434e6ae6e.tar.gz -> unused-0.1.0_pre20160917.tar.gz https://github.com/kisielk/gotool/archive/94d5dba.tar.gz -> github.com-kisielk-gotool-94d5dba.tar.gz https://github.com/golang/tools/archive/9e74590.tar.gz -> github.com-golang-tools-9e74590.tar.gz
 _eclass_exported_funcs=src_unpack:- src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-common	f2be9535db347dae438cc99c80c15e4f	golang-single	7f35d9c5f73340d136680d6eb077eb7a	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	66b3bf714f8cfc1b6494db5269b4666e	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=1412ca6c28feb4e8097b08fe16a13a24
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	66b3bf714f8cfc1b6494db5269b4666e	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=c92b0ee09826f1709be856d8e34af319

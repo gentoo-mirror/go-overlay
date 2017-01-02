@@ -36,6 +36,7 @@ app-admin/terraform:vcd - Builds the provider that is used to interact with the 
 app-admin/terraform:vsphere - Builds the provider that interacts with the resources supported by VMware vSphere http://www.vmware.com/products/vsphere
 app-admin/trousseau:fish-completion - Enable fish completion support.
 app-editors/liteide:gdb - Enables support for sys-devel/gdb
+app-editors/liteide:tools - Install additional tools such as dev-go/liteide-tools and dev-go/gotools
 app-emulation/runc:apparmor - Enable AppArmor support
 app-shells/fzf:fish-completion - Enable fish completion support
 app-shells/fzf:tmux - Install TMUX extra tools
