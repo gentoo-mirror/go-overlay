@@ -116,6 +116,7 @@ dev-util/errcheck 0.1_pre20160917: Errcheck checks that you checked errors
 dev-util/flint 0.0.4 0.0.5_pre20160327: Check your project for common sources of contributor friction
 dev-util/forego 0.16.1-r1: Foreman written in GoLang
 dev-util/gas 0.1_pre20160906: Inspects golang source code for security problems.
+dev-util/gdlv 0_pre20161113: A graphical frontend to Delve
 dev-util/ghfs 0.1_pre20150217: Ghfs is a user space filesystem that overlays the GitHub API
 dev-util/gini 0.1_pre20161014: A fast SAT solver
 dev-util/github-release 0.6.2: CLI to create and edit releases on Github
@@ -178,7 +179,7 @@ net-proxy/morty 0_pre20161029: Privacy aware web content sanitizer proxy as a se
 net-proxy/toxiproxy 2.0.0: A proxy to simulate network and system conditions
 sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
 sys-devel/calc 0.1_pre20160311: A simple, fast command-line calculator written in GoLang
-sys-devel/delve 0.11.0 0.12.0_pre20161102: Delve is a debugger for the Go programming language
+sys-devel/delve 0.11.0 0.12.0_pre20161222: Delve is a debugger for the Go programming language
 sys-devel/gcvis 0.1.0_pre20160427: Visualise Go program Garbage Collector trace data in real-time.
 www-apps/gogs 0.8.43-r1 0.9.48 0.9.97 0.9.113: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
