@@ -27,7 +27,7 @@ app-misc/thyme 0.2.3: Automatically track which applications you use and for how
 app-misc/thymer 0.1.0: Consolo Pomodoro Timer written in GoLang
 app-misc/weather 0.5.0_pre20151218 0.5.0 0.6.0_pre20151218: Weather via the command line.
 app-misc/wego 2.0: Wego is a weather client for the terminal
-app-shells/antibody 2.1.1: A faster and simpler antigen written in Golang
+app-shells/antibody 2.2.2: A faster and simpler antigen written in Golang
 app-shells/elvish 0.5: A novel Unix shell
 app-shells/fzf 0.15.9: A general-purpose command-line fuzzy finder
 app-shells/oh 0.0.1_pre20161126: A surprisingly powerful Unix shell
@@ -110,7 +110,7 @@ dev-python/mdx_callouts 1.0.0: Add anchor tags and icons to all headers
 dev-python/mdx_foldouts 1.0.0: Add anchor tags and icons to all headers
 dev-util/check 0.1_pre20160515-r1: A set of utilities for checking Go sources
 dev-util/deadcode 0.1_pre20160724: Deadcode finds unused Go source code
-dev-util/direnv 2.9.0: Direnv is an environment switcher for the shell.
+dev-util/direnv 2.10.0: Direnv is an environment switcher for the shell.
 dev-util/dupl 0.1_pre20160503 0.1_pre20160920: A tool for Go code clone detection
 dev-util/errcheck 0.1_pre20160917: Errcheck checks that you checked errors
 dev-util/flint 0.0.4 0.0.5_pre20160327: Check your project for common sources of contributor friction
@@ -120,7 +120,7 @@ dev-util/ghfs 0.1_pre20150217: Ghfs is a user space filesystem that overlays the
 dev-util/gini 0.1_pre20161014: A fast SAT solver
 dev-util/github-release 0.6.2: CLI to create and edit releases on Github
 dev-util/go-raml-mocker 1.0.4: RAML (1.0) web mock server implementation in Go
-dev-util/go-swagger 0.6.0: Swagger 2.0 implementation for GoLang
+dev-util/go-swagger 0.8.0: Swagger 2.0 implementation for GoLang
 dev-util/goconst 0.1_pre20160514: Find repeated strings that could be replaced by a constant.
 dev-util/gocyclo 0.1_pre20150627: Calculate cyclomatic complexities of functions in Go source code
 dev-util/godef 0.1_pre20160620: Godef prints where symbols are defined in Go source code
@@ -170,7 +170,7 @@ net-p2p/bmd 0.1.0_pre20160605-r1 9999-r5: bmd is a collection of Bitmessage tool
 net-p2p/btcd 0.12.0-r1 9999: An alternative full node bitcoin implementation written in Go
 net-p2p/btcsim 0.1_pre20150902 9999: Implements a simulation test driver using the simnet network provided by btcd
 net-p2p/cloud-torrent 0.8.11: Cloud Torrent is a self-hosted remote torrent client, written in GoLang
-net-p2p/syncthing 0.11.26-r1 0.12.25-r10 0.13.10-r10 0.14.15-r50: Syncthing is an app that lets you synchronize your files across multiple devices
+net-p2p/syncthing 0.11.26-r1 0.12.25-r10 0.13.10-r10 0.14.18-r50: Syncthing is an app that lets you synchronize your files across multiple devices
 net-p2p/syncthing-cli 0.1.0_pre20150922-r1: SyncThing command-line interface
 net-p2p/syncthing-inotify 0.8.4: File watcher intended for use with Syncthing
 net-print/cloud-print-connector 2016.01.02-r1: Google Cloud Print CUPS Connector
