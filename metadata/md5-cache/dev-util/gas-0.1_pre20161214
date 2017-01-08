@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=dev-lang/go:0=
-DESCRIPTION=This is a linter for Go source code.
+DESCRIPTION=Inspects golang source code for security problems
 EAPI=6
-HOMEPAGE=https://github.com/golang/golint
+HOMEPAGE=https://github.com/GoASTScanner/gas
 IUSE=debug pie test
 KEYWORDS=amd64 x86 arm
-LICENSE=BSD
+LICENSE=Apache-2.0
 RESTRICT=mirror strip
 SLOT=0
-SRC_URI=https://github.com/golang/lint/archive/55ae771cfa82f3846897c972e262ed5d54d47d48.tar.gz -> golint-0.1_pre20161004.tar.gz https://github.com/golang/tools/archive/b5358b5.tar.gz -> github.com-golang-tools-b5358b5.tar.gz
+SRC_URI=https://github.com/GoASTScanner/gas/archive/d4f9b88cbf6b9f190a2425120c9cecc466ec363b.tar.gz -> gas-0.1_pre20161214.tar.gz
 _eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
 _eclasses_=eutils	017377e73405d964cd0137088cddb9c3	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	66b3bf714f8cfc1b6494db5269b4666e	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=1b29872bd4feb4462ace2d396651015e
+_md5_=0acb64bff8166d9efe431b27b1c76315

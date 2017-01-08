@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=!dev-go/interfacer dev-lang/go:0=
-DESCRIPTION=A linter for GoLang that suggests interface types
+DEPEND=!dev-go/errcheck dev-lang/go:0=
+DESCRIPTION=Errcheck checks that you checked errors
 EAPI=6
-HOMEPAGE=https://github.com/mvdan/interfacer
+HOMEPAGE=https://github.com/kisielk/errcheck
 IUSE=debug pie test
 KEYWORDS=amd64 x86 arm
 LICENSE=BSD
 RESTRICT=mirror strip
 SLOT=0
-SRC_URI=https://github.com/mvdan/interfacer/archive/2927fff6028e3bc73636bf2fb627021a68566a2b.tar.gz -> interfacer-0.0.1_pre20160907.tar.gz https://github.com/kisielk/gotool/archive/5e136de.tar.gz -> github.com-kisielk-gotool-5e136de.tar.gz https://github.com/golang/tools/archive/b5358b5.tar.gz -> github.com-golang-tools-b5358b5.tar.gz
+SRC_URI=https://github.com/kisielk/errcheck/archive/db0ca22445717d1b2c51ac1034440e0a2a2de645.tar.gz -> errcheck-0.1_pre20161118.tar.gz https://github.com/kisielk/gotool/archive/0de1eaf.tar.gz -> github.com-kisielk-gotool-0de1eaf.tar.gz https://github.com/golang/tools/archive/354f9f8.tar.gz -> github.com-golang-tools-354f9f8.tar.gz
 _eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
 _eclasses_=eutils	017377e73405d964cd0137088cddb9c3	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	66b3bf714f8cfc1b6494db5269b4666e	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=66cebd7a414b1958815c669cb4c4afcf
+_md5_=1647e26cc1babe69d45fbda04955deb4
