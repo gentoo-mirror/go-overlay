@@ -96,12 +96,12 @@ dev-go/re2dfa 0.1.0_pre20151021: Transforms regexs into finite state machines an
 dev-go/revel-cli 0.12.0-r1 0.13.1: Command-line tool for Revel framework
 dev-go/rts 0.1.0_pre20160617: Generates Go structs from JSON server responses
 dev-go/safesql 0.1.0_pre20160304: Static analysis tool for GoLang that protects against SQL injections
-dev-go/simple 0.1_pre20160919: Gosimple is a linter for Go source code that specialises on simplifying code
+dev-go/simple 0.1_pre20161119: Gosimple is a linter for Go source code that specialises on simplifying code
 dev-go/staticfiles 0_pre20160903: staticfiles compiles a directory of files into an embeddable .go file
 dev-go/statik 0.1.0 0.2.0_pre20160906: statik embeds static files into a GoLang executable
 dev-go/structlayout 0.1_pre20160324: An utility that prints the layout of a Go struct
 dev-go/tomlv 0.2.0: A TOML validator written in GoLang
-dev-go/unused 0.1.0_pre20160917: Check Go programs for unused identifiers
+dev-go/unused 0.1.0_pre20161221: Check Go programs for unused identifiers
 dev-go/wago 1.0 1.2.0: Wago automates the actions you do after saving code.
 dev-go/walter 1.4.0: Walter is a tiny deployment pipeline
 dev-go/xj2s 20151106: A small tool for Golang to generate Golang strunc from xml/json file
@@ -114,11 +114,11 @@ dev-python/mdx_foldouts 1.0.0: Add anchor tags and icons to all headers
 dev-util/check 0.1_pre20160515-r1: A set of utilities for checking Go sources
 dev-util/deadcode 0.1_pre20160724: Deadcode finds unused Go source code
 dev-util/direnv 2.10.0: Direnv is an environment switcher for the shell.
-dev-util/dupl 0.1_pre20160503 0.1_pre20160920: A tool for Go code clone detection
-dev-util/errcheck 0.1_pre20160917: Errcheck checks that you checked errors
+dev-util/dupl 0.1_pre20161022: A tool for Go code clone detection
+dev-util/errcheck 0.1_pre20161118: Errcheck checks that you checked errors
 dev-util/flint 0.0.4 0.0.5_pre20160327: Check your project for common sources of contributor friction
 dev-util/forego 0.16.1-r1: Foreman written in GoLang
-dev-util/gas 0.1_pre20160906: Inspects golang source code for security problems.
+dev-util/gas 0.1_pre20161214: Inspects golang source code for security problems
 dev-util/gdlv 0_pre20161113: A graphical frontend to Delve
 dev-util/ghfs 0.1_pre20150217: Ghfs is a user space filesystem that overlays the GitHub API
 dev-util/gini 0.1_pre20161014: A fast SAT solver
@@ -129,14 +129,14 @@ dev-util/goconst 0.1_pre20160514: Find repeated strings that could be replaced b
 dev-util/gocyclo 0.1_pre20150627: Calculate cyclomatic complexities of functions in Go source code
 dev-util/godef 0.1_pre20160620: Godef prints where symbols are defined in Go source code
 dev-util/golex 0.1.0_pre20160422: A lex/flex like (not fully POSIX lex compatible) utility
-dev-util/golint 0.1_pre20161004: This is a linter for Go source code.
-dev-util/gometalinter 1.0.3: Concurrently run Go lint tools and normalise their output
+dev-util/golint 0.1_pre20161114: This is a linter for Go source code
+dev-util/gometalinter 1.0.3 1.0.4_pre20170105: Concurrently run Go lint tools and normalise their output
 dev-util/gorganizer 0.3: Organize your folders into a beautiful classified folder structure
 dev-util/gotags 1.3.0 1.4.0_pre20150803: ctags-compatible tag generator for Go
 dev-util/goyacc 0.1.0_pre20160420: Goyacc is a version of yacc generating Go parsers.
 dev-util/hulk 0.1.0_pre20160930: Ultimate job/build runner
 dev-util/ineffassign 0.1_pre20160901: Detects ineffectual assignments in Go code.
-dev-util/interfacer 0.0.1_pre20160907: A linter for GoLang that suggests interface types
+dev-util/interfacer 0.0.1_pre20161215: A linter for GoLang that suggests interface types
 dev-util/lll 0.1_pre20160702: Line length linter, used to enforce line length in files.
 dev-util/maligned 0.1_pre20160825: Detects Go structs that would take less memory if their fields were sorted
 dev-util/mdfmt 0.1_pre20160209: Like gofmt, but for Markdown with front matter.
@@ -148,7 +148,7 @@ dev-util/pipecat 0.2: Pipecat allows you to scale any program using traditional 
 dev-util/rambler 4.0.0: A simple and language-independent SQL schema migration tool
 dev-util/realize 1.2.2: A Go build system with file watchers, output streams and live reload
 dev-util/shfmt 0_pre20161029: A shell parser and formatter for POSIX shell and bash
-dev-util/staticcheck 0.1.0_pre20160811: A Golang tool for statically checking the inputs to certain functions
+dev-util/staticcheck 0.1.0_pre20170104: A Golang tool for statically checking the inputs to certain functions
 dev-util/unconvert 0.1_pre20160804: Remove unnecessary type conversions from Go source
 dev-util/wellington 1.0.3: Wellington is a CSS preprocessor with spriting and based on libsass
 dev-vcs/gitql 1.3.0-r1: A git query language
