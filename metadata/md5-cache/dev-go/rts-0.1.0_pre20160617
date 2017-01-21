@@ -10,5 +10,5 @@ RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/galeone/rts/archive/0cb3c7cfc3df02cbd3f7d2d142c15c22e2239d6f.tar.gz -> rts-0.1.0_pre20160617.tar.gz https://github.com/ChimeraCoder/gojson/archive/e3edd6d.tar.gz -> github.com-ChimeraCoder-gojson-e3edd6d.tar.gz https://github.com/nerdzeu/nerdz-api/archive/ae2b0d5.tar.gz -> github.com-nerdzeu-nerdz-api-ae2b0d5.tar.gz
 _eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:- src_install:golang-single
-_eclasses_=eutils	017377e73405d964cd0137088cddb9c3	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=eutils	ea170b525f6a38a006be05c9d9429f13	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=fc7ac92cb14d0524b87bb8e323a0e647
