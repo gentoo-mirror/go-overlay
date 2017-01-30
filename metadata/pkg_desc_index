@@ -79,7 +79,7 @@ dev-go/gom 20160119: A visual interface to work with runtime profiling data for 
 dev-go/gompatible 0.1.0_pre20160127: A tool to show Go package's API changes between two (git) revisions
 dev-go/gopherjs 0_pre20160930: GopherJS compils GoLang code to pure JavaScript code
 dev-go/gopm 0.7.2 0.8_pre20160708: Gopm is a package manager and build tool for Go
-dev-go/gops 0.0.1 0.0.2_pre20161128: A tool to list and diagnose Go processes currently running on your system
+dev-go/gops 0.3.1: A tool to list and diagnose Go processes currently running on your system
 dev-go/gore 0.2.5 0.2.6: A REPL for Golang
 dev-go/gostatus 0.1.0_pre20160915: A command-line tool that show the status of GoLang repositories
 dev-go/gotests 1.5.2: It's a Golang commandline tool that generates table driven tests
@@ -186,6 +186,7 @@ sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
 sys-devel/calc 0.1_pre20160311: A simple, fast command-line calculator written in GoLang
 sys-devel/delve 0.11.0 0.12.0_pre20161222: Delve is a debugger for the Go programming language
 sys-devel/gcvis 0.1.0_pre20160427: Visualise Go program Garbage Collector trace data in real-time.
+sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
 www-apps/gogs 0.8.43-r1 0.9.48 0.9.97 0.9.113: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
 www-apps/hugo 0.18.1: A fast and flexible static site generator built in GoLang
