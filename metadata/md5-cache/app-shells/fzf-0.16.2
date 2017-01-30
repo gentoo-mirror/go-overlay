@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0= >=sys-devel/gcc-4.8.4[go]
+DESCRIPTION=A general-purpose command-line fuzzy finder
+EAPI=6
+HOMEPAGE=https://github.com/junegunn/fzf
+IUSE=tmux vim bash-completion zsh-completion fish-completion debug pie test
+KEYWORDS=amd64 arm x86
+LICENSE=MIT
+RDEPEND=tmux? ( app-misc/tmux )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/junegunn/fzf/archive/0.16.2.tar.gz -> fzf-0.16.2.tar.gz https://github.com/junegunn/go-isatty/archive/66b8e73.tar.gz -> github.com-junegunn-go-isatty-66b8e73.tar.gz https://github.com/junegunn/go-runewidth/archive/63c378b.tar.gz -> github.com-junegunn-go-runewidth-63c378b.tar.gz https://github.com/junegunn/go-shellwords/archive/33bd8f1.tar.gz -> github.com-junegunn-go-shellwords-33bd8f1.tar.gz https://github.com/golang/crypto/archive/854ae91.tar.gz -> github.com-golang-crypto-854ae91.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:-
+_eclasses_=bash-completion-r1	acf715fa09463f043fbfdc1640f3fb85	eutils	ea170b525f6a38a006be05c9d9429f13	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=3335c4d26bcce0af5ce5002de2000a8a
