@@ -11,7 +11,7 @@ app-crypt/keybase 1.0.18-r50: Client for keybase.io
 app-editors/lime-qml 20150428: QML frontend for Lime text editor.
 app-editors/lime-termbox 20150428: Termbox frontend for Lime text editor.
 app-editors/liteide 27.2.1: LiteIDE is a simple, open source, cross-platform Go IDE.
-app-editors/micro 1.1.3: A modern and intuitive terminal-based text editor
+app-editors/micro 1.1.3 1.1.4: A modern and intuitive terminal-based text editor
 app-editors/srclib 0.2.5: A hackable, multilange code analysis library for building better software tools
 app-emulation/cinf 0.4.0: A tool to view namespaces and cgroups, useful for low-level container prodding
 app-emulation/packer 0.10.2: Packer is a tool for creating identical machine images for multiple platforms
@@ -152,7 +152,7 @@ dev-util/pipecat 0.2: Pipecat allows you to scale any program using traditional 
 dev-util/rambler 4.0.0: A simple and language-independent SQL schema migration tool
 dev-util/ramlapi 1.1.0: Automatic API generation for Go projects
 dev-util/realize 1.2.2: A Go build system with file watchers, output streams and live reload
-dev-util/shfmt 0_pre20161029: A shell parser and formatter for POSIX shell and bash
+dev-util/shfmt 1.1.0: A shell parser and formatter for POSIX shell and bash
 dev-util/staticcheck 0.1.0_pre20170104: A Golang tool for statically checking the inputs to certain functions
 dev-util/unconvert 0.1_pre20160804: Remove unnecessary type conversions from Go source
 dev-util/wellington 1.0.3: Wellington is a CSS preprocessor with spriting and based on libsass
