@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=A modern and intuitive terminal-based text editor
+EAPI=6
+HOMEPAGE=https://micro-editor.github.io
+IUSE=debug pie test
+KEYWORDS=amd64 arm x86
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/zyedidia/micro/archive/v1.1.4.tar.gz -> micro-1.1.4.tar.gz https://github.com/blang/semver/archive/b38d23b.tar.gz -> github.com-blang-semver-b38d23b.tar.gz https://github.com/go-errors/errors/archive/8fa88b0.tar.gz -> github.com-go-errors-errors-8fa88b0.tar.gz https://github.com/layeh/gopher-luar/archive/ab3f305.tar.gz -> github.com-layeh-gopher-luar-ab3f305.tar.gz https://github.com/mattn/go-isatty/archive/dda3de4.tar.gz -> github.com-mattn-go-isatty-dda3de4.tar.gz https://github.com/mattn/go-runewidth/archive/9e777a8.tar.gz -> github.com-mattn-go-runewidth-9e777a8.tar.gz https://github.com/mitchellh/go-homedir/archive/b8bc1bf.tar.gz -> github.com-mitchellh-go-homedir-b8bc1bf.tar.gz https://github.com/sergi/go-diff/archive/24e2351.tar.gz -> github.com-sergi-go-diff-24e2351.tar.gz https://github.com/yuin/gopher-lua/archive/eed1c79.tar.gz -> github.com-yuin-gopher-lua-eed1c79.tar.gz https://github.com/zyedidia/clipboard/archive/adacf41.tar.gz -> github.com-zyedidia-clipboard-adacf41.tar.gz https://github.com/zyedidia/glob/archive/dd4023a.tar.gz -> github.com-zyedidia-glob-dd4023a.tar.gz https://github.com/zyedidia/tcell/archive/856dbb2.tar.gz -> github.com-zyedidia-tcell-856dbb2.tar.gz https://github.com/zyedidia/json5/archive/2518f8b.tar.gz -> github.com-zyedidia-json5-2518f8b.tar.gz https://github.com/gdamore/encoding/archive/b23993c.tar.gz -> github.com-gdamore-encoding-b23993c.tar.gz https://github.com/lucasb-eyer/go-colorful/archive/9c2852a.tar.gz -> github.com-lucasb-eyer-go-colorful-9c2852a.tar.gz https://github.com/golang/text/archive/85c2990.tar.gz -> github.com-golang-text-85c2990.tar.gz https://github.com/golang/net/archive/6b27048.tar.gz -> github.com-golang-net-6b27048.tar.gz
+_eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
+_eclasses_=eutils	ea170b525f6a38a006be05c9d9429f13	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	eb9be4b678c4e71f3f530a767df31912	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=465e9aba611fa2929935a79529941a1d
