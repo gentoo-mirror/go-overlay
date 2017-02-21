@@ -55,7 +55,7 @@ dev-go/benthos 0.0.2: A persistent stream buffer
 dev-go/callvis 0_pre20170107: Visualize call graph of your Go program using dot format
 dev-go/cgogen 0.1.0_pre20160923: Automatic CGo Bindings Generator for Golang
 dev-go/codecgen 0.1_pre20160928: Idiomatic codec and rpc lib for msgpack, cbor, json, etc. msgpack.org
-dev-go/dep 0_pre20170125: A Go's dependency management tool
+dev-go/dep 0_pre20170221: A Go's dependency management tool
 dev-go/depscheck 0.1.0_pre20160406: Prints stats and suggests to remove small LeftPad-like imports from Go packages
 dev-go/discover 0.1_pre20160103: Discover is a utility to aid in conceptualizing large Go code bases
 dev-go/duktape 2.0.0_pre20160305: CLI for Duktape JavaScript engine written in GoLang
@@ -179,7 +179,7 @@ net-p2p/bmd 0.1.0_pre20160605-r1 9999-r5: bmd is a collection of Bitmessage tool
 net-p2p/btcd 0.12.0-r1 9999: An alternative full node bitcoin implementation written in Go
 net-p2p/btcsim 0.1_pre20150902 9999: Implements a simulation test driver using the simnet network provided by btcd
 net-p2p/cloud-torrent 0.8.11: Cloud Torrent is a self-hosted remote torrent client, written in GoLang
-net-p2p/syncthing 0.11.26-r1 0.12.25-r10 0.13.10-r10 0.14.21-r50: Syncthing is an app that lets you synchronize your files across multiple devices
+net-p2p/syncthing 0.11.26-r1 0.12.25-r10 0.13.10-r10 0.14.23-r50: Syncthing is an app that lets you synchronize your files across multiple devices
 net-p2p/syncthing-cli 0.1.0_pre20150922-r1: SyncThing command-line interface
 net-p2p/syncthing-inotify 0.8.4: File watcher intended for use with Syncthing
 net-print/cloud-print-connector 2016.01.02-r1: Google Cloud Print CUPS Connector
@@ -194,5 +194,5 @@ www-apps/beehive 0.2: An event and agent system which allows you to perform auto
 www-apps/gogs 0.9.141: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
 www-apps/hugo 0.18.1: A fast and flexible static site generator built in GoLang
-www-servers/caddy 0.9.3 0.9.4: Fast, cross-platform HTTP/2 web server with automatic HTTPS
+www-servers/caddy 0.9.5: Fast, cross-platform HTTP/2 web server with automatic HTTPS
 x11-misc/noti 2.4.0: Display a notification when a terminal process finishes
