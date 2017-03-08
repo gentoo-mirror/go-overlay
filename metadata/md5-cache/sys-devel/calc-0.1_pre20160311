@@ -10,5 +10,5 @@ RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/alfredxing/calc/archive/1b5495984fff6ac373c06a1b8882ec32259af7c6.tar.gz -> calc-0.1_pre20160311.tar.gz https://github.com/golang/crypto/archive/d172538.tar.gz -> github.com-golang-crypto-d172538.tar.gz
 _eclass_exported_funcs=src_unpack:golang-single src_prepare:golang-single src_configure:golang-single src_compile:golang-single src_test:golang-single src_install:golang-single
-_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	0236be304ee52e7f179ed2f337075515	multiprocessing	284a473719153462f3e974d86c8cb81c	toolchain-funcs	53b75b4a49cf3e61530a523804045432	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	0236be304ee52e7f179ed2f337075515	multiprocessing	284a473719153462f3e974d86c8cb81c	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
 _md5_=a547c87df63117112ba4a256c96959b7
