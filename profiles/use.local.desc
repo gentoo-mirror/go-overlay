@@ -39,6 +39,7 @@ app-editors/liteide:gdb - Enables support for sys-devel/gdb
 app-editors/liteide:tools - Install additional tools such as dev-go/liteide-tools and dev-go/gotools
 app-emulation/runc:apparmor - Enable AppArmor support
 app-shells/fzf:fish-completion - Enable fish completion support
+app-shells/fzf:neovim - Install neovim plugin
 app-shells/fzf:tmux - Install TMUX extra tools
 app-shells/fzf:vim - Install vim plugin
 dev-go/benthos:zmq - Add support ZMQ4 input/output targets from net-libs/zeromq (PUSH, PULL, SUB, PUB)
