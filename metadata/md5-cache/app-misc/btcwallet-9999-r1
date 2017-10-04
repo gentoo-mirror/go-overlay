@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=net-p2p/btcd virtual/pkgconfig dev-lang/go:0=
+DESCRIPTION=A secure bitcoin wallet daemon written in Go
+EAPI=6
+HOMEPAGE=https://btcsuite.github.io
+IUSE=debug pie test
+LICENSE=ISC
+RDEPEND=net-p2p/btcd
+RESTRICT=mirror strip
+SLOT=0
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-live	02544fc62d1a54d22cb91c807282fb85	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	6f5991c7101863d0b29df63990ad852e	systemd	34815d3b76e745c5ca33eec9f95074c2	toolchain-funcs	185a06792159ca143528e7010368e8af	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=a036d0f05d1fd63e67c4de74bd03cb25
