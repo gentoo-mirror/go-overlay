@@ -65,11 +65,11 @@ dev-go/gcli 0.2.3-r1: Gcli builds GoLang command-line applications
 dev-go/gen 4.3 4.4_pre20160108: Type-driven code generation for GoLang
 dev-go/ginkgo 1.2.0: BDD Testing Framework for GoLang
 dev-go/glide 0.12.3: Glide is a vendor Package Management for Golang
-dev-go/go-bind-plugin 0.1.0: A tool for building Go plugins and generating wrappers around exported symbols
+dev-go/go-bind-plugin 0.2.1: A tool for building Go plugins and generating wrappers around exported symbols
 dev-go/go-bindata 3.0.7 3.0.8_pre20151023: A small utility for embedding binary data in a GoLang program.
 dev-go/go-bindata-assetfs 0.1.0_pre20151224: A small utility for embedding binary data in a GoLang program.
 dev-go/go-carpet 1.4: Shows test coverage for Go source files
-dev-go/go-fuzz 0.1_pre20160928: Go-fuzz is a coverage-guided fuzzing solution for testing of Go packages
+dev-go/go-fuzz 0.1_pre20171021: Go-fuzz is a coverage-guided fuzzing solution for testing of Go packages
 dev-go/go-md2man 1.0.6: Command-line tool to convert Markdown into UNIX man pages
 dev-go/go-protobuf 0.1_pre20160927: Go support for Google's protocol buffers
 dev-go/go-tools 0_pre20161220 0_pre20170808: Various packages and tools that support the Go programming language
@@ -130,13 +130,14 @@ dev-util/ghfs 0.1_pre20150217: Ghfs is a user space filesystem that overlays the
 dev-util/gini 0.1_pre20161014: A fast SAT solver
 dev-util/github-release 0.6.2: CLI to create and edit releases on Github
 dev-util/go-raml-mocker 1.0.4: RAML (1.0) web mock server implementation in Go
-dev-util/go-swagger 0.8.0: Swagger 2.0 implementation for GoLang
+dev-util/go-swagger 0.12.0: Swagger 2.0 implementation for GoLang
 dev-util/goconst 0.1_pre20160514: Find repeated strings that could be replaced by a constant.
 dev-util/gocyclo 0.1_pre20150627: Calculate cyclomatic complexities of functions in Go source code
 dev-util/godef 0.1_pre20160620: Godef prints where symbols are defined in Go source code
 dev-util/golex 0.1.0_pre20160422: A lex/flex like (not fully POSIX lex compatible) utility
 dev-util/golint 0.1_pre20161114: This is a linter for Go source code
 dev-util/gometalinter 1.0.3 1.0.4_pre20170105: Concurrently run Go lint tools and normalise their output
+dev-util/goreleaser 0.35.6: Deliver Go binaries as fast and easily as possible
 dev-util/gorganizer 0.3: Organize your folders into a beautiful classified folder structure
 dev-util/gotags 1.3.0 1.4.0_pre20150803: ctags-compatible tag generator for Go
 dev-util/goyacc 0.1.0_pre20160420: Goyacc is a version of yacc generating Go parsers.
