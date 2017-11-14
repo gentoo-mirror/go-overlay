@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-lang/go:0= >=sys-devel/gcc-4.8.4[go]
+DEPEND=dev-lang/go:0=
 DESCRIPTION=A general-purpose command-line fuzzy finder
 EAPI=6
 HOMEPAGE=https://github.com/junegunn/fzf
 IUSE=tmux neovim vim bash-completion zsh-completion fish-completion debug pie test
 KEYWORDS=amd64 arm x86
 LICENSE=MIT
-RDEPEND=tmux? ( app-misc/tmux )
+RDEPEND=bash-completion? ( app-shells/bash ) fish-completion? ( app-shells/fish ) tmux? ( app-misc/tmux ) vim? ( app-editors/vim ) zsh-completion? ( app-shells/zsh )
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/junegunn/fzf/archive/0.17.1.tar.gz -> fzf-0.17.1.tar.gz https://github.com/mattn/go-isatty/archive/0360b2a.tar.gz -> github.com-mattn-go-isatty-0360b2a.tar.gz https://github.com/mattn/go-runewidth/archive/9e777a8.tar.gz -> github.com-mattn-go-runewidth-9e777a8.tar.gz https://github.com/mattn/go-shellwords/archive/02e3cf0.tar.gz -> github.com-mattn-go-shellwords-02e3cf0.tar.gz https://github.com/golang/crypto/archive/9f005a0.tar.gz -> github.com-golang-crypto-9f005a0.tar.gz https://github.com/golang/sys/archive/665f652.tar.gz -> github.com-golang-sys-665f652.tar.gz
 _eclasses_=bash-completion-r1	8e447753aaf658afa609fbf961d80ab7	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	golang-common	772bff93247a4f7e075c9821a3f590b3	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	6f5991c7101863d0b29df63990ad852e	toolchain-funcs	185a06792159ca143528e7010368e8af	versionator	c80ccf29e90adea7c5cae94b42eb76d0
-_md5_=4be2cb8e2f59d0f355b8a5e4f34a271f
+_md5_=f34cb0eadf1bdbbd044bb25582f9e589
