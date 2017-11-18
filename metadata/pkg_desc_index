@@ -103,7 +103,7 @@ dev-go/rts 0.1.0_pre20160617: Generates Go structs from JSON server responses
 dev-go/safesql 0.1.0_pre20160304: Static analysis tool for GoLang that protects against SQL injections
 dev-go/simple 0.1_pre20161119: Gosimple is a linter for Go source code that specialises on simplifying code
 dev-go/staticfiles 0_pre20160903: staticfiles compiles a directory of files into an embeddable .go file
-dev-go/statik 0.1.0 0.2.0_pre20160906: statik embeds static files into a GoLang executable
+dev-go/statik 0.1.1: statik embeds static files into a GoLang executable
 dev-go/structlayout 0.1_pre20160324: An utility that prints the layout of a Go struct
 dev-go/tomlv 0.2.0: A TOML validator written in GoLang
 dev-go/unused 0.1.0_pre20161221: Check Go programs for unused identifiers
@@ -120,6 +120,7 @@ dev-python/mdx_foldouts 1.0.0: Add anchor tags and icons to all headers
 dev-util/addlicense 0_pre20160627: A program which ensures source code files have copyright license headers
 dev-util/check 0.1_pre20160515-r1: A set of utilities for checking Go sources
 dev-util/deadcode 0.1_pre20160724: Deadcode finds unused Go source code
+dev-util/diagram 1.0.2: CLI app to convert ascii arts into hand drawn diagrams.
 dev-util/direnv 2.10.0: Direnv is an environment switcher for the shell.
 dev-util/dupl 0.1_pre20161022: A tool for Go code clone detection
 dev-util/errcheck 0.1_pre20161118: Errcheck checks that you checked errors
@@ -174,6 +175,7 @@ net-misc/goduckgo 0.1.0_pre20150206: Command-line tool for DuckDuckGo API
 net-misc/gollum 0.4.4: A n:m message multiplexer written in GoLang
 net-misc/govpn 6.0: Simple secure free software VPN daemon
 net-misc/hoverfly 0.14.2: Hoverfly is a lightweight, open source service virtualization tool.
+net-misc/httplab 0.4.0: Interactive cli tool for HTTP inspection
 net-misc/httpstat 1.0.0: It's like curl -v, with colours
 net-misc/nsq 1.0.0: A real-time distributed messaging platform, written in GoLang
 net-misc/teleport 1.3.2: Modern SSH server for clusters and teams
