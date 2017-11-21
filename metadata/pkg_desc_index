@@ -119,6 +119,7 @@ dev-python/mdx_anchors_away 1.0.1: Add anchor tags and icons to all headers
 dev-python/mdx_callouts 1.0.0: Add anchor tags and icons to all headers
 dev-python/mdx_foldouts 1.0.0: Add anchor tags and icons to all headers
 dev-util/addlicense 0_pre20160627: A program which ensures source code files have copyright license headers
+dev-util/c-for-go 0.1.0_pre20171012: Automatic C-Go Bindings Generator for Go Programming Language
 dev-util/check 0.1_pre20160515-r1: A set of utilities for checking Go sources
 dev-util/deadcode 0.1_pre20160724: Deadcode finds unused Go source code
 dev-util/diagram 1.0.2: CLI app to convert ascii arts into hand drawn diagrams.
@@ -197,7 +198,7 @@ net-proxy/morty 0_pre20161029: Privacy aware web content sanitizer proxy as a se
 net-proxy/toxiproxy 2.0.0: A proxy to simulate network and system conditions
 sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
 sys-devel/calc 0.1_pre20160311: A simple, fast command-line calculator written in GoLang
-sys-devel/delve 0.11.0 0.12.0_pre20161222: Delve is a debugger for the Go programming language
+sys-devel/delve 1.0.0_rc1: Delve is a debugger for the Go programming language
 sys-devel/gcvis 0.1.0_pre20160427: Visualise Go program Garbage Collector trace data in real-time.
 sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
 www-apps/beehive 0.2: An event and agent system which allows you to perform automated tasks
