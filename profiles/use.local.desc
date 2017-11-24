@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-admin/gopass:dmenu - Add support for x11-misc/dmenu
+app-admin/gopass:fish-completion - Enable fish completion support
 app-admin/terraform:atlas - Builds the provider that interacts with resources, configuration, artifacts, and metadata managed by Atlas https://atlas.hashicorp.com
 app-admin/terraform:aws - Builds the provider that interacts with the many resources supported by Amazon Web Services https://aws.amazon.com
 app-admin/terraform:azure - Builds the provider that interacts with the many resources supported by Microsoft Azure https://azure.microsoft.com
