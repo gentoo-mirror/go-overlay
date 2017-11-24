@@ -97,6 +97,7 @@ dev-go/gvt 0.1.0_pre20161118: gvt is a simple vendoring tool made for Go native 
 dev-go/janus 1.7.4: An Api Gateway written in Go
 dev-go/kar 0.1_pre20151213: Kar is a simple utility that helps you run Kargar builds from CLI
 dev-go/liteide-tools 2015.04.09: Liteide Golang tools
+dev-go/mage 2.0.1: A Make/rake-like build tool using Go
 dev-go/mock 0.1.0_pre20160127: GoMock is a mocking framework for the Go programming language
 dev-go/prdeps 0.1_pre20160501: prdeps prints the dependency graph of a Go package
 dev-go/re2dfa 0.1.0_pre20151021: Transforms regexs into finite state machines and output Go source code
@@ -205,6 +206,6 @@ sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
 www-apps/beehive 0.2-r1 0.3_pre20171101: An event and agent system which allows you to perform automated tasks
 www-apps/gogs 0.9.141: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
-www-apps/hugo 0.18.1 0.20 0.30.2: A fast and flexible static site generator built in GoLang
+www-apps/hugo 0.31: A fast and flexible static site generator built in GoLang
 www-servers/caddy 0.9.5: Fast, cross-platform HTTP/2 web server with automatic HTTPS
 x11-misc/noti 2.4.0: Display a notification when a terminal process finishes
