@@ -18,6 +18,7 @@ app-admin/terraform:dnsimple - Builds the provider that interacts with the resou
 app-admin/terraform:docker - Builds the provider that interacts with Docker app-emulation/docker containers and images, by using Docker API
 app-admin/terraform:dyn - Builds the provider that interacts with the resources supported by Dyn http://dyn.com
 app-admin/terraform:file - Builds the provisioner that copies files or directories from the machine executing Terraform to the newly created resource
+app-admin/terraform:fish-completion - Enable fish completion support
 app-admin/terraform:google - Builds the provider that interacts with Google Cloud services https://cloud.google.com
 app-admin/terraform:heroku - Builds the provider that interacts with the resources supported by Heroku https://www.heroku.com
 app-admin/terraform:librato - Builds the provider that interacts with the resources supported by Librato Spaces https://www.librato.com
