@@ -1,6 +1,6 @@
 app-admin/chaosmonkey 2.0.2: A resiliency tool that helps applications tolerate random instance failures
 app-admin/doctl 1.4.0: A command line tool for DigitalOcean services
-app-admin/gopass 1.6.1: The slightly more awesome standard unix password manager for teams
+app-admin/gopass 1.6.2: The slightly more awesome standard unix password manager for teams
 app-admin/juju 2.1_beta3: juju is devops distilled
 app-admin/pony 0.1.0_pre20170123: Local File-Based Password, API Key, Secret, Recovery Code Store Backed vy GPG
 app-admin/restic 0.2.0: Restic is a program that does backups
@@ -44,7 +44,7 @@ dev-db/eliasdb 0.8.0_pre20160921: EliasDB is a graph based database
 dev-db/influxdb 1.0.0: Scalable datastore for metrics, events, and real-time analytics
 dev-db/pgfutter 1.0: Command-line tool to import CSV and JSON into PostgreSQL
 dev-db/pgrebase 1.1.2: PGRebase handles your postgres codebase for functions, triggers and views
-dev-db/pgweb 0.9.4: Cross-platform client for PostgreSQL databases
+dev-db/pgweb 0.9.10: Cross-platform client for PostgreSQL databases
 dev-db/telegraf 1.0.0: A plugin-driven server agent for reporting metrics into InfluxDB
 dev-db/tidb 0.1.0_pre20161109: TiDB is a distributed SQL database compatible with MySQL protocol
 dev-db/tiedot 3.2-r2 3.3: Tiedot is a document-oriented NoSQL database written in GoLang
@@ -208,6 +208,6 @@ sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
 www-apps/beehive 0.2-r1 0.3_pre20171101: An event and agent system which allows you to perform automated tasks
 www-apps/gogs 0.9.141: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
-www-apps/hugo 0.31: A fast and flexible static site generator built in GoLang
+www-apps/hugo 0.31.1: A fast and flexible static site generator built in GoLang
 www-servers/caddy 0.9.5: Fast, cross-platform HTTP/2 web server with automatic HTTPS
 x11-misc/noti 2.4.0: Display a notification when a terminal process finishes
