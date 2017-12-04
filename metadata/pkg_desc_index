@@ -54,7 +54,6 @@ dev-go/asmfmt 1.1: Go assembler formatter
 dev-go/bee 1.5.2: Bee is a tool for helping develop with beego app framework
 dev-go/benthos 0.0.2: A persistent stream buffer
 dev-go/callvis 0_pre20170107: Visualize call graph of your Go program using dot format
-dev-go/cgogen 0.1.0_pre20160923: Automatic CGo Bindings Generator for Golang
 dev-go/codecgen 0.1_pre20160928: Idiomatic codec and rpc lib for msgpack, cbor, json, etc. msgpack.org
 dev-go/dep 0_pre20170221 0.1.0 0.1.0-r1 0.3.2: A Go's dependency management tool
 dev-go/depscheck 0.1.0_pre20160406: Prints stats and suggests to remove small LeftPad-like imports from Go packages
@@ -81,7 +80,10 @@ dev-go/godep 79: dependency tool for go
 dev-go/gogo-protobuf 0.1-r1 0.2-r1 0.3: Protocol Buffers for Go with Gadgets
 dev-go/gom 20160119: A visual interface to work with runtime profiling data for Go
 dev-go/gompatible 0.1.0_pre20160127: A tool to show Go package's API changes between two (git) revisions
-dev-go/gopherjs 0_pre20160930: GopherJS compils GoLang code to pure JavaScript code
+dev-go/gonum-floats 9999: Provides a set of helper routines for dealing with slices of float64
+dev-go/gonum-internal 9999: This is the set of internal packages for the Gonum project.
+dev-go/gonum-stat 9999: A statistics package for the Go language
+dev-go/gopherjs 0_pre20171102: GopherJS compils GoLang code to pure JavaScript code
 dev-go/gopm 0.7.2 0.8_pre20160708: Gopm is a package manager and build tool for Go
 dev-go/gops 0.3.1: A tool to list and diagnose Go processes currently running on your system
 dev-go/gore 0.2.5 0.2.6: A REPL for Golang
