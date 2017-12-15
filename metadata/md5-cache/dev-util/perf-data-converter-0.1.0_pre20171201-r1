@@ -6,8 +6,8 @@ HOMEPAGE=https://github.com/google/perf_data_converter
 IUSE=debug test libressl
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=dev-libs/elfutils dev-libs/protobuf:0/14 !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
+RDEPEND=dev-libs/elfutils dev-libs/protobuf:0= !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/google/perf_data_converter/archive/b86dd5276ecdba751d56be4f1bafca7065b78ea4.tar.gz -> perf-data-converter-0.1.0_pre20171201.tar.gz
-_md5_=b4d9cb1ec45c959e0ec59b17859e26ae
+_md5_=f307a5ceaf2f2877b85d31856a3ee591
