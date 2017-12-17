@@ -38,8 +38,6 @@ app-admin/terraform:tls - Builds the provider that provides utilities for workin
 app-admin/terraform:vcd - Builds the provider that is used to interact with the resources supported by VMware vCloud Director http://www.vmware.com/products/vcloud-director/
 app-admin/terraform:vsphere - Builds the provider that interacts with the resources supported by VMware vSphere http://www.vmware.com/products/vsphere
 app-admin/trousseau:fish-completion - Enable fish completion support.
-app-editors/liteide:gdb - Enables support for sys-devel/gdb
-app-editors/liteide:tools - Install additional tools such as dev-go/liteide-tools and dev-go/gotools
 app-emulation/runc:apparmor - Enable AppArmor support
 app-shells/fzf:bash-completion - Enable bash completion support
 app-shells/fzf:fish-completion - Enable fish completion support
@@ -50,13 +48,9 @@ app-shells/fzf:zsh-completion - Enable zsh completion support
 dev-go/benthos:zmq - Add support ZMQ4 input/output targets from net-libs/zeromq (PUSH, PULL, SUB, PUB)
 dev-vcs/gitql:ssh - Enable SSH transport support
 dev-vcs/gitql:trace - Enable tracing support
-dev-vcs/grv:ssh - Enable SSH transport support
 dev-vcs/gtm:ssh - Enable SSH transport support
 net-misc/hoverfly:cli - Build command-line tool hoverctl
 net-misc/teleport:dynamodb - Build teleport with Amazon DynamoDB as backend
 net-p2p/syncthing:cli - Install the official Syncthing Command-Line Interface
 net-proxy/toxiproxy:cli - Build command-line client
-www-apps/gogs:memcached - Compiles in for storing cache in memory via net-misc/memcached
-www-apps/gogs:redis - Compiles in support for storing cache in a redis DB via dev-db/redis
-www-apps/gogs:tidb - Compiles in support for dev-db/tidb backend
 www-apps/hugo:pygments - Enables syntax highlighting via dev-python/pygments
