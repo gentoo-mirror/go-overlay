@@ -3,11 +3,11 @@ DEPEND=dev-cpp/gmock
 DESCRIPTION=Convert Linux perf files to the profile.proto format used by pprof
 EAPI=6
 HOMEPAGE=https://github.com/google/perf_data_converter
-IUSE=debug test libressl
+IUSE=debug test libressl elibc_uclibc
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=dev-libs/elfutils dev-libs/protobuf:0= !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
+RDEPEND=dev-libs/protobuf:0= !elibc_uclibc? ( dev-libs/elfutils ) !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/google/perf_data_converter/archive/b86dd5276ecdba751d56be4f1bafca7065b78ea4.tar.gz -> perf-data-converter-0.1.0_pre20171201.tar.gz
-_md5_=f307a5ceaf2f2877b85d31856a3ee591
+_md5_=68a4dc73e523e9a22260674c37bd06f4
