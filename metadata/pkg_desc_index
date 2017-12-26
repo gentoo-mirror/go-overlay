@@ -1,6 +1,8 @@
 app-admin/chaosmonkey 2.0.2: A resiliency tool that helps applications tolerate random instance failures
 app-admin/doctl 1.4.0: A command line tool for DigitalOcean services
-app-admin/gopass 1.6.4: The slightly more awesome standard unix password manager for teams
+app-admin/gopass 1.6.6: The slightly more awesome standard unix password manager for teams
+app-admin/juju 2.1_beta3: juju is devops distilled
+app-admin/pony 0.1.0_pre20170123: Local File-Based Password, API Key, Secret, Recovery Code Store Backed vy GPG
 app-admin/scaleway-cli 1.14: Official command line tool to interact with Scaleway API
 app-admin/terraform 0.6.16 0.11.0: Terraform builds, changes, and combines infrastructure safely and efficiently
 app-admin/trousseau 0.4.0: A networked and encrypted key-value database.
@@ -51,7 +53,11 @@ dev-go/go-bind-plugin 0.2.1: A tool for building Go plugins and generating wrapp
 dev-go/go-bindata 3.2.0: A small utility for embedding binary data in a GoLang program.
 dev-go/go-carpet 1.4: Shows test coverage for Go source files
 dev-go/go-md2man 1.0.7: Command-line tool to convert Markdown into UNIX man pages
-dev-go/go-tools 0_pre20170808: Various packages and tools that support the Go programming language
+dev-go/go-protobuf 0.1_pre20160927: Go support for Google's protocol buffers
+dev-go/go-tools 0_pre20171019: Various packages and tools that support the Go programming language
+dev-go/go-torch 0.1_pre20170718: Stochastic flame graph profiler for Go Programs
+dev-go/goa 0.0.1_pre20160218: Goa is a framework for building RESTful microservices in Go
+dev-go/gocode 2015.03.03: An autocompletion daemon for the Go programming language
 dev-go/godep 79: dependency tool for go
 dev-go/gopm 0.7.2: Gopm is a package manager and build tool for Go
 dev-go/gops 0.3.1: A tool to list and diagnose Go processes currently running on your system
