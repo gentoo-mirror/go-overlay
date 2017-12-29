@@ -36,6 +36,7 @@ dev-db/pgfutter 1.0: Command-line tool to import CSV and JSON into PostgreSQL
 dev-db/pgrebase 1.1.2: PGRebase handles your postgres codebase for functions, triggers and views
 dev-db/pgweb 0.9.10: Cross-platform client for PostgreSQL databases
 dev-db/telegraf 1.0.0: A plugin-driven server agent for reporting metrics into InfluxDB
+dev-db/tidb 1.0.5: TiDB is a distributed SQL database compatible with MySQL protocol
 dev-db/tiedot 3.2-r2 3.3: Tiedot is a document-oriented NoSQL database written in GoLang
 dev-go/apimock 0.1_pre20160828: A mock API server
 dev-go/asmfmt 1.1: Go assembler formatter
@@ -148,7 +149,8 @@ net-proxy/toxiproxy 2.0.0: A proxy to simulate network and system conditions
 sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
 sys-cluster/kubeless 0.3.1: Kubernetes Native Serverless Framework
 sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
-www-apps/beehive 0.2-r1: An event and agent system which allows you to perform automated tasks
+www-apps/beehive 0.2-r1 0.3_pre20171101: An event and agent system which allows you to perform automated tasks
+www-apps/gogs 0.9.141 0.11.34: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
 www-apps/hugo 0.31.1: A fast and flexible static site generator built in GoLang
 www-servers/caddy 0.9.5: Fast, cross-platform HTTP/2 web server with automatic HTTPS
