@@ -47,7 +47,6 @@ app-shells/fzf:vim - Install vim plugin
 app-shells/fzf:zsh-completion - Enable zsh completion support
 dev-go/benthos:zmq - Add support ZMQ4 input/output targets from net-libs/zeromq (PUSH, PULL, SUB, PUB)
 dev-vcs/gitql:ssh - Enable SSH transport support
-dev-vcs/gitql:trace - Enable tracing support
 dev-vcs/gtm:ssh - Enable SSH transport support
 net-misc/hoverfly:cli - Build command-line tool hoverctl
 net-misc/teleport:dynamodb - Build teleport with Amazon DynamoDB as backend
