@@ -143,7 +143,7 @@ net-misc/wuzz 0.4.0: Interactive cli tool for HTTP inspection
 net-p2p/btcd 0.12.0-r1: An alternative full node bitcoin implementation written in Go
 net-p2p/btcsim 0.1_pre20150902: Implements a simulation test driver using the simnet network provided by btcd
 net-p2p/cloud-torrent 0.8.11: Cloud Torrent is a self-hosted remote torrent client, written in GoLang
-net-p2p/syncthing 0.14.41-r50 0.14.42-r50: Syncthing is an app that lets you synchronize your files across multiple devices
+net-p2p/syncthing 0.14.43-r50: Syncthing is an app that lets you synchronize your files across multiple devices
 net-p2p/syncthing-inotify 0.8.7-r1: File watcher intended for use with Syncthing
 net-proxy/toxiproxy 2.0.0: A proxy to simulate network and system conditions
 sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
