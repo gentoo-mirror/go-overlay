@@ -58,14 +58,7 @@ dev-go/go-carpet 1.4: Shows test coverage for Go source files
 dev-go/go-md2man 1.0.7: Command-line tool to convert Markdown into UNIX man pages
 dev-go/go-tools 0_pre20171019: Various packages and tools that support the Go programming language
 dev-go/godep 79: dependency tool for go
-dev-go/gogo-protobuf 0.1-r1 0.2-r1 0.3: Protocol Buffers for Go with Gadgets
-dev-go/gom 20160119: A visual interface to work with runtime profiling data for Go
-dev-go/gompatible 0.1.0_pre20160127: A tool to show Go package's API changes between two (git) revisions
-dev-go/gonum-floats 9999: Provides a set of helper routines for dealing with slices of float64
-dev-go/gonum-internal 9999: This is the set of internal packages for the Gonum project.
-dev-go/gonum-stat 9999: A statistics package for the Go language
-dev-go/gopherjs 0_pre20171102 0_pre20180204: GopherJS compils GoLang code to pure JavaScript code
-dev-go/gopm 0.7.2 0.8_pre20160708: Gopm is a package manager and build tool for Go
+dev-go/gopm 0.7.2: Gopm is a package manager and build tool for Go
 dev-go/gops 0.3.1: A tool to list and diagnose Go processes currently running on your system
 dev-go/gore 0.2.5 0.2.6: A REPL for Golang
 dev-go/gotests 1.5.2: It's a Golang commandline tool that generates table driven tests
@@ -157,7 +150,7 @@ net-p2p/syncthing 0.14.43-r50: Syncthing is an app that lets you synchronize you
 net-p2p/syncthing-inotify 0.8.7-r1: File watcher intended for use with Syncthing
 net-proxy/toxiproxy 2.0.0: A proxy to simulate network and system conditions
 sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
-sys-cluster/kubeless 0.3.1: Kubernetes Native Serverless Framework
+sys-cluster/kubeless 0.3.4: Kubernetes Native Serverless Framework
 sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
 www-apps/beehive 0.2-r1: An event and agent system which allows you to perform automated tasks
 www-apps/gogs 0.11.34: Gogs is a self-hosted Git service written in Go
