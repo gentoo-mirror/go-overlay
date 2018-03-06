@@ -1,8 +1,6 @@
 app-admin/chaosmonkey 2.0.2: A resiliency tool that helps applications tolerate random instance failures
 app-admin/doctl 1.4.0: A command line tool for DigitalOcean services
 app-admin/gopass 1.6.11: The slightly more awesome standard unix password manager for teams
-app-admin/juju 2.1_beta3: juju is devops distilled
-app-admin/pony 0.1.0_pre20170123: Local File-Based Password, API Key, Secret, Recovery Code Store Backed vy GPG
 app-admin/scaleway-cli 1.14: Official command line tool to interact with Scaleway API
 app-admin/terraform 0.6.16 0.11.0: Terraform builds, changes, and combines infrastructure safely and efficiently
 app-admin/trousseau 0.4.0: A networked and encrypted key-value database.
@@ -81,7 +79,6 @@ dev-go/tomlv 0.2.0: A TOML validator written in GoLang
 dev-go/wago 1.0 1.2.0: Wago automates the actions you do after saving code.
 dev-go/walter 1.4.0: Walter is a tiny deployment pipeline
 dev-go/xj2s 20151106: A small tool for Golang to generate Golang strunc from xml/json file
-dev-go/xo 0.1_pre20170823: A cli tool to generate Golang types and funcs based on a database schema
 dev-go/zebrapack 2.0.4: ZebraPack is a data definition language and serialization format
 dev-go/zygomys 4.8.3: A 100% Golang, easy-to-use Lisp
 dev-python/markdown-include 0.5.1: Add anchor tags and icons to all headers
