@@ -154,13 +154,14 @@ net-p2p/cloud-torrent 0.8.11: Cloud Torrent is a self-hosted remote torrent clie
 net-p2p/syncthing 0.14.43-r50 0.14.44-r50: Syncthing is an app that lets you synchronize your files across multiple devices
 net-p2p/syncthing-inotify 0.8.7-r1: File watcher intended for use with Syncthing
 net-proxy/toxiproxy 2.0.0: A proxy to simulate network and system conditions
+sci-misc/gobot 1.9.0: Go framework for robotics, drones, and the Internet of Things (IoT)
 sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
 sys-cluster/kubeless 0.3.4 0.4.0: Kubernetes Native Serverless Framework
 sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
 www-apps/beehive 0.2-r1: An event and agent system which allows you to perform automated tasks
 www-apps/gogs 0.11.34: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
-www-apps/hugo 0.34 0.35 0.37: A fast and flexible static site generator built in GoLang
+www-apps/hugo 0.37.1: A fast and flexible static site generator built in GoLang
 www-servers/caddy 0.9.5: Fast, cross-platform HTTP/2 web server with automatic HTTPS
 x11-misc/cowyo 2.10.0: A feature-rich wiki webserver for minimalists
 x11-misc/noti 3.0.0: Display a notification when a terminal process finishes
