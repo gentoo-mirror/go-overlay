@@ -10,7 +10,7 @@ app-crypt/keybase 1.0.18-r50: Client for keybase.io
 app-editors/micro 1.4.0: A modern and intuitive terminal-based text editor
 app-editors/srclib 0.2.5: A hackable, multilange code analysis library for building better software tools
 app-emulation/cinf 0.4.0: A tool to view namespaces and cgroups, useful for low-level container prodding
-app-emulation/packer 0.10.2: Packer is a tool for creating identical machine images for multiple platforms
+app-emulation/packer 1.2.2: Packer is a tool for creating identical machine images for multiple platforms
 app-emulation/runc 0.1.1-r51 1.0.0_rc2-r50: A CLI tool for spawning and running containers according to the OCF specs
 app-forensics/onionscan 0.2: a free and open source tool for investigating the Dark Web
 app-misc/asciinema 1.2.0: A terminal session recorder for asciinema.org service
