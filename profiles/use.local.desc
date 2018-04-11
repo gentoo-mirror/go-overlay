@@ -51,7 +51,6 @@ dev-vcs/grv:ssh - Enable SSH transport support
 dev-vcs/gtm:ssh - Enable SSH transport support
 net-misc/hoverfly:cli - Build command-line tool hoverctl
 net-misc/teleport:dynamodb - Build teleport with Amazon DynamoDB as backend
-net-p2p/syncthing:cli - Install the official Syncthing Command-Line Interface
 net-proxy/toxiproxy:cli - Build command-line client
 www-apps/gogs:memcached - Compiles in for storing cache in memory via net-misc/memcached
 www-apps/gogs:redis - Compiles in support for storing cache in a redis DB via dev-db/redis
