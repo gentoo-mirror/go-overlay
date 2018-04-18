@@ -160,7 +160,7 @@ sci-misc/gobot 1.9.0: Go framework for robotics, drones, and the Internet of Thi
 sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
 sys-cluster/kubeless 0.3.4 0.4.0: Kubernetes Native Serverless Framework
 sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
-www-apps/beehive 0.2-r2 0.3_pre20171101: An event and agent system which allows you to perform automated tasks
+www-apps/beehive 0.2-r2: An event and agent system which allows you to perform automated tasks
 www-apps/gogs 0.11.43: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
 www-apps/hugo 0.38.2 0.39: A fast and flexible static site generator built in GoLang
