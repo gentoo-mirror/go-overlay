@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install prepare
-DEPEND=dev-cpp/gmock
+DEPEND=dev-cpp/gtest
 DESCRIPTION=Convert Linux perf files to the profile.proto format used by pprof
 EAPI=6
 HOMEPAGE=https://github.com/google/perf_data_converter
@@ -10,4 +10,4 @@ RDEPEND=dev-libs/protobuf:0= !elibc_uclibc? ( dev-libs/elfutils ) !libressl? ( d
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/google/perf_data_converter/archive/b86dd5276ecdba751d56be4f1bafca7065b78ea4.tar.gz -> perf-data-converter-0.1.0_pre20171201.tar.gz
-_md5_=68a4dc73e523e9a22260674c37bd06f4
+_md5_=ca151302d7ec69c42329eb79afe2baae
