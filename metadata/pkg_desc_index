@@ -1,6 +1,6 @@
 app-admin/chaosmonkey 2.0.2: A resiliency tool that helps applications tolerate random instance failures
 app-admin/doctl 1.4.0: A command line tool for DigitalOcean services
-app-admin/gopass 1.8.1: The slightly more awesome standard unix password manager for teams
+app-admin/gopass 1.8.1 1.8.2: The slightly more awesome standard unix password manager for teams
 app-admin/scaleway-cli 1.14: Official command line tool to interact with Scaleway API
 app-admin/terraform 0.6.16 0.11.0: Terraform builds, changes, and combines infrastructure safely and efficiently
 app-admin/trousseau 0.4.0: A networked and encrypted key-value database.
@@ -155,7 +155,7 @@ net-p2p/btcd 0.12.0-r1: An alternative full node bitcoin implementation written 
 net-p2p/btcsim 0.1_pre20150902: Implements a simulation test driver using the simnet network provided by btcd
 net-p2p/cloud-torrent 0.8.11: Cloud Torrent is a self-hosted remote torrent client, written in GoLang
 net-p2p/syncthing-inotify 0.8.7-r1: File watcher intended for use with Syncthing
-net-proxy/toxiproxy 2.0.0: A proxy to simulate network and system conditions
+net-proxy/toxiproxy 2.1.3: A proxy to simulate network and system conditions
 sci-misc/gobot 1.9.0: Go framework for robotics, drones, and the Internet of Things (IoT)
 sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
 sys-cluster/kubeless 0.3.4 0.4.0: Kubernetes Native Serverless Framework
