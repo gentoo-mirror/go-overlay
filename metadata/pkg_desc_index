@@ -6,7 +6,6 @@ app-admin/terraform 0.6.16 0.11.0: Terraform builds, changes, and combines infra
 app-admin/trousseau 0.4.0: A networked and encrypted key-value database.
 app-admin/unik 0.1.0_pre20180130: The Unikernel Compilation and Deployment Platform
 app-benchmarks/vegeta 6.1.1: HTTP load testing tool and library written in GoLang.
-app-crypt/acme-dns 0.4: Limited DNS server with RESTful HTTP API to handle ACME DNS challenges
 app-crypt/certspotter 0.9: Certificate Transparency Log Monitor
 app-crypt/keybase 1.0.18-r50: Client for keybase.io
 app-doc/static 0.0.1: The static site anti-framework
@@ -67,11 +66,8 @@ dev-go/go-md2man 1.0.8: Command-line tool to convert Markdown into UNIX man page
 dev-go/go-tools 0_pre20171019: Various packages and tools that support the Go programming language
 dev-go/gocode 2017.09.07: An autocompletion daemon for the Go programming language
 dev-go/godep 79: dependency tool for go
-dev-go/gogo-protobuf 1.1.1: Protocol Buffers for Go with Gadgets
-dev-go/gom 20160119: A visual interface to work with runtime profiling data for Go
-dev-go/gompatible 0.1.0_pre20160127: A tool to show Go package's API changes between two (git) revisions
 dev-go/gopherjs 0_pre20181103: GopherJS compiles GoLang code to pure JavaScript code
-dev-go/gopm 0.7.2 0.8_pre20160708: Gopm is a package manager and build tool for Go
+dev-go/gopm 0.7.2: Gopm is a package manager and build tool for Go
 dev-go/gops 0.3.2: A tool to list and diagnose Go processes currently running on your system
 dev-go/gore 0.2.5 0.2.6: A REPL for Golang
 dev-go/gotests 1.5.2: It's a Golang commandline tool that generates table driven tests
@@ -122,7 +118,6 @@ dev-util/ineffassign 0.1_pre20171030: Detects ineffectual assignments in Go code
 dev-util/interfacer 0.0.1_pre20170908: A linter for GoLang that suggests interface types
 dev-util/lll 0.1_pre20160702: Line length linter, used to enforce line length in files.
 dev-util/maligned 0.1_pre20160825: Detects Go structs that would take less memory if their fields were sorted
-dev-util/mdfmt 0.1_pre20160209: Like gofmt, but for Markdown with front matter.
 dev-util/minify 2.3.8: Go minifiers for web formats.
 dev-util/misspell 0.3.0: Correct commonly misspelled words in source files
 dev-util/nakedret 0.1_pre20171108: a Go static analysis tool to find naked returns in functions
