@@ -55,4 +55,3 @@ net-proxy/toxiproxy:cli - Build command-line client
 www-apps/gogs:memcached - Compiles in for storing cache in memory via net-misc/memcached
 www-apps/gogs:redis - Compiles in support for storing cache in a redis DB via dev-db/redis
 www-apps/gogs:tidb - Compiles in support for dev-db/tidb backend
-www-apps/hugo:pygments - Enables syntax highlighting via dev-python/pygments

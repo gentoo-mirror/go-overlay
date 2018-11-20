@@ -74,7 +74,6 @@ dev-go/gotests 1.5.2: It's a Golang commandline tool that generates table driven
 dev-go/govvv 0.2.0: "go build" wrapper to add version info to Golang applications
 dev-go/goxc 0.18.1-r1: Goxc is a build tool for GoLange, with a focus on cross-compiling and packaging
 dev-go/janus 1.7.4: An Api Gateway written in Go
-dev-go/mage 2.0.1: A Make/rake-like build tool using Go
 dev-go/packr 1.9.0: The simple and easy way to embed static files into Go binaries
 dev-go/revel-cli 0.12.0-r1: Command-line tool for Revel framework
 dev-go/safesql 0.1.0_pre20160304: Static analysis tool for GoLang that protects against SQL injections
@@ -99,7 +98,7 @@ dev-util/direnv 2.10.0 2.17.0: Direnv is an environment switcher for the shell.
 dev-util/dupl 0.1_pre20171130: A tool for Go code clone detection
 dev-util/errcheck 0.1_pre20161118 0.1_pre20170918: Errcheck checks that you checked errors
 dev-util/flint 0.0.4: Check your project for common sources of contributor friction
-dev-util/forego 0.16.1-r1: Foreman written in GoLang
+dev-util/forego 20180216151118: Foreman written in GoLang
 dev-util/gas 0.1_pre20171004: Inspects golang source code for security problems
 dev-util/github-release 0.6.2: CLI to create and edit releases on Github
 dev-util/go-raml-mocker 1.0.4: RAML (1.0) web mock server implementation in Go
@@ -165,7 +164,6 @@ sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
 www-apps/beehive 0.2-r2: An event and agent system which allows you to perform automated tasks
 www-apps/gogs 0.11.43: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
-www-apps/hugo 0.39 0.40.3: A fast and flexible static site generator built in GoLang
 www-servers/caddy 0.9.5: Fast, cross-platform HTTP/2 web server with automatic HTTPS
 x11-misc/cowyo 2.10.0: A feature-rich wiki webserver for minimalists
 x11-misc/noti 3.0.0 3.1.0: Display a notification when a terminal process finishes
