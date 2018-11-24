@@ -160,6 +160,7 @@ sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
 sys-apps/up 0.3.1: Ultimate Plumber is a tool for writing Linux pipes with instant live preview
 sys-cluster/kubeless 0.3.4 0.4.0: Kubernetes Native Serverless Framework
 sys-fs/gocryptfs 1.2: Encrypted overlay filesystem written in Go
+sys-fs/tmsu 0.7.4: github.com/oniony/TMSU/releases
 www-apps/beehive 0.2-r2: An event and agent system which allows you to perform automated tasks
 www-apps/gogs 0.11.43: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
