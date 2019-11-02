@@ -211,7 +211,7 @@ net-p2p/syncthing 0.14.52: Syncthing is an app that lets you synchronize your fi
 net-print/cloud-print-connector 2016.01.02-r1: Google Cloud Print CUPS Connector
 net-proxy/morty 0_pre20161029: Privacy aware web content sanitizer proxy as a service
 net-proxy/toxiproxy 2.1.3: A proxy to simulate network and system conditions
-net-proxy/traefik 1.7.18: A modern HTTP reverse proxy and load balancer made to deploy microservices
+net-proxy/traefik 1.7.18 1.7.19: A modern HTTP reverse proxy and load balancer made to deploy microservices
 sci-misc/gobot 1.9.0: Go framework for robotics, drones, and the Internet of Things (IoT)
 sys-apps/sift 0.8.0: A fast and powerful open source alternative to grep
 sys-apps/up 0.3.1: Ultimate Plumber is a tool for writing Linux pipes with instant live preview

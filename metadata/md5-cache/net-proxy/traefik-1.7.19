@@ -1,0 +1,13 @@
+BDEPEND=>=dev-lang/go-1.10 virtual/pkgconfig
+DEFINED_PHASES=compile install postinst pretend setup test unpack
+DESCRIPTION=A modern HTTP reverse proxy and load balancer made to deploy microservices
+EAPI=7
+HOMEPAGE=https://traefik.io
+IUSE=debug examples pie
+KEYWORDS=~amd64
+LICENSE=MIT
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/containous/traefik/releases/download/v1.7.19/traefik-v1.7.19.src.tar.gz -> traefik-1.7.19.tar.gz https://github.com/containous/go-bindata/archive/e237f24c9fab.tar.gz -> github.com-containous-go-bindata-e237f24c9fab.tar.gz
+_eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	golang-vcs-snapshot	12177e83bede6f7fb87eae383864b40b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	user	00484e1be1aac73e24fca1c99557a7d6
+_md5_=40f0f625f3cf7ee81512552f4b19ac42
