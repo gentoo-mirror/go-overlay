@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Remove unnecessary type conversions from Go source
+EAPI=7
+HOMEPAGE=https://github.com/mdempsky/unconvert
+IUSE=debug pie test
+KEYWORDS=amd64 arm x86
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/mdempsky/unconvert/archive/95ecdbfc0b5f3e65790c43c77874ee5357ad8a8f.tar.gz -> unconvert-0.1_pre20200301.tar.gz https://github.com/golang/tools/archive/23e62d3.tar.gz -> github.com-golang-tools-23e62d3.tar.gz https://github.com/golang/text/archive/342b2e1.tar.gz -> github.com-golang-text-342b2e1.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=65713a9096930b97d5b27b77ea51d793

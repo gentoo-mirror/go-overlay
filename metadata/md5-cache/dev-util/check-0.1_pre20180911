@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=A set of utilities for checking Go sources
+EAPI=7
+HOMEPAGE=https://github.com/opennota/check
+IUSE=debug pie
+KEYWORDS=amd64 arm x86
+LICENSE=GPL-3
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/opennota/check/archive/0c771f5545ff495a81aad2916c3f16add0cd3b55.tar.gz -> check-0.1_pre20180911.tar.gz https://github.com/kisielk/gotool/archive/8051706.tar.gz -> github.com-kisielk-gotool-8051706.tar.gz https://github.com/golang/tools/archive/23e62d3.tar.gz -> github.com-golang-tools-23e62d3.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=9ffa032c1b68ec336d79bd0a02598852

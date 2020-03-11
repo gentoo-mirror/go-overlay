@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=This is a linter for Go source code
+EAPI=7
+HOMEPAGE=https://github.com/golang/golint
+IUSE=debug pie test
+KEYWORDS=amd64 arm x86
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/golang/lint/archive/738671d3881b9731cc63024d5d88cf28db875626.tar.gz -> golint-0.1_pre20200301.tar.gz https://github.com/golang/tools/archive/23e62d3.tar.gz -> github.com-golang-tools-23e62d3.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=e5e8daabf0dc4a74cb0e3cd88efa977b

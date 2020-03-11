@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=a Go static analysis tool to find naked returns in functions
+EAPI=7
+HOMEPAGE=https://mvdan.cc/unparam
+IUSE=debug pie test
+KEYWORDS=amd64 arm x86
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/mvdan/unparam/archive/960b1ec0f2c2b042f333e5bfa9516883c0c597f1.tar.gz -> unparam-0.1_pre20191111.tar.gz https://github.com/golang/tools/archive/23e62d3.tar.gz -> github.com-golang-tools-23e62d3.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=9219fb0553a9e52ac8501685cc664b3a

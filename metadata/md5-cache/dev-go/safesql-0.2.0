@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Static analysis tool for GoLang that protects against SQL injections
+EAPI=7
+HOMEPAGE=https://github.com/stripe/safesql
+IUSE=debug pie
+KEYWORDS=amd64 arm x86
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/stripe/safesql/archive/8c0f8039deab5c83c73c30e2ac85121e1a3cefa5.tar.gz -> safesql-0.2.0.tar.gz https://github.com/golang/tools/archive/23e62d3.tar.gz -> github.com-golang-tools-23e62d3.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=8cbc1bf30cabb7b64ea5f16d88814bb1

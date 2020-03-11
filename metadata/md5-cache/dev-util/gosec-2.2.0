@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Inspects golang source code for security problems
+EAPI=7
+HOMEPAGE=https://github.com/securego/gosec
+IUSE=debug pie
+KEYWORDS=amd64 arm x86
+LICENSE=Apache-2.0
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/securego/gosec/archive/v2.2.0.tar.gz -> gosec-2.2.0.tar.gz https://github.com/nbutton23/zxcvbn-go/archive/ae427f1.tar.gz -> github.com-nbutton23-zxcvbn-go-ae427f1.tar.gz https://github.com/golang/tools/archive/23e62d3.tar.gz -> github.com-golang-tools-23e62d3.tar.gz https://github.com/go-yaml/yaml/archive/53403b5.tar.gz -> github.com-go-yaml-yaml-53403b5.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=d6198f060471d10cb0e680a78c46905d

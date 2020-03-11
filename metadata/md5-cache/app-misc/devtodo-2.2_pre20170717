@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=DevTodo is a small command line application for maintaining lists of tasks.
+EAPI=7
+HOMEPAGE=http://swapoff.org/devtodo.html
+IUSE=debug pie test
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/alecthomas/devtodo2/archive/b9a81cf5fd8363e72e5af2b6b2bb868c4880a084.tar.gz -> devtodo-2.2_pre20170717.tar.gz https://github.com/droundy/goopt/archive/0b8effe.tar.gz -> github.com-droundy-goopt-0b8effe.tar.gz https://github.com/alecthomas/kingpin/archive/947dcec.tar.gz -> github.com-alecthomas-kingpin-947dcec.tar.gz https://github.com/alecthomas/template/archive/fb15b89.tar.gz -> github.com-alecthomas-template-fb15b89.tar.gz https://github.com/alecthomas/units/archive/f65c72e.tar.gz -> github.com-alecthomas-units-f65c72e.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=76b01bdf3e34b54091081f097f293fcd
