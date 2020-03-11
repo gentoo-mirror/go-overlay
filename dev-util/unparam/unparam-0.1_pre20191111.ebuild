@@ -1,15 +1,16 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Go Overlay Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 GOLANG_PKG_IMPORTPATH="mvdan.cc"
-GOLANG_PKG_VERSION="d7e7372184a059b8fd99d96a593e3811bf989d75"
+GOLANG_PKG_VERSION="960b1ec0f2c2b042f333e5bfa9516883c0c597f1"
+GOLANG_PKG_HAVE_TEST=1
 
 GOLANG_PKG_DEPENDENCIES=(
-	"github.com/mvdan/lint:adc824a -> mvdan.cc"
-	"github.com/kisielk/gotool:d6ce626"
-	"github.com/golang/tools:0444735 -> golang.org/x"
+	#"github.com/mvdan/lint:adc824a -> mvdan.cc"
+	#"github.com/kisielk/gotool:d6ce626"
+	"github.com/golang/tools:23e62d3 -> golang.org/x"  #v0.3.3
 )
 
 # (Ugly hack) Must be declared before the inherit since we're
@@ -18,10 +19,8 @@ SRC_URI="https://github.com/mvdan/${PN}/archive/${GOLANG_PKG_VERSION}.tar.gz -> 
 
 inherit golang-single
 
-DESCRIPTION="A linter for GoLang that suggests interface types "
+DESCRIPTION="a Go static analysis tool to find naked returns in functions"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 x86 arm"
-
-DEPEND="!dev-go/${PN}"
+KEYWORDS="amd64 arm x86"
