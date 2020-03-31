@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Interactive cli tool for HTTP inspection
+EAPI=7
+HOMEPAGE=https://github.com/asciimoo/wuzz
+IUSE=debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=AGPL-3
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/asciimoo/wuzz/archive/v0.4.0.tar.gz -> wuzz-0.4.0.tar.gz https://github.com/BurntSushi/toml/archive/b26d9c3.tar.gz -> github.com-BurntSushi-toml-b26d9c3.tar.gz https://github.com/jroimartin/gocui/archive/4f518ed.tar.gz -> github.com-jroimartin-gocui-4f518ed.tar.gz https://github.com/mattn/go-runewidth/archive/9e777a8.tar.gz -> github.com-mattn-go-runewidth-9e777a8.tar.gz https://github.com/mitchellh/go-homedir/archive/b8bc1bf.tar.gz -> github.com-mitchellh-go-homedir-b8bc1bf.tar.gz https://github.com/nsf/termbox-go/archive/aa4a75b.tar.gz -> github.com-nsf-termbox-go-aa4a75b.tar.gz https://github.com/nwidger/jsoncolor/archive/75a6de4.tar.gz -> github.com-nwidger-jsoncolor-75a6de4.tar.gz https://github.com/tidwall/gjson/archive/5a69e67.tar.gz -> github.com-tidwall-gjson-5a69e67.tar.gz https://github.com/tidwall/match/archive/1731857.tar.gz -> github.com-tidwall-match-1731857.tar.gz https://github.com/x86kernel/htmlcolor/archive/cf1d377.tar.gz -> github.com-x86kernel-htmlcolor-cf1d377.tar.gz https://github.com/golang/net/archive/a337091.tar.gz -> github.com-golang-net-a337091.tar.gz https://github.com/fatih/color/archive/570b54c.tar.gz -> github.com-fatih-color-570b54c.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=ef7731a500d7bf7ceef0bc40cd3c44c5

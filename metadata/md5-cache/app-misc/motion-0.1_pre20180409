@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Navigation and insight in Go
+EAPI=7
+HOMEPAGE=https://github.com/fatih/motion
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/fatih/motion/archive/218875ebe23806e7af82f3b5b14bb3355534f679.tar.gz -> motion-0.1_pre20180409.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=a398bcfe966a4a55eb5543d5bdd1c202

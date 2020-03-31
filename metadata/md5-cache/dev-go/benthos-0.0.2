@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=A persistent stream buffer
+EAPI=7
+HOMEPAGE=https://github.com/jeffail/benthos
+IUSE=zmq doc debug pie test
+KEYWORDS=amd64 x86
+LICENSE=MIT
+RDEPEND=zmq? ( >=net-libs/zeromq-4.1.1 )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/jeffail/benthos/archive/v0.0.2.tar.gz -> benthos-0.0.2.tar.gz https://github.com/Shopify/sarama/archive/38d579a.tar.gz -> github.com-Shopify-sarama-38d579a.tar.gz https://github.com/edsrzf/mmap-go/archive/935e0e8.tar.gz -> github.com-edsrzf-mmap-go-935e0e8.tar.gz https://github.com/go-mangos/mangos/archive/7e2b801.tar.gz -> github.com-go-mangos-mangos-7e2b801.tar.gz https://github.com/jeffail/gabs/archive/1ad8a46.tar.gz -> github.com-jeffail-gabs-1ad8a46.tar.gz https://github.com/jeffail/util/archive/83e0dd9.tar.gz -> github.com-jeffail-util-83e0dd9.tar.gz https://github.com/streadway/amqp/archive/2e25825.tar.gz -> github.com-streadway-amqp-2e25825.tar.gz https://github.com/amir/raidman/archive/c74861f.tar.gz -> github.com-amir-raidman-c74861f.tar.gz https://github.com/davecgh/go-spew/archive/5215b55.tar.gz -> github.com-davecgh-go-spew-5215b55.tar.gz https://github.com/eapache/go-resiliency/archive/b86b1ec.tar.gz -> github.com-eapache-go-resiliency-b86b1ec.tar.gz https://github.com/eapache/queue/archive/ded5959.tar.gz -> github.com-eapache-queue-ded5959.tar.gz https://github.com/golang/snappy/archive/d9eb7a3.tar.gz -> github.com-golang-snappy-d9eb7a3.tar.gz https://github.com/golang/protobuf/archive/98fa357.tar.gz -> github.com-golang-protobuf-98fa357.tar.gz https://github.com/golang/net/archive/0455786.tar.gz -> github.com-golang-net-0455786.tar.gz https://github.com/klauspost/crc32/archive/cb6bfca.tar.gz -> github.com-klauspost-crc32-cb6bfca.tar.gz https://github.com/pebbe/zmq4/archive/eccbb48.tar.gz -> github.com-pebbe-zmq4-eccbb48.tar.gz https://github.com/alexcesaro/statsd/archive/7fea3f0.tar.gz -> github.com-alexcesaro-statsd-7fea3f0.tar.gz https://github.com/go-yaml/yaml/archive/a83829b.tar.gz -> github.com-go-yaml-yaml-a83829b.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=5709ec126241be406a4ff414ccce1b29

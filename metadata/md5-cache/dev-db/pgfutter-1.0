@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Command-line tool to import CSV and JSON into PostgreSQL
+EAPI=7
+HOMEPAGE=https://github.com/lukasmartinelli/pgfutter
+IUSE=debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/lukasmartinelli/pgfutter/archive/v1.0.tar.gz -> pgfutter-1.0.tar.gz https://github.com/cheggaaa/pb/archive/9453b2d.tar.gz -> github.com-cheggaaa-pb-9453b2d.tar.gz https://github.com/urfave/cli/archive/a14d7d3.tar.gz -> github.com-urfave-cli-a14d7d3.tar.gz https://github.com/kennygrant/sanitize/archive/ce9fd1f.tar.gz -> github.com-kennygrant-sanitize-ce9fd1f.tar.gz https://github.com/lib/pq/archive/50761b0.tar.gz -> github.com-lib-pq-50761b0.tar.gz https://github.com/golang/net/archive/71a0359.tar.gz -> github.com-golang-net-71a0359.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=db9c595f61bbbb342801fbe7bbf0eba4

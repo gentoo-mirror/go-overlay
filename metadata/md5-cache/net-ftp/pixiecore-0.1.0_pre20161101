@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=PXE booting for people in a hurry
+EAPI=7
+HOMEPAGE=https://github.com/google/pixiecore
+IUSE=debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=GPL-2
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/google/netboot/archive/57a1c9bea27f5d542444c409a768b331fc5e0cb9.tar.gz -> pixiecore-0.1.0_pre20161101.tar.gz https://github.com/spf13/afero/archive/06b7e5f.tar.gz -> github.com-spf13-afero-06b7e5f.tar.gz https://github.com/spf13/cast/archive/2580bc9.tar.gz -> github.com-spf13-cast-2580bc9.tar.gz https://github.com/spf13/jWalterWeatherman/archive/33c24e7.tar.gz -> github.com-spf13-jWalterWeatherman-33c24e7.tar.gz https://github.com/spf13/pflag/archive/5ccb023.tar.gz -> github.com-spf13-pflag-5ccb023.tar.gz https://github.com/spf13/cobra/archive/6e91dde.tar.gz -> github.com-spf13-cobra-6e91dde.tar.gz https://github.com/spf13/viper/archive/651d9d9.tar.gz -> github.com-spf13-viper-651d9d9.tar.gz https://github.com/fsnotify/fsnotify/archive/629574c.tar.gz -> github.com-fsnotify-fsnotify-629574c.tar.gz https://github.com/hashicorp/hcl/archive/973f376.tar.gz -> github.com-hashicorp-hcl-973f376.tar.gz https://github.com/magiconair/properties/archive/c265cfa.tar.gz -> github.com-magiconair-properties-c265cfa.tar.gz https://github.com/mitchellh/mapstructure/archive/f3009df.tar.gz -> github.com-mitchellh-mapstructure-f3009df.tar.gz https://github.com/pelletier/go-toml/archive/64ff1ea.tar.gz -> github.com-pelletier-go-toml-64ff1ea.tar.gz https://github.com/pelletier/go-buffruneio/archive/df1e16f.tar.gz -> github.com-pelletier-go-buffruneio-df1e16f.tar.gz https://github.com/go-yaml/yaml/archive/a5b47d3.tar.gz -> github.com-go-yaml-yaml-a5b47d3.tar.gz https://github.com/golang/net/archive/f4b625e.tar.gz -> github.com-golang-net-f4b625e.tar.gz https://github.com/golang/crypto/archive/1f22c01.tar.gz -> github.com-golang-crypto-1f22c01.tar.gz https://github.com/golang/sys/archive/9a2e24c.tar.gz -> github.com-golang-sys-9a2e24c.tar.gz https://github.com/golang/text/archive/a263ba8.tar.gz -> github.com-golang-text-a263ba8.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=b7ae583efdaebe0ad8b6deef4bc009b8

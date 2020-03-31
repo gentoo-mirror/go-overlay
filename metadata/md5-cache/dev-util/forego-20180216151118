@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=!dev-go/forego dev-lang/go:0=
+DESCRIPTION=Foreman written in GoLang
+EAPI=7
+HOMEPAGE=https://github.com/ddollar/forego
+IUSE=debug pie test
+KEYWORDS=amd64 arm x86
+LICENSE=Apache-2.0
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/ddollar/forego/archive/20180216151118.tar.gz -> forego-20180216151118.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=0e013a722416d21783cb66869416a552

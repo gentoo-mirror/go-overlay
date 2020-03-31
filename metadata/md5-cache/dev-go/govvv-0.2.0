@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION="go build" wrapper to add version info to Golang applications
+EAPI=7
+HOMEPAGE=https://github.com/ahmetalpbalkan/govvv
+IUSE=debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/ahmetalpbalkan/govvv/archive/v0.2.0.tar.gz -> govvv-0.2.0.tar.gz https://github.com/stretchr/testify/archive/f390dcf.tar.gz -> github.com-stretchr-testify-f390dcf.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=414136dfcd16d688c141f1ee981c8881

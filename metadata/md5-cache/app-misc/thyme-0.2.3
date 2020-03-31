@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Automatically track which applications you use and for how long
+EAPI=7
+HOMEPAGE=https://sourcegraph.com
+IUSE=debug pie test
+KEYWORDS=amd64 -arm x86
+LICENSE=MIT
+RDEPEND=x11-apps/xdpyinfo x11-apps/xwininfo x11-misc/xdotool x11-misc/wmctrl
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/sourcegraph/thyme/archive/0.2.3.tar.gz -> thyme-0.2.3.tar.gz https://github.com/jessevdk/go-flags/archive/4cc2832.tar.gz -> github.com-jessevdk-go-flags-4cc2832.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=59aae742f1793b17dc1626dbcf503133

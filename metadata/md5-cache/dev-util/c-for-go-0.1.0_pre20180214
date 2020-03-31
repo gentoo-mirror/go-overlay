@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Automatic C-Go Bindings Generator for Go Programming Language
+EAPI=7
+HOMEPAGE=https://sphere.software/c-for-go
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/xlab/c-for-go/archive/942e7819b45f80c8b659319dfe6171d5844e75b2.tar.gz -> c-for-go-0.1.0_pre20180214.tar.gz https://github.com/cznic/cc/archive/4b6ffb9.tar.gz -> github.com-cznic-cc-4b6ffb9.tar.gz https://github.com/cznic/golex/archive/4ab7c5e.tar.gz -> github.com-cznic-golex-4ab7c5e.tar.gz https://github.com/cznic/mathutil/archive/7764e6a.tar.gz -> github.com-cznic-mathutil-7764e6a.tar.gz https://github.com/cznic/strutil/archive/529a34b.tar.gz -> github.com-cznic-strutil-529a34b.tar.gz https://github.com/cznic/xc/archive/056465b.tar.gz -> github.com-cznic-xc-056465b.tar.gz https://github.com/tj/go-spin/archive/30574f5.tar.gz -> github.com-tj-go-spin-30574f5.tar.gz https://github.com/xlab/pkgconfig/archive/cea12a0.tar.gz -> github.com-xlab-pkgconfig-cea12a0.tar.gz https://github.com/golang/tools/archive/c4b4e4b.tar.gz -> github.com-golang-tools-c4b4e4b.tar.gz https://github.com/go-yaml/yaml/archive/7f97868.tar.gz -> github.com-go-yaml-yaml-7f97868.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=49eeecf1e9f66e7b62ff98b652ef0846

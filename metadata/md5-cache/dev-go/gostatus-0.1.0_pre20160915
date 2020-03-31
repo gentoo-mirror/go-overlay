@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=A command-line tool that show the status of GoLang repositories
+EAPI=7
+HOMEPAGE=https://github.com/shurcooL/gostatus
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/shurcooL/gostatus/archive/09944abf978ad8c48c52dab9aba9b8681b7a69ea.tar.gz -> gostatus-0.1.0_pre20160915.tar.gz https://github.com/bradfitz/iter/archive/454541e.tar.gz -> github.com-bradfitz-iter-454541e.tar.gz https://github.com/kisielk/gotool/archive/58a7a19.tar.gz -> github.com-kisielk-gotool-58a7a19.tar.gz https://github.com/shurcooL/vcsstate/archive/f2d72d2.tar.gz -> github.com-shurcooL-vcsstate-f2d72d2.tar.gz https://github.com/shurcooL/go/archive/c7751eb.tar.gz -> github.com-shurcooL-go-c7751eb.tar.gz https://github.com/golang/tools/archive/b5358b5.tar.gz -> github.com-golang-tools-b5358b5.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=3609a93f2dbb002653ac403e04da55c7

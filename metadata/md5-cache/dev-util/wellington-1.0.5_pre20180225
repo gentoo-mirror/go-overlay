@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=!dev-go/wellington dev-lang/go:0=
+DESCRIPTION=Wellington is a CSS preprocessor with spriting and based on libsass
+EAPI=7
+HOMEPAGE=http://getwt.io
+IUSE=debug pie
+KEYWORDS=amd64 x86
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/wellington/wellington/archive/0b5ba4d9c70dedfb20915518c230f58008fd08d7.tar.gz -> wellington-1.0.5_pre20180225.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=8a3baafeb6e1a43fb393e4adaa7b7bf6

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Simple cURL-like command line utility for debugging WebSocket servers
+EAPI=7
+HOMEPAGE=https://github.com/alexanderGugel/wsd
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/alexanderGugel/wsd/archive/21c610ac23687c7d5dca9a2b7c149f7c8e23f091.tar.gz -> wsd-0.0.0_pre20150722.tar.gz https://github.com/fatih/color/archive/1b35f289c4.tar.gz -> github.com-fatih-color-1b35f289c4.tar.gz https://github.com/golang/net/archive/669b27b881.tar.gz -> github.com-golang-net-669b27b881.tar.gz https://github.com/shiena/ansicolor/archive/264b056680.tar.gz -> github.com-shiena-ansicolor-264b056680.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=395b6dbf490e9eb5fb19dcb4c3aa1b6a

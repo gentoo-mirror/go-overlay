@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Encrypted overlay filesystem written in Go
+EAPI=7
+HOMEPAGE=https://github.com/rfjakob/gocryptfs
+IUSE=ssl debug pie test
+KEYWORDS=amd64 arm x86
+LICENSE=MIT
+RDEPEND=sys-fs/fuse ssl? ( dev-libs/openssl:0 )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/rfjakob/gocryptfs/archive/v1.2.tar.gz -> gocryptfs-1.2.tar.gz https://github.com/hanwen/go-fuse/archive/0ad840c.tar.gz -> github.com-hanwen-go-fuse-0ad840c.tar.gz https://github.com/jacobsa/crypto/archive/293ce0c.tar.gz -> github.com-jacobsa-crypto-293ce0c.tar.gz https://github.com/rfjakob/eme/archive/00acfbb.tar.gz -> github.com-rfjakob-eme-00acfbb.tar.gz https://github.com/golang/crypto/archive/a59c127.tar.gz -> github.com-golang-crypto-a59c127.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=55c3d45871596f00415729f475b3a389

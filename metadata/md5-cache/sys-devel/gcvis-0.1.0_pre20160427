@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Visualise Go program Garbage Collector trace data in real-time.
+EAPI=7
+HOMEPAGE=https://github.com/davecheney/gcvis
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/davecheney/gcvis/archive/43050e7f13c21759904d3bc648b8ad6b6552cf63.tar.gz -> gcvis-0.1.0_pre20160427.tar.gz https://github.com/pkg/browser/archive/9302be2.tar.gz -> github.com-pkg-browser-9302be2.tar.gz https://github.com/golang/crypto/archive/d172538.tar.gz -> github.com-golang-crypto-d172538.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=f6b9a9da832fd5a0a34efbf580f37153

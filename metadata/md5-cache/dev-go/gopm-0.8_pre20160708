@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Gopm is a package manager and build tool for Go
+EAPI=7
+HOMEPAGE=https://github.com/gpmgo/gopm
+IUSE=debug pie
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=Apache-2.0
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/gpmgo/gopm/archive/93fb1b742e0103c38dabf68c6dd0b9e9a1da37a4.tar.gz -> gopm-0.8_pre20160708.tar.gz https://github.com/Unknwon/cae/archive/c6aac99.tar.gz -> github.com-Unknwon-cae-c6aac99.tar.gz https://github.com/Unknwon/com/archive/28b053d.tar.gz -> github.com-Unknwon-com-28b053d.tar.gz https://github.com/Unknwon/goconfig/archive/5aa4f8c.tar.gz -> github.com-Unknwon-goconfig-5aa4f8c.tar.gz https://github.com/aybabtme/color/archive/28ad4cc.tar.gz -> github.com-aybabtme-color-28ad4cc.tar.gz https://github.com/urfave/cli/archive/a14d7d3.tar.gz -> github.com-urfave-cli-a14d7d3.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=5644452fdd6dae422d6e361f671c63ef

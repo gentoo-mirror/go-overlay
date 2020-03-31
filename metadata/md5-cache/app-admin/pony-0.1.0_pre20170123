@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Local File-Based Password, API Key, Secret, Recovery Code Store Backed vy GPG
+EAPI=7
+HOMEPAGE=https://github.com/jfrazelle/pony
+IUSE=debug pie
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=MIT
+RDEPEND=|| ( x11-misc/xsel x11-misc/xclip )
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=https://github.com/jfrazelle/pony/archive/85e750a290ebcf3167d77cc9b4a0334d400e5cf8.tar.gz -> pony-0.1.0_pre20170123.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=a024e9f98c0a7e804f2f100584b82b3b

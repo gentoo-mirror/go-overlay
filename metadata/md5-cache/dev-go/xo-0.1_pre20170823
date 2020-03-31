@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=>=dev-go/go-bindata-3.0.7 dev-lang/go:0=
+DESCRIPTION=A cli tool to generate Golang types and funcs based on a database schema
+EAPI=7
+HOMEPAGE=https://github.com/knq/xo
+IUSE=oracle postgres +sqlite mysql debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=MIT
+RDEPEND=>=dev-go/go-bindata-3.0.7 dev-go/go-tools
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=https://github.com/knq/xo/archive/5f9772caf852ad766eb989a5c870a1c224555840.tar.gz -> xo-0.1_pre20170823.tar.gz https://github.com/alexflint/go-arg/archive/0cc8e30.tar.gz -> github.com-alexflint-go-arg-0cc8e30.tar.gz https://github.com/gedex/inflector/archive/16278e9.tar.gz -> github.com-gedex-inflector-16278e9.tar.gz https://github.com/go-sql-driver/mysql/archive/02eb68a.tar.gz -> github.com-go-sql-driver-mysql-02eb68a.tar.gz https://github.com/lib/pq/archive/88edab0.tar.gz -> github.com-lib-pq-88edab0.tar.gz https://github.com/mattn/go-sqlite3/archive/6c771bb.tar.gz -> github.com-mattn-go-sqlite3-6c771bb.tar.gz https://github.com/denisenkom/go-mssqldb/archive/ee49270.tar.gz -> github.com-denisenkom-go-mssqldb-ee49270.tar.gz https://github.com/knq/dburl/archive/2406b5c.tar.gz -> github.com-knq-dburl-2406b5c.tar.gz https://github.com/knq/snaker/archive/d9ad1e7.tar.gz -> github.com-knq-snaker-d9ad1e7.tar.gz https://github.com/knq/xoutil/archive/46189f4.tar.gz -> github.com-knq-xoutil-46189f4.tar.gz https://github.com/golang/crypto/archive/91a49db.tar.gz -> github.com-golang-crypto-91a49db.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=575228a5b90a633e5efcbe2df4635dfd

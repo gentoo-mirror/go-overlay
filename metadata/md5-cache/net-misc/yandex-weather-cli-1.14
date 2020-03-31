@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=A command line interface for Yandex weather service
+EAPI=7
+HOMEPAGE=https://github.com/msoap/yandex-weather-cli
+IUSE=debug pie test
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/msoap/yandex-weather-cli/archive/v1.14.tar.gz -> yandex-weather-cli-1.14.tar.gz https://github.com/mgutz/ansi/archive/9520e82.tar.gz -> github.com-mgutz-ansi-9520e82.tar.gz https://github.com/mattn/go-colorable/archive/efa5899.tar.gz -> github.com-mattn-go-colorable-efa5899.tar.gz https://github.com/mattn/go-isatty/archive/3fb116b.tar.gz -> github.com-mattn-go-isatty-3fb116b.tar.gz https://github.com/msoap/html2data/archive/2be5631.tar.gz -> github.com-msoap-html2data-2be5631.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=922fb72624cb5998250505b706f921cd

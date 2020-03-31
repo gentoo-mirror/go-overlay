@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Weather via the command line.
+EAPI=7
+HOMEPAGE=https://github.com/jfrazelle/weather
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/jfrazelle/weather/archive/0bbd408bf8cc1eb34a568dca2811c59b87deed3a.tar.gz -> weather-0.6.0_pre20151218.tar.gz https://github.com/mitchellh/colorstring/archive/8631ce9.tar.gz -> github.com-mitchellh-colorstring-8631ce9.tar.gz https://github.com/Sirupsen/logrus/archive/219c8cb.tar.gz -> github.com-Sirupsen-logrus-219c8cb.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=39f0c27a449e39fc197be37ff73829ee

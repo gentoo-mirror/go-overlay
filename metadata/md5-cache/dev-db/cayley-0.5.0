@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Cayley is a graph databse written in GoLang.
+EAPI=7
+HOMEPAGE=https://github.com/google/cayley
+IUSE=examples debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/google/cayley/archive/v0.5.0.tar.gz -> cayley-0.5.0.tar.gz https://github.com/syndtr/gosnappy/archive/156a073.tar.gz -> github.com-syndtr-gosnappy-156a073.tar.gz https://github.com/pborman/uuid/archive/ca53cad.tar.gz -> github.com-pborman-uuid-ca53cad.tar.gz https://github.com/badgerodon/peg/archive/9e5f7f4.tar.gz -> github.com-badgerodon-peg-9e5f7f4.tar.gz https://github.com/barakmich/glog/archive/fafcb61.tar.gz -> github.com-barakmich-glog-fafcb61.tar.gz https://github.com/boltdb/bolt/archive/04a3e85.tar.gz -> github.com-boltdb-bolt-04a3e85.tar.gz https://github.com/julienschmidt/httprouter/archive/b59a380.tar.gz -> github.com-julienschmidt-httprouter-b59a380.tar.gz https://github.com/gogo/protobuf/archive/58bbd41.tar.gz -> github.com-gogo-protobuf-58bbd41.tar.gz https://github.com/lib/pq/archive/0dad96c.tar.gz -> github.com-lib-pq-0dad96c.tar.gz https://github.com/peterh/liner/archive/1bb0d1c.tar.gz -> github.com-peterh-liner-1bb0d1c.tar.gz https://github.com/robertkrimen/otto/archive/d1b4d8e.tar.gz -> github.com-robertkrimen-otto-d1b4d8e.tar.gz https://github.com/russross/blackfriday/archive/17bb799.tar.gz -> github.com-russross-blackfriday-17bb799.tar.gz https://github.com/syndtr/goleveldb/archive/4875955.tar.gz -> github.com-syndtr-goleveldb-4875955.tar.gz https://github.com/go-mgo/mgo/archive/c6a7dce.tar.gz -> github.com-go-mgo-mgo-c6a7dce.tar.gz https://github.com/shurcooL/sanitized_anchor_name/archive/8e87604.tar.gz -> github.com-shurcooL-sanitized_anchor_name-8e87604.tar.gz https://github.com/cznic/mathutil/archive/f955143.tar.gz -> github.com-cznic-mathutil-f955143.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=3cf4ce454b0ae398012c46d0fa99d7ae

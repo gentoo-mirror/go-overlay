@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Termbox frontend for Lime text editor.
+EAPI=7
+HOMEPAGE=https://github.com/limetext/lime-termbox
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=BSD
+PROPERTIES=live
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/limetext/lime-termbox/archive/30af493eccd4f13442a5f22bdf87b0bf1787430b.tar.gz -> lime-termbox-20150428.tar.gz https://github.com/limetext/lime-backend/archive/57d076bbb9.tar.gz -> github.com-limetext-lime-backend-57d076bbb9.tar.gz https://github.com/limetext/termbox-go/archive/4eff9880a7.tar.gz -> github.com-limetext-termbox-go-4eff9880a7.tar.gz https://github.com/atotto/clipboard/archive/dfde2702d6.tar.gz -> github.com-atotto-clipboard-dfde2702d6.tar.gz https://github.com/limetext/log4go/archive/2aba105a60.tar.gz -> github.com-limetext-log4go-2aba105a60.tar.gz https://github.com/limetext/rubex/archive/3fc130e580.tar.gz -> github.com-limetext-rubex-3fc130e580.tar.gz https://github.com/limetext/text/archive/d6b8f8c60f.tar.gz -> github.com-limetext-text-d6b8f8c60f.tar.gz https://github.com/limetext/gopy/archive/92b1bf5ab8.tar.gz -> github.com-limetext-gopy-92b1bf5ab8.tar.gz https://github.com/quarnster/parser/archive/ea90feb37b.tar.gz -> github.com-quarnster-parser-ea90feb37b.tar.gz https://github.com/go-fsnotify/fsnotify/archive/96c060f6a6.tar.gz -> github.com-go-fsnotify-fsnotify-96c060f6a6.tar.gz https://github.com/mattn/go-runewidth/archive/5890272cd4.tar.gz -> github.com-mattn-go-runewidth-5890272cd4.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=40ac430e26dfe5cafaeb784a33d76925

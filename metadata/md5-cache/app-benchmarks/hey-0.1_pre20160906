@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=!app-benchmarks/boom dev-lang/go:0=
+DESCRIPTION=HTTP(S) load generator, ApacheBench (ab) replacement, written in GoLang
+EAPI=7
+HOMEPAGE=https://github.com/rakyll/hey
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=Apache-2.0
+RDEPEND=>=dev-lang/go-1.7.0
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/rakyll/hey/archive/7ba4a57f7ee020859c0b9c527e145206169b44be.tar.gz -> hey-0.1_pre20160906.tar.gz https://github.com/rakyll/pb/archive/8d46b8b.tar.gz -> github.com-rakyll-pb-8d46b8b.tar.gz https://github.com/golang/net/archive/cfe3c2a.tar.gz -> github.com-golang-net-cfe3c2a.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=405d41e65d2fdf496052a65a7d0eb21b

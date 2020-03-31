@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=virtual/perl-version dev-go/go-bindata dev-lang/go:0=
+DESCRIPTION=Swagger 2.0 implementation for GoLang
+EAPI=7
+HOMEPAGE=https://goswagger.io
+IUSE=doc debug pie
+KEYWORDS=amd64 x86 arm
+LICENSE=Apache-2.0
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=https://github.com/go-swagger/go-swagger/archive/0.12.0.tar.gz -> go-swagger-0.12.0.tar.gz doc? ( https://github.com/go-swagger/go-swagger.github.io/archive/40d5a2dd8fc403b02f9f85fa1060426465d1d2b2.tar.gz -> go-swagger-docs-40d5a2dd8fc403b02f9f85fa1060426465d1d2b2.tar.gz )
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=1ef67387e2b3b86af165c3f4cafd7bab

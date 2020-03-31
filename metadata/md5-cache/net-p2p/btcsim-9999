@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Implements a simulation test driver using the simnet network provided by btcd
+EAPI=7
+HOMEPAGE=https://btcsuite.github.io
+IUSE=debug pie test
+LICENSE=ISC
+RESTRICT=mirror strip
+SLOT=0
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-live	02544fc62d1a54d22cb91c807282fb85	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=a0acb4adc65cd42b2f4c56d9d54dc8e0

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Make JSON greppable!
+EAPI=7
+HOMEPAGE=https://github.com/tomnomnom/gron
+IUSE=doc debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/tomnomnom/gron/archive/v0.6.0.tar.gz -> gron-0.6.0.tar.gz https://github.com/fatih/color/archive/3f9d52f.tar.gz -> github.com-fatih-color-3f9d52f.tar.gz https://github.com/mattn/go-colorable/archive/efa5899.tar.gz -> github.com-mattn-go-colorable-efa5899.tar.gz https://github.com/mattn/go-isatty/archive/3fb116b.tar.gz -> github.com-mattn-go-isatty-3fb116b.tar.gz https://github.com/nwidger/jsoncolor/archive/75a6de4.tar.gz -> github.com-nwidger-jsoncolor-75a6de4.tar.gz https://github.com/pkg/errors/archive/059132a.tar.gz -> github.com-pkg-errors-059132a.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=65577946851404ab2cd9dbe9e2275cb5

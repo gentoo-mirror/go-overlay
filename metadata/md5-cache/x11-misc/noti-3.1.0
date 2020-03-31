@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Display a notification when a terminal process finishes
+EAPI=7
+HOMEPAGE=https://github.com/variadico/noti
+IUSE=debug pie test
+KEYWORDS=amd64 arm x86
+LICENSE=MIT
+RDEPEND=x11-libs/libnotify app-accessibility/espeak
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/variadico/noti/archive/3.1.0.tar.gz -> noti-3.1.0.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=428ba8a9c488d36ec1bdc57a66ff8dab

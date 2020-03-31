@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=GopherJS compiles GoLang code to pure JavaScript code
+EAPI=7
+HOMEPAGE=https://github.com/gopherjs/gopherjs
+IUSE=debug pie
+KEYWORDS=amd64 arm x86
+LICENSE=BSD
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=https://github.com/gopherjs/gopherjs/archive/d547d1d9531ed93dbdebcbff7f83e7c876a1e0ee.tar.gz -> gopherjs-0_pre20181103.tar.gz https://github.com/kardianos/osext/archive/ae77be6.tar.gz -> github.com-kardianos-osext-ae77be6.tar.gz https://github.com/fsnotify/fsnotify/archive/629574c.tar.gz -> github.com-fsnotify-fsnotify-629574c.tar.gz https://github.com/neelance/sourcemap/archive/8c68805.tar.gz -> github.com-neelance-sourcemap-8c68805.tar.gz https://github.com/spf13/cobra/archive/7b2c5ac.tar.gz -> github.com-spf13-cobra-7b2c5ac.tar.gz https://github.com/spf13/pflag/archive/e57e3ee.tar.gz -> github.com-spf13-pflag-e57e3ee.tar.gz https://github.com/shurcooL/httpfs/archive/809bece.tar.gz -> github.com-shurcooL-httpfs-809bece.tar.gz https://github.com/golang/crypto/archive/94eea52.tar.gz -> github.com-golang-crypto-94eea52.tar.gz https://github.com/golang/tools/archive/0444735.tar.gz -> github.com-golang-tools-0444735.tar.gz https://github.com/golang/sys/archive/8b4580a.tar.gz -> github.com-golang-sys-8b4580a.tar.gz https://github.com/kisielk/gotool/archive/d6ce626.tar.gz -> github.com-kisielk-gotool-d6ce626.tar.gz https://github.com/shurcooL/go/archive/c7751eb.tar.gz -> github.com-shurcooL-go-c7751eb.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=7f657eaf5025b36bc4081f97809923d4

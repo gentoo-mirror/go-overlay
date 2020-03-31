@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Protects your data by inspecting incoming queries from your application server
+EAPI=7
+HOMEPAGE=http://nim4.github.io/DBShield
+IUSE=debug pie test
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/nim4/DBShield/archive/1.0.0-beta4.tar.gz -> dbshield-1.0.0_beta4.tar.gz https://github.com/boltdb/bolt/archive/583e893.tar.gz -> github.com-boltdb-bolt-583e893.tar.gz https://github.com/gorilla/securecookie/archive/667fe4e.tar.gz -> github.com-gorilla-securecookie-667fe4e.tar.gz https://github.com/spf13/viper/archive/5ed0fc3.tar.gz -> github.com-spf13-viper-5ed0fc3.tar.gz https://github.com/xwb1989/sqlparser/archive/dbfc858.tar.gz -> github.com-xwb1989-sqlparser-dbfc858.tar.gz https://github.com/fsnotify/fsnotify/archive/629574c.tar.gz -> github.com-fsnotify-fsnotify-629574c.tar.gz https://github.com/hashicorp/hcl/archive/80e628d.tar.gz -> github.com-hashicorp-hcl-80e628d.tar.gz https://github.com/magiconair/properties/archive/c265cfa.tar.gz -> github.com-magiconair-properties-c265cfa.tar.gz https://github.com/mitchellh/mapstructure/archive/bfdb1a8.tar.gz -> github.com-mitchellh-mapstructure-bfdb1a8.tar.gz https://github.com/pelletier/go-toml/archive/d464759.tar.gz -> github.com-pelletier-go-toml-d464759.tar.gz https://github.com/spf13/afero/archive/90dd71e.tar.gz -> github.com-spf13-afero-90dd71e.tar.gz https://github.com/spf13/cast/archive/56a7ecb.tar.gz -> github.com-spf13-cast-56a7ecb.tar.gz https://github.com/spf13/jWalterWeatherman/archive/33c24e7.tar.gz -> github.com-spf13-jWalterWeatherman-33c24e7.tar.gz https://github.com/spf13/pflag/archive/25f8b5b.tar.gz -> github.com-spf13-pflag-25f8b5b.tar.gz https://github.com/go-yaml/yaml/archive/a5b47d3.tar.gz -> github.com-go-yaml-yaml-a5b47d3.tar.gz https://github.com/pelletier/go-buffruneio/archive/df1e16f.tar.gz -> github.com-pelletier-go-buffruneio-df1e16f.tar.gz https://github.com/golang/sys/archive/d75a526.tar.gz -> github.com-golang-sys-d75a526.tar.gz https://github.com/golang/text/archive/a49bea1.tar.gz -> github.com-golang-text-a49bea1.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=654928bfd9936737a3145df9a721b5e7

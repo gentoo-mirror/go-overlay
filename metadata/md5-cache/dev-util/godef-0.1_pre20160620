@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Godef prints where symbols are defined in Go source code
+EAPI=7
+HOMEPAGE=https://github.com/rogpeppe/godef
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/rogpeppe/godef/archive/ee532b944160bb27b6f23e4f5ef38b8fdaa2a6bd.tar.gz -> godef-0.1_pre20160620.tar.gz https://github.com/9fans/go/archive/65b8cf0.tar.gz -> github.com-9fans-go-65b8cf0.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=55f78014aa22f75885ea451a40fc79f0

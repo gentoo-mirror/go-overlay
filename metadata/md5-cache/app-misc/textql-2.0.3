@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Execute SQL against structured text like CSV or TSV
+EAPI=7
+HOMEPAGE=https://github.com/dinedal/textql
+IUSE=icu debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=MIT
+RDEPEND=dev-db/sqlite:3=[icu?] icu? ( dev-libs/icu:0= )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/dinedal/textql/archive/2.0.3.tar.gz -> textql-2.0.3.tar.gz https://github.com/mattn/go-sqlite3/archive/ed69081.tar.gz -> github.com-mattn-go-sqlite3-ed69081.tar.gz https://github.com/golang/net/archive/d866cfc.tar.gz -> github.com-golang-net-d866cfc.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=a191c3a10ba57c8c762e2819dfec7e7f

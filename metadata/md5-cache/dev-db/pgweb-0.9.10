@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-go/go-bindata dev-lang/go:0=
+DESCRIPTION=Cross-platform client for PostgreSQL databases
+EAPI=7
+HOMEPAGE=http://sosedoff.github.io/pgweb
+IUSE=debug pie test
+KEYWORDS=amd64 arm x86
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/sosedoff/pgweb/archive/v0.9.10.tar.gz -> pgweb-0.9.10.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=14c38d8ebe6de35c495abade3b6c4218

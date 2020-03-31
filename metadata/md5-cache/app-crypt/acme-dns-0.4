@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test unpack
+DEPEND=postgres? ( dev-db/postgresql:* ) sqlite? ( dev-db/sqlite:3 ) dev-lang/go:0=
+DESCRIPTION=Limited DNS server with RESTful HTTP API to handle ACME DNS challenges
+EAPI=7
+HOMEPAGE=https://github.com/joohoi/acme-dns
+IUSE=postgres +sqlite debug pie test
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=postgres? ( dev-db/postgresql:* ) sqlite? ( dev-db/sqlite:3 )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/joohoi/acme-dns/archive/v0.4.tar.gz -> acme-dns-0.4.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045	user	7b7fc6ec5eb1c1eee55b0609f01e7362	user-info	a2abd4e2f4c3b9b06d64bf1329359a02
+_md5_=e1298295c0787ccd1cf450f8857f9c76

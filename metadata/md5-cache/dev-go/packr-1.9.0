@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=The simple and easy way to embed static files into Go binaries
+EAPI=7
+HOMEPAGE=https://github.com/gobuffalo/packr
+IUSE=debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/gobuffalo/packr/archive/v1.9.0.tar.gz -> packr-1.9.0.tar.gz https://github.com/mitchellh/go-homedir/archive/b8bc1bf.tar.gz -> github.com-mitchellh-go-homedir-b8bc1bf.tar.gz https://github.com/gobuffalo/envy/archive/e613c80.tar.gz -> github.com-gobuffalo-envy-e613c80.tar.gz https://github.com/pkg/errors/archive/645ef00.tar.gz -> github.com-pkg-errors-645ef00.tar.gz https://github.com/joho/godotenv/archive/a79fa1e.tar.gz -> github.com-joho-godotenv-a79fa1e.tar.gz https://github.com/spf13/cobra/archive/7b2c5ac.tar.gz -> github.com-spf13-cobra-7b2c5ac.tar.gz https://github.com/spf13/pflag/archive/e57e3ee.tar.gz -> github.com-spf13-pflag-e57e3ee.tar.gz https://github.com/golang/sync/archive/fd80eb9.tar.gz -> github.com-golang-sync-fd80eb9.tar.gz https://github.com/golang/net/archive/c708664.tar.gz -> github.com-golang-net-c708664.tar.gz https://github.com/stretchr/testify/archive/69483b4.tar.gz -> github.com-stretchr-testify-69483b4.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=2bdbdd7b75c63bb8f4897baa473296a4

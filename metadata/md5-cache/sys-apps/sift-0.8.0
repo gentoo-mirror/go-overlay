@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=A fast and powerful open source alternative to grep
+EAPI=7
+HOMEPAGE=http://sift-tool.org
+IUSE=debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=GPL-3
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/svent/sift/archive/v0.8.0.tar.gz -> sift-0.8.0.tar.gz https://github.com/svent/go-flags/archive/4bcbad3.tar.gz -> github.com-svent-go-flags-4bcbad3.tar.gz https://github.com/svent/go-nbreader/archive/7cef48d.tar.gz -> github.com-svent-go-nbreader-7cef48d.tar.gz https://github.com/golang/crypto/archive/d172538.tar.gz -> github.com-golang-crypto-d172538.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=58d7d75a8958d5c680c385df102a5ce0

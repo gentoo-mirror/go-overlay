@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Command-line tool for DuckDuckGo API
+EAPI=7
+HOMEPAGE=https://github.com/ajanicij/goduckgo
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/ajanicij/goduckgo/archive/61f9a275272fdda937276765b8bc69f5e2310a8f.tar.gz -> goduckgo-0.1.0_pre20150206.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=83943eeefc89504828ce003f75654add

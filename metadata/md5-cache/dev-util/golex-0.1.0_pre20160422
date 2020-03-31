@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=A lex/flex like (not fully POSIX lex compatible) utility
+EAPI=7
+HOMEPAGE=https://github.com/cznic/golex
+IUSE=debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/cznic/golex/archive/da5a7153a51074477ecac5c45a7e5182a0c72448.tar.gz -> golex-0.1.0_pre20160422.tar.gz https://github.com/cznic/fileutil/archive/1c9c88f.tar.gz -> github.com-cznic-fileutil-1c9c88f.tar.gz https://github.com/cznic/lex/archive/eb696ab.tar.gz -> github.com-cznic-lex-eb696ab.tar.gz https://github.com/cznic/lexer/archive/52ae786.tar.gz -> github.com-cznic-lexer-52ae786.tar.gz https://github.com/golang/exp/archive/54367eb.tar.gz -> github.com-golang-exp-54367eb.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=a25101964ca9cca251516ce267dfa74c

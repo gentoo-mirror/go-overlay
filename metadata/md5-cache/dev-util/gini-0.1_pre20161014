@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=A fast SAT solver
+EAPI=7
+HOMEPAGE=http://www.iri-labs.com
+IUSE=doc debug pie test
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/irifrance/gini/archive/0fee6ab777653b71c6d6da5c5172cd29fe590d19.tar.gz -> gini-0.1_pre20161014.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=cda0041f25f224a5fe1fca7104d7a784

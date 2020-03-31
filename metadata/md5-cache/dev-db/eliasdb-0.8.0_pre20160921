@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=EliasDB is a graph based database
+EAPI=7
+HOMEPAGE=https://github.com/krotik/eliasdb
+IUSE=doc debug pie test
+KEYWORDS=amd64 x86 arm
+LICENSE=MPL-2.0
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/krotik/eliasdb/archive/3d0dbcfad68a7fe1da41b4ca4e047e5fcad65c4c.tar.gz -> eliasdb-0.8.0_pre20160921.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=3669d9acca61317d252076ee66a96959

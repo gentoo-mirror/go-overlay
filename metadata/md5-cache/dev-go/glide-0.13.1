@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=test? ( dev-vcs/bzr ) dev-lang/go:0=
+DESCRIPTION=Glide is a vendor Package Management for Golang
+EAPI=7
+HOMEPAGE=https://github.com/Masterminds/glide
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=BSD
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/Masterminds/glide/archive/v0.13.1.tar.gz -> glide-0.13.1.tar.gz https://github.com/urfave/cli/archive/a14d7d3.tar.gz -> github.com-urfave-cli-a14d7d3.tar.gz https://github.com/go-check/check/archive/4f90aea.tar.gz -> github.com-go-check-check-4f90aea.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=f719b2922fad0a8e32f1cff6d4b5c134

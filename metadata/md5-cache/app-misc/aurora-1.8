@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Cross-platform Beanstalk queue server console
+EAPI=7
+HOMEPAGE=https://xuri.me/aurora
+IUSE=debug pie
+KEYWORDS=amd64 x86
+LICENSE=MIT
+RDEPEND=app-misc/beanstalkd
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=https://github.com/Luxurioust/aurora/archive/1.8.tar.gz -> aurora-1.8.tar.gz https://github.com/BurntSushi/toml/archive/bbd5bb6.tar.gz -> github.com-BurntSushi-toml-bbd5bb6.tar.gz https://github.com/rakyll/statik/archive/274df12.tar.gz -> github.com-rakyll-statik-274df12.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=478ad9e074059923925a97bc8208cd36

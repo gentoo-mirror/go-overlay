@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Prints stats and suggests to remove small LeftPad-like imports from Go packages
+EAPI=7
+HOMEPAGE=https://github.com/divan/depscheck
+IUSE=debug pie
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=MIT
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=https://github.com/divan/depscheck/archive/bf02ca53aeeac11245186b99b69af0dde07601c4.tar.gz -> depscheck-0.1.0_pre20160406.tar.gz https://github.com/olekukonko/tablewriter/archive/cca8bbc.tar.gz -> github.com-olekukonko-tablewriter-cca8bbc.tar.gz https://github.com/golang/tools/archive/354f9f8.tar.gz -> github.com-golang-tools-354f9f8.tar.gz https://github.com/mattn/go-runewidth/archive/d037b52.tar.gz -> github.com-mattn-go-runewidth-d037b52.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=0a90e33cec2962a4edde31331e8566f5

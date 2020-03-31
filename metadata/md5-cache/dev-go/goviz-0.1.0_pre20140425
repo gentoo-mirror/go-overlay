@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/go:0=
+DESCRIPTION=Goviz is a visualization tool for Golang project dependencies
+EAPI=7
+HOMEPAGE=https://github.com/hirokidaichi/goviz
+IUSE=debug pie test
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/hirokidaichi/goviz/archive/c57591cb2ad9f4c7044be2f6c45d234cafe6c163.tar.gz -> goviz-0.1.0_pre20140425.tar.gz https://github.com/jessevdk/go-flags/archive/97448c9.tar.gz -> github.com-jessevdk-go-flags-97448c9.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=d0e805fefa5a69b1812f105469140c54

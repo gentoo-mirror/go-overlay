@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=!dev-util/ffjson dev-lang/go:0=
+DESCRIPTION=Ffjson is a faster JSON serialization for Go
+EAPI=7
+HOMEPAGE=https://github.com/pquerna/ffjson
+IUSE=debug pie test
+KEYWORDS=~amd64 ~x86 ~arm
+LICENSE=Apache-2.0
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/pquerna/ffjson/archive/9d7075fb37d35c5b005b4cd3bdd1074e345a5d4e.tar.gz -> ffjson-0.1_pre20160811.tar.gz https://github.com/google/gofuzz/archive/fd52762.tar.gz -> github.com-google-gofuzz-fd52762.tar.gz https://github.com/stretchr/testify/archive/f390dcf.tar.gz -> github.com-stretchr-testify-f390dcf.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=fde597388641f706d9a98601b4a59ac1

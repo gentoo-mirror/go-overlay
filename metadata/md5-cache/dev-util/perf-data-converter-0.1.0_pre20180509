@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile install prepare
 DEPEND=dev-cpp/gtest
 DESCRIPTION=Convert Linux perf files to the profile.proto format used by pprof
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/google/perf_data_converter
 IUSE=debug test libressl elibc_uclibc
 KEYWORDS=~amd64 ~x86
@@ -10,4 +10,4 @@ RDEPEND=dev-libs/protobuf:0= sys-libs/libcap-ng !elibc_uclibc? ( dev-libs/elfuti
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/google/perf_data_converter/archive/7bdd434b2fdeb910f76723e5b8c77b7d123c7f70.tar.gz -> perf-data-converter-0.1.0_pre20180509.tar.gz
-_md5_=7fcf9c451d524b1673f7ae66830e9c2b
+_md5_=27381e1261ea49a26ef69e6ea23f4518

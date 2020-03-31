@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=test? ( dev-go/go-tools ) dev-lang/go:0=
+DESCRIPTION=BDD Testing Framework for GoLang
+EAPI=7
+HOMEPAGE=http://onsi.github.io/ginkgo
+IUSE=debug pie test
+KEYWORDS=~amd64
+LICENSE=MIT
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/onsi/ginkgo/archive/v1.2.0.tar.gz -> ginkgo-1.2.0.tar.gz https://github.com/onsi/gomega/archive/d6c945f9fd.tar.gz -> github.com-onsi-gomega-d6c945f9fd.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=1c570e92876beab62d902dc1b9f3ec50
