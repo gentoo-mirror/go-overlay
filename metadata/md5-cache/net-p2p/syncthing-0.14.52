@@ -11,5 +11,5 @@ RDEPEND=!net-misc/syncthing !<net-p2p/syncthing-0.13.99
 RESTRICT=mirror strip test
 SLOT=0
 SRC_URI=https://github.com/syncthing/syncthing/archive/v0.14.52.tar.gz -> syncthing-0.14.52.tar.gz doc? ( https://github.com/syncthing/docs/archive/cd28cad885dea0e3afe8f1929a489cc3f626800f.tar.gz -> syncthing-docs-cd28cad885dea0e3afe8f1929a489cc3f626800f.tar.gz )
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	multiprocessing	cac3169468f893670dac3e7cb940e045	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	user	7b7fc6ec5eb1c1eee55b0609f01e7362	user-info	a2abd4e2f4c3b9b06d64bf1329359a02
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	golang-common	29ee2baa4c508c26927afe231845fc3e	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	multilib	797cda3549becfe50afdfa35192ca137	multiprocessing	cac3169468f893670dac3e7cb940e045	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	user	7b7fc6ec5eb1c1eee55b0609f01e7362	user-info	a2abd4e2f4c3b9b06d64bf1329359a02
 _md5_=6fabbfe796b2e1ede0622a966b1a627d
