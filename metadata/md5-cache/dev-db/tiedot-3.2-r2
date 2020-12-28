@@ -11,5 +11,5 @@ RDEPEND=net-misc/curl
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/HouzuoGuo/tiedot/archive/3.2.tar.gz -> tiedot-3.2.tar.gz https://github.com/dgrijalva/jwt-go/archive/8c45ba33b0.tar.gz -> github.com-dgrijalva-jwt-go-8c45ba33b0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	69bd92aa099f708425db9f1f01d61213	golang-common	717939e4f3ced7d63bfddd40fcf39b45	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	golang-common	717939e4f3ced7d63bfddd40fcf39b45	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=d93aa513cd12c3bfd5ac4d94e5c7fffd
