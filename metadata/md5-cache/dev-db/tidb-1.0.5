@@ -4,11 +4,12 @@ DEPEND=sys-apps/coreutils dev-lang/go:0=
 DESCRIPTION=TiDB is a distributed SQL database compatible with MySQL protocol
 EAPI=7
 HOMEPAGE=https://github.com/pingcap/tidb
+INHERIT=user systemd golang-single
 IUSE=debug pie
 KEYWORDS=amd64 x86 arm
 LICENSE=Apache-2.0
 RESTRICT=mirror strip test
 SLOT=0
 SRC_URI=https://github.com/pingcap/tidb/archive/v1.0.5.tar.gz -> tidb-1.0.5.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	golang-common	717939e4f3ced7d63bfddd40fcf39b45	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	user	b0a0d4ca9e3f79c38f8f4143b8d5a2d8	user-info	a2abd4e2f4c3b9b06d64bf1329359a02	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=user-info	a2abd4e2f4c3b9b06d64bf1329359a02	user	b0a0d4ca9e3f79c38f8f4143b8d5a2d8	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6	edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	multiprocessing	cac3169468f893670dac3e7cb940e045	golang-common	717939e4f3ced7d63bfddd40fcf39b45	golang-single	5d5a376ad018d27d64cc6aa51bb211a5
 _md5_=3255c71070c2679b0648672fb943709e
