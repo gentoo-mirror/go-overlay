@@ -3,6 +3,7 @@ DEPEND=dev-lang/go:0=
 DESCRIPTION=Official command line tool to interact with Scaleway API
 EAPI=7
 HOMEPAGE=https://github.com/scaleway/scaleway-cli
+INHERIT=bash-completion-r1 golang-single
 IUSE=zsh-completion debug pie test
 KEYWORDS=amd64 x86
 LICENSE=MIT
@@ -10,5 +11,5 @@ RDEPEND=zsh-completion? ( app-shells/zsh )
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://github.com/scaleway/scaleway-cli/archive/v1.14.tar.gz -> scaleway-cli-1.14.tar.gz
-_eclasses_=bash-completion-r1	be99724bde4274de21e581204e9d164a	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	golang-common	717939e4f3ced7d63bfddd40fcf39b45	golang-single	5d5a376ad018d27d64cc6aa51bb211a5	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	bash-completion-r1	8e7c071081c68c2c398b77fe3a1d6908	edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	multiprocessing	cac3169468f893670dac3e7cb940e045	golang-common	717939e4f3ced7d63bfddd40fcf39b45	golang-single	5d5a376ad018d27d64cc6aa51bb211a5
 _md5_=59bafc4408118254b68aa6bb672cc499
