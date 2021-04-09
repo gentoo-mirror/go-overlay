@@ -204,5 +204,5 @@ sys-fs/tmsu 0.7.5: github.com/oniony/TMSU/releases
 www-apps/beehive 0.2-r2 0.3_pre20171101: An event and agent system which allows you to perform automated tasks
 www-apps/gogs 0.11.43: Gogs is a self-hosted Git service written in Go
 www-apps/gotty 0.0.13: A simple command-line tool that turns your CLI tools into web applications
-x11-misc/cowyo 2.10.0: A feature-rich wiki webserver for minimalists
+x11-misc/cowyo 2.10.0 2.12.0: A feature-rich wiki webserver for minimalists
 x11-misc/noti 3.0.0 3.1.0: Display a notification when a terminal process finishes
