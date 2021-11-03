@@ -96,6 +96,7 @@ dev-go/otto 0.0.1_pre20180617: CLI for Otto, an JavaScript (ECMA5) interpreter w
 dev-go/packr 1.9.0: The simple and easy way to embed static files into Go binaries
 dev-go/prdeps 0.1_pre20160501: prdeps prints the dependency graph of a Go package
 dev-go/re2dfa 0.1.0_pre20151021: Transforms regexs into finite state machines and output Go source code
+dev-go/revive 1.1.2: a linter for Go
 dev-go/rts 0.1.0_pre20160617: Generates Go structs from JSON server responses
 dev-go/safesql 0.2.0: Static analysis tool for GoLang that protects against SQL injections
 dev-go/staticfiles 0_pre20160903: staticfiles compiles a directory of files into an embeddable .go file

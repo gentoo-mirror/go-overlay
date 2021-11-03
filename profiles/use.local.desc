@@ -4,6 +4,8 @@
 
 app-admin/trousseau:fish-completion - Enable fish completion support.
 dev-go/benthos:zmq - Add support ZMQ4 input/output targets from net-libs/zeromq (PUSH, PULL, SUB, PUB)
+dev-lang/go:gccgo - Bootstrap using sys-devel/gcc[go]
+dev-lang/go:system-bootstrap - Bootstrap using previously installed dev-lang/go
 dev-vcs/gitql:ssh - Enable SSH transport support
 dev-vcs/grv:ssh - Enable SSH transport support
 dev-vcs/gtm:ssh - Enable SSH transport support
