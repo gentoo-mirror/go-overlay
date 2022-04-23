@@ -10,5 +10,5 @@ LICENSE=MIT
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/containous/traefik/releases/download/v1.7.19/traefik-v1.7.19.src.tar.gz -> traefik-1.7.19.tar.gz https://github.com/containous/go-bindata/archive/e237f24c9fab.tar.gz -> github.com-containous-go-bindata-e237f24c9fab.tar.gz
-_eclasses_=golang-base	9f0e420ab37bc55a318d74bab3aae891	golang-vcs-snapshot	6864f899c6843043ba23620fcd4a908c	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1	user-info	df8c432bdcb3cdcef6c8250f0ab9e4ea	user	cccf4b1f43c35defc6e448e73cc44ca0
+_eclasses_=golang-base	9f0e420ab37bc55a318d74bab3aae891	golang-vcs-snapshot	6864f899c6843043ba23620fcd4a908c	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1	user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	ccdfe713e9e8d4a8714f0370512ca086
 _md5_=41985118c37abfb8715a6551b10dff5b
