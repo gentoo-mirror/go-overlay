@@ -10,5 +10,5 @@ LICENSE=MIT
 RESTRICT=mirror strip test
 SLOT=0
 SRC_URI=https://github.com/mjibson/esc/archive/v0.1.0.tar.gz -> esc-0.1.0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	golang-common	717939e4f3ced7d63bfddd40fcf39b45	golang-single	5d5a376ad018d27d64cc6aa51bb211a5
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	6f9a4727973fc1e368f52777d871e769	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	golang-common	717939e4f3ced7d63bfddd40fcf39b45	golang-single	5d5a376ad018d27d64cc6aa51bb211a5
 _md5_=1ae184dbd1b5c0a0d43728d0ea1893c2
